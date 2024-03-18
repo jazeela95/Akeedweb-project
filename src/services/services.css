@@ -1,0 +1,40 @@
+.servicescardmaindiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 80px;
+    margin-left: 180px !important;
+    margin-top: 120px;
+}
+.maincardservices
+{
+    border-color:none;
+    border-width: 0px;
+    border-radius: 0px;
+    width: calc(30% - 2.5rem); /* Adjust the width for three cards in one line */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    margin-bottom: 2.5rem; /* Add margin at the bottom to create a new line */
+    margin-left: 30px;
+    transition: all 0.3s ease;
+}
+.maincardservices:hover
+{
+    box-shadow:  1px 1px 2px 2px rgba(161, 157, 157, 0.2) !important;
+}
+.cardimageservices
+{
+    width:100px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.maincardservicesname
+{
+    font-weight: bold;
+}
+.maincardservicesdetails
+{
+    color: gray;
+}
