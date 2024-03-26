@@ -2,6 +2,7 @@
 {
     display: flex;
     margin: 20px;
+    margin-bottom: 100px !important;
 }
 .about-left-main
 {
@@ -61,6 +62,7 @@
 .about-right-main-span2
 {
     color :gray;
+    text-align: justify;
     
 }
 .about-right-main-button

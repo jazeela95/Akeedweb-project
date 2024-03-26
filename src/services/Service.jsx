@@ -21,7 +21,7 @@ const Service = () => {
   return (
     <div>
       <div className='cardmaindiv'>
-        <Carousel interval={1000} pause={false} wrap={true}> {/* Auto sliding every 5 seconds */}
+        <Carousel interval={5000} pause={false} wrap={true}> {/* Auto sliding every 5 seconds */}
           {chunkedDetails.map((chunk, chunkIndex) => (
             <Carousel.Item key={chunkIndex}>
               <div className='servicescardmaindiv'>
@@ -32,7 +32,7 @@ const Service = () => {
                         <Card.Text className='maincardservicesname'>
                           {item.servicename}
                         </Card.Text>
-                        <Card.Text className='maincardservicesdetails'>
+                        <Card.Text className='maincardservicesdetails' >
                           {item.Details}
                         </Card.Text>
                       </Card.Body>

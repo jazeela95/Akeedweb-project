@@ -1,0 +1,184 @@
+
+.bloghead-span1
+{
+    margin-top: 60px;
+    font-size: 4.375rem;
+    font-weight: 800;
+    letter-spacing: -3.5px;
+    position: relative;
+}
+.bloghead-span2
+{
+    color: #8b8b8b;
+    font-size: 1.0625rem;
+    margin-top: -10px !important;
+}
+
+.carousel-item1-frst
+{
+    background-color: rgb(252, 216, 236);
+    width:1050px !important;
+    height: 480px !important;
+margin-left: 15% !important;
+    margin: 50px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.carousel-item1-left
+{
+    width: 500px !important;
+    background-color: rgb(252, 205, 213);
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 2px 8px 16px rgba(225, 177, 177, 0.1);
+    margin-top: 20px !important;
+    margin-left: 30px !important;
+    text-align: left;
+    padding-top: 30px;
+}
+.carousel-item1-frst-left-frst
+{
+    background-color: rgb(243, 172, 195);
+    width: 100px;
+    padding-left: 10px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.carousel-item1-frst-left-second
+{
+    padding-left: 30px;
+    font-size: 2.4rem;
+    letter-spacing: -4 !important;
+    font-weight: 700;
+    padding-top: 10px;
+    line-height: 3rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.carousel-item1-frst-left-third
+{
+    padding-top: 20px;
+    padding-left: 30px;
+    color: rgb(98, 95, 95);
+    padding-right: 10px;
+}
+
+.carousel-item1-rigt
+{
+    /* flex: 1 !important; */
+    width: 50%;
+    /* background-color: rgb(70, 34, 178); */
+}
+
+.carousel-item1-frst-rightimg
+{
+    height: 350px;
+    width:390px ;
+    object-fit: cover;
+    margin-left: 60px !important;
+    margin-top: 20px !important;
+}
+.blog-botton
+{
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+}
+.carousel-item1-second
+{
+    background-color: rgb(219, 237, 243);
+    width:1050px !important;
+    height: 480px !important;
+margin-left: 15% !important;
+    margin: 50px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.carousel-item2-right
+{
+    width: 500px !important;
+    background-color: rgb(185, 236, 233);
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 2px 8px 16px rgba(225, 177, 177, 0.1);
+    margin-top: 20px !important;
+    margin-left: 30px !important;
+    text-align: left;
+    padding-top: 30px;
+}
+.second{
+    background-color: rgb(193, 246, 246) !important;
+    width: 150px !important;
+}
+.functionality-main
+{
+    /* background-image: url('../../assets/images/parallax2.jpg'); */
+    height: 500px !important;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+}
+.functionality-main
+{
+    display: flex;
+    background-color: rgb(243, 247, 250);
+    position: relative;
+    height: 600px !important;
+}
+.functionality-main-leftimg
+{
+    height:600px;
+    width:1100px;
+    object-fit: cover;
+    position: relative;
+    /* margin-left: 30px; */
+}
+.functionality-main-rightfrst
+{
+    font-size: 2.8125rem;
+    font-weight: 800;
+    line-height: 3.25rem;
+    letter-spacing: -2.5px;
+    margin-bottom: 0.9375rem;
+    display: inline-block;
+    z-index: 1000;
+    position: absolute;
+    left:850px;
+    top:50px
+}
+.functionality-main-rightscnd
+{
+    display: flex;
+    z-index: 1000;
+    position: absolute;
+    left: 900px;
+    top:205px;
+    width: 400px;
+    text-align: left;
+}
+.functionality-main-rightscnd-img
+{
+    border-radius: 50%;
+    width:90px;
+    height: 85px;
+    margin-top: 10px;
+}
+.functionality-main-rightscnd--span1
+{
+    font-size: 1.5625rem;
+    font-weight: bold;
+}
+.functionality-main-rightscnd--span2
+{
+    font-size: 1rem;
+    color: gray;
+    margin-top: 5px !important;
+}

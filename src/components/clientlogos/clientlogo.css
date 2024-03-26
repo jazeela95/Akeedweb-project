@@ -1,0 +1,14 @@
+.complogo-main
+{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    /* margin-left: 50px; */
+    margin-top: 50px;
+    padding-left: 150px;
+}
+.complogo-1
+{
+    margin-left: 80px;
+    margin-top: 150px;
+}

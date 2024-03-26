@@ -1,0 +1,599 @@
+.portpoliospan1
+{
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: -3.5px;
+    position: relative;
+}
+.portpoliospan2
+{
+color: #8b8b8b;
+font-size: 1.0625rem;
+margin-top: 20px !important;
+}
+.port-top
+{
+    display: flex;
+    margin-top: 40px !important;
+    /* height: auto; */
+    height: 780px;;
+}
+.port-top-left
+{
+    flex: 1 !important;
+    height: 780px !important;
+    position: relative;
+    width: 50% !important;
+    /* background-color: red; */
+}
+.port-top-left-img
+{
+    height: 780px !important;
+    width: 100% !important;
+    object-fit: cover;
+    
+}
+.port-top-left-spandiv
+{
+    background-color: black;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100px;
+    top:675px;
+    text-align: left !important;
+    padding-left: 8%;
+    padding-top: 20px;
+    transition: top 0.5s ease, height 0.5s ease;
+    position: absolute;
+    
+}
+.port-top-left:hover .port-top-left-spandiv
+{
+    top:0px !important;
+    height: 100% !important;
+    opacity: 0.9;
+    bottom: 0 !important;
+}
+.port-top-left:hover .port-top-left-span1
+{
+    text-align: center;
+    margin-top: 260px !important;
+    margin-left: 150PX;
+    opacity: 1;
+   /* transition:  top 0.5s ease, height 0.5s ease; */
+}
+.port-top-left:hover  .port-top-left-span2 {
+    transition-delay: 1s !important; 
+    /* font-size: 30px !important; */
+    /* color:red; */
+    /* text-align: center; */
+    /* margin-top: 70px !important; */
+    margin-left: 150PX;
+    
+}
+
+
+.port-top-left-span1
+{
+    font-size: 1.75rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    display: inline-block;
+    color: yellow;
+    /* transition: margin-top 0.5s ease; */
+    transition: opacity 0.5s ease;
+}
+.port-top-left-span2
+{
+    color: white;
+    font-weight: bold;
+    font-size: 1.875rem;
+    letter-spacing: -.3px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: -10px !important;
+    transition: margin-top 1s ease;
+}
+.port-top-left:hover .port-top-left-span1 {
+    margin-top: 0; /* Start from 0 */
+}
+
+.port-top-left:hover .port-top-left-span2 {
+    margin-top: 20px; /* Add margin after 1 second */
+}
+.port-top-right
+{
+    flex: 1 !important;
+    height: 880px !important;
+    position: relative;
+    width: 50% !important;
+    /* background-color: palegoldenrod; */
+}
+.port-top-right-top
+{
+    flex: 1;
+    width: 100% !important;
+    height: 440px;
+    overflow: hidden;
+    position: relative;
+}
+.port-top-righttop-img
+{
+    height: 390px;
+    margin-top: 5px;
+    object-fit: contain;
+}
+.port-top-righttop-spandiv
+{
+    background-color: rgb(23, 23, 108);
+    opacity: 0.9;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100px;
+    top:340px;
+    text-align: left !important;
+    padding-left: 8%;
+    padding-top: 20px;
+    transition: top 0.5s ease, height 0.5s ease;
+    position: absolute;
+    
+    
+}
+.port-top-right-top:hover .port-top-righttop-spandiv
+{
+
+    height: 100% !important;
+    top:0;
+    opacity: 0.9;
+}
+.port-top-right-top:hover .port-top-righttop-span1
+{
+    text-align: center;
+    margin-top: 160px !important;
+    margin-left: 200PX;
+    opacity: 1;
+   /* transition:  top 0.5s ease, height 0.5s ease; */
+}
+.port-top-right-top:hover  .port-top-righttop-span2 {
+    transition-delay: 1s !important;   
+    margin-left: 200PX; 
+}
+.port-top-righttop-span1
+{
+    font-size: 1.75rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    display: inline-block;
+    color: greenyellow;
+    transition: opacity 0.5s ease;
+}
+.port-top-righttop-span2
+{
+    color: white;
+    font-weight: bold;
+    font-size: 1.875rem;
+    letter-spacing: -.3px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: -10px !important;
+    transition: margin-top 1s ease;
+}
+.port-top-right-top:hover .port-top-righttop-span1 {
+    margin-top: 0; /* Start from 0 */
+}
+
+.port-top-right-top:hover .port-top-righttop-span1 {
+    margin-top: 20px; /* Add margin after 1 second */
+}
+.port-top-right-bottom
+{
+    flex: 1;
+    width: 100% !important;
+    height:335px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+.port-top-right-bottom-left
+{ flex: 1;
+    height: 390px;
+    overflow: hidden;
+    position: relative;
+    width: 50% !important;
+}
+.port-top-rightbottomspandiv
+{
+    background-color: skyblue;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100px;
+    top:235px;
+    text-align: left !important;
+    padding-left: 8%;
+    padding-top: 20px;
+    transition: top 0.5s ease, height 0.5s ease;
+    position: absolute;
+    
+    
+}
+.port-top-right-bottom-left:hover .port-top-rightbottomspandiv
+{
+    height: 100% !important;
+    top:0;
+    opacity: 0.9;
+}
+.port-top-right-bottom-left:hover .port-top-rightbottomleft-span1
+{
+    text-align: center;
+    margin-top: 120px !important;
+    margin-left: 90PX;
+    opacity: 1;
+   /* transition:  top 0.5s ease, height 0.5s ease; */
+}
+.port-top-right-bottom-left:hover  .port-top-rightbottomleft-span2 {
+    transition-delay: 1s !important;
+    margin-left: 50px;  
+    
+}
+
+
+.port-top-rightbottomleft-span1
+{
+    font-size: 1.75rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    display: inline-block;
+    color: brown;
+    /* transition: margin-top 0.5s ease; */
+    transition: opacity 0.5s ease;
+}
+.port-top-rightbottomleft-span2
+{
+    color: white;
+    font-weight: bold;
+    font-size: 1.875rem;
+    letter-spacing: -.3px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: -10px !important;
+    transition: margin-top 1s ease;
+}
+.port-top-right-bottom-left:hover .port-top-rightbottomleft-span1{
+    margin-top: 0; /* Start from 0 */
+}
+
+.port-top-right-bottom-left:hover .port-top-rightbottomleft-span2 {
+    margin-top: 20px; /* Add margin after 1 second */
+}
+.port-top-right-bottom-right
+{ flex: 1;
+    height: 390px;
+    overflow: hidden;
+    position: relative;
+    width: 50% !important;
+}
+.port-top-rightbottomright-spandiv
+{
+    background-color: rgb(29, 76, 29);
+    opacity: 0.9;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100px;
+    top:235px;
+    text-align: left !important;
+    padding-left: 8%;
+    padding-top: 20px;
+    transition: top 0.5s ease, height 0.5s ease;
+    position: absolute;
+    
+    
+}
+.port-top-right-bottom-right:hover .port-top-rightbottomright-spandiv
+{
+    height: 100% !important;
+    top:0;
+    opacity: 0.9;
+}
+.port-top-right-bottom-right:hover .port-top-rightbottomright-span1
+{
+    text-align: center;
+    margin-top: 120px !important;
+    margin-left: 90PX;
+    opacity: 1;
+   /* transition:  top 0.5s ease, height 0.5s ease; */
+}
+.port-top-right-bottom-right:hover  .port-top-rightbottomright-span2 {
+    transition-delay: 1s !important;
+    margin-left: 50px;  
+    
+}
+
+
+.port-top-rightbottomright-span1
+{
+    font-size: 1.75rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    display: inline-block;
+    color: yellowgreen;
+    /* transition: margin-top 0.5s ease; */
+    transition: opacity 0.5s ease;
+}
+.port-top-rightbottomright-span2
+{
+    color: white;
+    font-weight: bold;
+    font-size: 1.875rem;
+    letter-spacing: -.3px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: -10px !important;
+    transition: margin-top 1s ease;
+}
+.port-top-right-bottom-right:hover .port-top-rightbottomright-span1{
+    margin-top: 0; /* Start from 0 */
+}
+
+.port-top-right-bottom-right:hover .port-top-rightbottomright-span2 {
+    margin-top: 20px; /* Add margin after 1 second */
+}
+.port-bottom-left
+{
+    flex: 1;
+    width: 50% !important;
+    height:390px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+.port-bottom-left-left-img
+{
+    height: 390px;
+    /* margin-top: 5px; */
+    object-fit: contain;
+}
+.port-bottom-left-left
+{ flex: 1;
+    height: 390px;
+    overflow: hidden;
+    position: relative;
+    width: 50% !important;
+    display: flex;
+}
+.port-bottom-left-spandiv
+{
+    background-color:rgb(246, 86, 139);
+    opacity: 0.9;
+    position: absolute;
+    z-index: 1000;
+    width: 52.7%;
+    height: 100px;
+    top:290px;
+    text-align: left !important;
+    padding-left: 8%;
+    padding-top: 20px;
+    transition: top 0.5s ease, height 0.5s ease;
+    position: absolute;
+    
+    
+}
+.port-bottom-left-left:hover .port-bottom-left-spandiv
+{
+    height: 100% !important;
+    top:0;
+    opacity: 0.9;
+    /* width:52.5%; */
+}
+.port-bottom-left-left:hover .port-bottom-left-left-span1
+{
+    text-align: center;
+    margin-top: 120px !important;
+    margin-left: 50PX;
+    opacity: 1;
+   /* transition:  top 0.5s ease, height 0.5s ease; */
+}
+.port-bottom-left-left:hover  .port-bottom-left-left-span2 {
+    transition-delay: 1s !important;
+    margin-left: 50px;  
+    
+}
+
+
+.port-bottom-left-left-span1
+{
+    font-size: 1.75rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    display: inline-block;
+    color: rgb(231, 248, 48);
+    /* transition: margin-top 0.5s ease; */
+    transition: opacity 0.5s ease;
+}
+.port-bottom-left-left-span2
+{
+    color: white;
+    font-weight: bold;
+    font-size: 1.875rem;
+    letter-spacing: -.3px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: -10px !important;
+    transition: margin-top 1s ease;
+}
+.port-bottom-left-left:hover .port-bottom-left-left-span1{
+    margin-top: 0; /* Start from 0 */
+}
+
+.port-bottom-left-left:hover .port-bottom-left-left-span1{
+    margin-top: 20px; /* Add margin after 1 second */
+}
+.port-bottom-left-right
+{ flex: 1;
+    height: 390px;
+    overflow: hidden;
+    position: relative;
+    width: 50% !important;
+}
+.port-bottom-left-right-spandiv
+{
+    background-color: gray;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100px;
+    top:290px;
+    text-align: left !important;
+    padding-left: 8%;
+    padding-top: 20px;
+    transition: top 0.5s ease, height 0.5s ease;
+    position: absolute;
+    
+    
+}
+.port-bottom-left-right:hover .port-bottom-left-right-spandiv
+{
+    height: 100% !important;
+    top:0;
+    opacity: 0.9;
+}
+.port-bottom-left-right:hover .port-bottom-left-right-span1
+{
+    text-align: center;
+    margin-top: 120px !important;
+    margin-left: 80PX;
+    opacity: 1;
+   /* transition:  top 0.5s ease, height 0.5s ease; */
+}
+.port-bottom-left-right:hover  .port-bottom-left-right-span2 {
+    transition-delay: 1s !important;
+    margin-left: 80px;  
+    
+}
+
+
+.port-bottom-left-right-span1
+{
+    font-size: 1.75rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    display: inline-block;
+    color: yellowgreen;
+    /* transition: margin-top 0.5s ease; */
+    transition: opacity 0.5s ease;
+}
+.port-bottom-left-right-span2
+{
+    color: white;
+    font-weight: bold;
+    font-size: 1.875rem;
+    letter-spacing: -.3px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: -10px !important;
+    transition: margin-top 1s ease;
+}
+.port-bottom-left-right:hover .port-bottom-left-right-span1{
+    margin-top: 0; /* Start from 0 */
+}
+
+.port-bottom-left-right:hover .port-bottom-left-right-span2 {
+    margin-top: 20px; /* Add margin after 1 second */
+}
+
+
+
+.port-bottom-right
+{
+    flex: 1 !important;
+    height: 390px !important;
+    position: relative;
+    width: 50% !important;
+    /* background-color: red; */
+}
+.port-bottom-right-img
+{
+    height: 390px !important;
+    width: 100% !important;
+    object-fit: cover;
+    
+}
+.port-bottom-right-spandiv
+{
+    background-color: rgb(92, 222, 251);
+    opacity: 0.9;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100px;
+    top:290px;
+    text-align: left !important;
+    padding-left: 8%;
+    padding-top: 20px;
+    transition: top 0.5s ease, height 0.5s ease;
+    position: absolute;
+    
+}
+.port-bottom-right:hover .port-bottom-right-spandiv
+{
+    top:0px !important;
+    height: 100% !important;
+    opacity: 0.9;
+    bottom: 0 !important;
+}
+.port-bottom-right:hover .port-bottom-right-span1
+{
+    text-align: center;
+    margin-top: 160px !important;
+    margin-left: 200PX;
+    opacity: 1;
+   /* transition:  top 0.5s ease, height 0.5s ease; */
+}
+.port-bottom-right:hover  .port-bottom-right-span2 {
+    transition-delay: 1s !important; 
+    margin-left: 200PX;
+    
+}
+
+
+.port-bottom-right-span1
+{
+    font-size: 1.75rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    display: inline-block;
+    color: yellow;
+    /* transition: margin-top 0.5s ease; */
+    transition: opacity 0.5s ease;
+}
+.port-bottom-right-span2
+{
+    color: white;
+    font-weight: bold;
+    font-size: 1.875rem;
+    letter-spacing: -.3px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: -10px !important;
+    transition: margin-top 1s ease;
+}
+.port-bottom-right:hover .port-bottom-right-span1 {
+    margin-top: 0; /* Start from 0 */
+}
+
+.port-bottom-right:hover .port-bottom-right-span2 {
+    margin-top: 20px; /* Add margin after 1 second */
+}
+.port-bottom-left-right-img
+{
+    height: 390px !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+

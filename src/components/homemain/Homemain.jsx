@@ -1,6 +1,6 @@
 import React from 'react'
 import "./homemain.css"
-import logo from "../../assets/images/akeed.png";
+import logo from "../../assets/images/akeedlogo.png";
 import { Card, Carousel,Button } from 'react-bootstrap';
 import HomemainDetails from "./Homemaindetail"
 import backimg1 from "../../assets/images/slide1-shape3.png";
@@ -43,7 +43,6 @@ const Homemain = () => {
                
                     <div className='homemain-topbar-left-logodiv'>
                         <img  className='homemain-topbar-left-img'src={logo} alt=""/>
-                        <span>FOR ALL TECHNOLOGY & BUSINESS SOLUTION</span>
                     </div>
                 </div>
                 <div className='homemain-topbar-right'>
