@@ -7,3 +7,15 @@
     padding-top: 30px;
     
 }
+@media screen and (max-width:1440px){
+    .webmain
+    {
+        width:1440px !important
+    }
+}
+@media screen and (max-width:420px){
+    .webmain
+    {margin-left: -70px !important;
+    width: 1300 !important;
+overflow: hidden !important;}
+}

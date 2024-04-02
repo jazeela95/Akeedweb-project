@@ -7,6 +7,20 @@
     display: flex;
     padding-left: 150px;
 }
+@media screen and (max-width:1440px){
+    .count-main
+    {
+        width:1440px !important
+    }
+}
+@media screen and (max-width:440px){
+    .count-main
+    {
+        width:1380px !important;
+        overflow: hidden !important;
+    }
+}
+
 .count-div1
 {
     margin-left: 120px;

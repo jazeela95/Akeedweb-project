@@ -9,7 +9,7 @@ import port6 from "../../assets/images/port-img1-6.jpg"
 import port7 from "../../assets/images/port-img1-7.jpg"
 const Portfolium = () => {
   return (
-    <div>
+    <div className='portfolio-main-div' style={{width:"100%"}}>
         <div >
             <span className='portpoliospan1'>Portfolio</span><br></br>
             <span className='portpoliospan2'>Around our agency</span>

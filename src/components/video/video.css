@@ -6,6 +6,17 @@
     overflow: hidden;
     position: relative;
 }
+@media screen and (max-width:1440px){
+    .vediomain
+    {
+        width:1440px !important;
+    }
+}
+@media screen and (max-width:420px){
+    .vediomain
+    {margin-left: -70px !important;
+    overflow:hidden  !important;}
+}
 .videoimage
 {
     height: 650px;

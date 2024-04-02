@@ -9,7 +9,7 @@ import funct2 from "../../assets/images/feat-icon2.png"
 import funct3 from "../../assets/images/feat-icon3.png"
 export const Blog = () => {
   return (
-    <div>
+    <div className='blog-main-div'>
       <div>
         <div className='bloghead-span1'>Latest blog</div>
         <div className='bloghead-span2'> Around Our Agency</div>

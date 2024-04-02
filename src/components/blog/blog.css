@@ -1,4 +1,19 @@
 
+.blog-main-div
+{
+    width: 100%;
+}
+@media screen and (max-width:1440px){
+    .blog-main-div
+    {
+        width:1440px !important
+    }
+}
+@media screen and (max-width:420px){
+    .blog-main-div
+    {margin-left: -70px !important;
+    overflow: hidden !important; }
+}
 .bloghead-span1
 {
     margin-top: 60px;

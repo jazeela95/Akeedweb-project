@@ -19,9 +19,9 @@ const Service = () => {
   const chunkedDetails = chunkArray(serviceDetails, 3);
 
   return (
-    <div>
+    
       <div className='cardmaindiv'>
-        <Carousel interval={5000} pause={false} wrap={true}> {/* Auto sliding every 5 seconds */}
+        <Carousel interval={10000} pause={false} wrap={true}> {/* Auto sliding every 5 seconds */}
           {chunkedDetails.map((chunk, chunkIndex) => (
             <Carousel.Item key={chunkIndex}>
               <div className='servicescardmaindiv'>
@@ -43,7 +43,7 @@ const Service = () => {
           ))}
         </Carousel>
       </div>
-    </div>
+    
   );
 }
 

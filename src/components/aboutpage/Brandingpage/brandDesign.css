@@ -1,0 +1,105 @@
+.brandheaddiv
+{
+    width: 100% !important;
+    height: 660px;
+    background-color: rgb(185, 183, 183);
+    color: black;
+    text-align: left;
+    /* line-height: 20px !important; */
+}
+.brandtopspan 
+{
+    /* position: absolute; */
+   padding-top:90px;
+}
+.brandhead-left
+{
+    flex:1 !important;
+    font-weight: bold;
+    /* background-color: aqua; */
+    color: black !important;
+    font-size: 5rem;
+    letter-spacing: -1px;
+    line-height: 5.625rem;
+    text-decoration: none !important;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.brandhead-left-span2
+{
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: -10px;
+    color: rgb(103, 102, 102);
+
+}
+.brandhead-left-span3
+{
+    font-size: 1.125rem;
+    font-style: normal;
+    margin-top: -50px;
+
+}
+.brandbutton
+{
+    background-color: rgb(250, 19, 96);
+    padding-top: 0px !important;
+    position: relative;
+    /* text-align: center; */
+}
+.about-right-main-button:hover{
+    color:black;
+    background-color: rgb(249, 108, 155);
+}
+.brandhead-right
+{
+    flex:1;
+}
+.brand-div-img
+{
+    margin-left: 90px !important;
+}
+.brand-card
+{
+    margin-top: 140px !important;
+    display: flex;
+    width: 1150px !important;
+    margin-left: 11%;
+    text-align: left;
+    margin-bottom: 60px;
+}
+.brand-card-1
+{
+    border:solid 2px rgb(234, 231, 227) !important;
+    width: 383px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    /* height:200px; */
+  
+
+}
+.brand-card-1-img
+{
+    width: 383px;
+    height: 217px;
+    object-fit: cover;
+    
+}
+.brand-card-1-div1
+{
+    background-color: #008369;
+    width: 383px;
+    color:white;    
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 2px !important;
+}
+.brand-card-1-div1-logo-div
+{
+    background-color: black;
+    opacity: 0.5;
+    width:38px;
+    height: 30px;
+    margin: 40px;
+    margin-left: 1px;
+}

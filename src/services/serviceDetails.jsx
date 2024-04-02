@@ -13,7 +13,7 @@ const serviceDetails=[
     },
     {
     id:"3",
-    servicename:"SMART APP",
+    servicename:"SMART APP SOLUTION",
     Details:"",
     image:"serv-icon2",
     },

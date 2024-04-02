@@ -1,0 +1,153 @@
+.diital-top-span
+{
+    margin-left: -50px !important;
+    color: black;
+}
+.marketing-caption-div
+{
+    display: flex;
+    width: 1150px !important;
+    margin-left: 11%;
+    padding-top: 150px;
+    text-align: left;
+}
+
+.marketing-caption-left
+{
+    flex: 1;
+    font-size: 3.1875rem;
+    margin-top: 20px;
+}
+.marketing-caption-right
+{
+    flex: 1;
+    margin-top: 20px !important;
+    font-size: 17px;
+    color:rgb(86, 84, 84);
+    text-align: justify;
+    margin-right: 10px !important;
+line-height: 30px;
+    /* margin-left: 20px !important; */
+}
+.digital-serices-main
+{
+    margin-top: 50px;
+}
+.maincarddigdiv
+{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust alignment as needed */
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.ditigal-services-head
+{
+    font-size: 3.75rem;
+    font-weight: bold;
+}
+.digital-card
+{
+    width: 350px !important; /* Adjust width as needed */
+    margin-bottom: 60px;
+  height: 360px !important; /* Adjust height as needed */
+  background-color: #ffffff; /* Background color of the card */
+  border-radius: 8px; /* Rounded corners for the card */
+  box-shadow: 12px 9px 9px rgba(23, 20, 20, 0.1);
+  padding: 40px;
+  
+}
+.digcard-div-head1
+{
+    display: inline-block;
+    line-height: 4.5rem;
+    height: 60!important;
+    width: 70px !important;
+    font-size: 1.8rem;
+    margin-left: 90px;
+    border-radius: 50%;
+    background-image: linear-gradient(48deg, #0255fc 0%, #24a1f1 64%);
+
+}
+.digcard-div-head2
+{
+    display: inline-block;
+    line-height: 4.5rem;
+    height: 60!important;
+    width: 70px !important;
+    font-size: 1.8rem;
+    margin-left: 90px;
+    border-radius: 50%;
+    background-image: linear-gradient(48deg, #b058df 0%, #e22eb4 64%);
+}
+.digcard-div-head3
+{
+    display: inline-block;
+    line-height: 4.5rem;
+    height: 60!important;
+    width: 70px !important;
+    font-size: 1.8rem;
+    margin-left: 90px;
+    border-radius: 50%;
+    background-image: linear-gradient(48deg, #fb7710 0%, #fda620 64%);
+}
+.digcard-div-head-icon
+{
+    color:white;
+    height: 30px !important;
+    width: 30px !important;
+    margin-top: -10px;
+}
+.digcardname
+{
+    margin-left: -20px;
+}
+.diglast-div
+{ display: flex;
+    width: 1150px !important;
+    margin-left: 11%;
+/* margin-top: 100px; */
+}
+.diglast-div-left
+{
+    flex: 1;
+    text-align: left;
+}
+.diglast-div-right
+{
+    flex: 1;
+    text-align: left;
+    height:500px;
+    margin-top: 60px;
+}
+.diglast-div-right-one{
+font-size: 3.4375rem;
+line-height: 3.75rem;
+letter-spacing: -2.5px;
+}
+.diglast-div-right-2{
+    font-family: Muli;
+    color: #666;
+    font-size: 1.0625rem;
+    line-height: 1.875rem;
+    margin-top: 30px;
+}
+.digital-points-icon
+{
+    color:rgb(250, 19, 96) !important;
+}
+.dig-img
+{
+    margin-left: -10px !important;
+    width:480px !important;
+    height: 425px !important;
+    /* margin-top: -20px !important; */
+    
+}
+.digicon
+{
+    margin-left: 1500px !important;
+}

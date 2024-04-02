@@ -3,6 +3,21 @@
     display: flex;
     margin: 20px;
     margin-bottom: 100px !important;
+    text-align: justify !important;
+}
+@media screen and (max-width:1440px)
+{
+    .about-main-div
+    {
+        width: 1440PX !important;
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width:420px){
+    .about-main-div{
+   overflow:hidden  !important;
+}
 }
 .about-left-main
 {
@@ -48,30 +63,33 @@
 {
     max-width: 70% !important;
     margin: 30px;
-    /* margin-left: 100px !important; */
-    text-align: left;
+    /* margin-left: 100rgb(250, 19, 96)px !important; */
+    text-align: justify;
 }
 .about-right-main-span1
 {
     font-size: 3.4375rem;
     line-height: 3.75rem;
-    letter-spacing: -2.5px;
+    letter-spacing: 4px !important;
     margin-bottom: 40px !important;
+    text-align: left !important;
+    
     
 }
 .about-right-main-span2
 {
     color :gray;
-    text-align: justify;
+    text-align: justify !important;
     
 }
 .about-right-main-button
 {
-    background-color: rgb(250, 19, 96);
+    background-color: ;
     color: white;
     height: 50px;
     width: 150px;
     border-color: rgb(250, 19, 96);
     margin-top: 50px;
     cursor: pointer;
+    background-color: rgb(250, 19, 96) !important;
 }

@@ -4,14 +4,16 @@ import React, { useEffect, useState } from 'react';
 import "./navbar.css"
 import { Navbar as BootstrapNavbar, Nav, NavDropdown } from 'react-bootstrap';
 import logo from "../../assets/images/akeedlogo.png";
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 const Navbar = () => {
-  const [showNavbar, setShowNavbar] = useState(false);
+  
+  // const location = useLocation();
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      setShowNavbar(scrollTop > 100); // Adjust 100 to the desired scroll position to show the navbar
+      setScrolled(scrollTop > 100);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -19,49 +21,38 @@ const Navbar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  
+  const [showhomeDropdown, setShowhomeDropdown] = useState(false);
   const [showaboutDropdown, setShowaboutDropdown] = useState(false);
-  const handleaboutMouseEnter = () => {
-    setShowaboutDropdown(true);
-  };
-
-  const handleaboutMouseLeave = () => {
-    setShowaboutDropdown(false);
-  };
+  const [showportDropdown, setShowportDropdown] = useState(false);
+  const [showpagesDropdown, setShowpagesDropdown] = useState(false);
   const [showblogDropdown, setShowblogDropdown] = useState(false);
-  const handleblogMouseEnter = () => {
-    setShowblogDropdown(true);
+
+  const handleDropdownEnter = (dropdownSetter) => {
+    // Close all other dropdowns
+    setShowhomeDropdown(false);
+    setShowaboutDropdown(false);
+    setShowportDropdown(false);
+    setShowpagesDropdown(false);
+    setShowblogDropdown(false);
+    
+    // Open the specified dropdown
+    dropdownSetter(true);
   };
 
-  const handleblogMouseLeave = () => {
+  const handleDropdownLeave = () => {
+    // Close all dropdowns
+    setShowhomeDropdown(false);
+    setShowaboutDropdown(false);
+    setShowportDropdown(false);
+    setShowpagesDropdown(false);
     setShowblogDropdown(false);
   };
-  const [showpagesDropdown, setShowpagesDropdown] = useState(false);
-  const handlepagesMouseEnter = () => {
-    setShowpagesDropdown(true);
-  };
 
-  const handlepagesMouseLeave = () => {
-    setShowpagesDropdown(false);
-  };
-  const [showportDropdown, setShowportDropdown] = useState(false);
-  const handleportMouseEnter = () => {
-    setShowportDropdown(true);
-  };
-
-  const handleportMouseLeave = () => {
-    setShowportDropdown(false);
-  };
-  const [showhomeDropdown, setShowhomeDropdown] = useState(false);
-  const handlehomeMouseEnter = () => {
-    setShowhomeDropdown(true);
-  };
-
-  const handlehomeMouseLeave = () => {
-    setShowhomeDropdown(false);
-  };
  
   return (
-    <div className={`navbar-container ${showNavbar ? 'show' : ''}`}>
+    <div className={`navbar-container ${scrolled ? 'show' : ''}`}>
       <div className='navbar-left'>
        <Link to="/"> <img src={logo} alt="" className='homemain-topbar-left-img navimg'/></Link>
         {/* <span>FOR ALL TECHNOLOGY & BUSINESS SOLUTION</span> */}
@@ -75,9 +66,10 @@ const Navbar = () => {
                 id="projects-dropdown" 
                 className='NavDropdown' 
                 show={showhomeDropdown}
-                onMouseEnter={handlehomeMouseEnter}
-                onMouseLeave={handlehomeMouseLeave}>
-               
+                onMouseEnter={() => handleDropdownEnter(setShowhomeDropdown)}
+           onMouseLeave={handleDropdownLeave}
+                >
+               <div className='nav-dropdown-items'>
                   <NavDropdown.Item className='navdropdown-item'><Link to="/services" className='custlink'>Services</Link></NavDropdown.Item>
                 <NavDropdown.Item  className='navdropdown-item'><Link to="/about" className='custlink'>About</Link></NavDropdown.Item>
                 <NavDropdown.Item  className='navdropdown-item'><Link to="/portfolio" className='custlink'>Portfolio</Link></NavDropdown.Item>
@@ -85,48 +77,59 @@ const Navbar = () => {
                 <NavDropdown.Item className='navdropdown-item'><Link to="/blog" className='custlink'>Blog</Link></NavDropdown.Item>
                 <NavDropdown.Item className='navdropdown-item'><Link to="/clientlogo" className='custlink'>Client</Link></NavDropdown.Item>
                 <NavDropdown.Item  className='navdropdown-item'><Link to="/newsletter" className='custlink'>Newletter</Link></NavDropdown.Item>
+                </div>
               </NavDropdown>
               <NavDropdown title="About" 
                 id="projects-dropdown" 
                 className='NavDropdown' 
                 show={showaboutDropdown}
-                onMouseEnter={handleaboutMouseEnter}
-                onMouseLeave={handleaboutMouseLeave}>
+                onMouseEnter={() => handleDropdownEnter(setShowaboutDropdown)}
+                onMouseLeave={handleDropdownLeave}>
+                  <div className='nav-dropdown-items'>
                 <NavDropdown.Item href="#" className='navdropdown-item'>Action</NavDropdown.Item>
                 <NavDropdown.Item href="#" className='navdropdown-item'>Another action</NavDropdown.Item>
                 <NavDropdown.Item href="#" className='navdropdown-item'>Something else here</NavDropdown.Item>
+                </div>
               </NavDropdown>
               <NavDropdown title="Portfolio" 
                 id="projects-dropdown" 
                 className='NavDropdown' 
                 show={showportDropdown}
-                onMouseEnter={handleportMouseEnter}
-                onMouseLeave={handleportMouseLeave}>
+                onMouseEnter={() => handleDropdownEnter(setShowportDropdown)}
+                onMouseLeave={handleDropdownLeave}
+                >
+                  <div className='nav-dropdown-items'>
                 <NavDropdown.Item href="#" className='navdropdown-item'>Action</NavDropdown.Item>
                 <NavDropdown.Item href="#" className='navdropdown-item'>Another action</NavDropdown.Item>
                 <NavDropdown.Item href="#" className='navdropdown-item'>Something else here</NavDropdown.Item>
+                </div>
               </NavDropdown>
               <NavDropdown title="Pages" 
                 id="projects-dropdown" 
                 className='NavDropdown' 
                 show={showpagesDropdown}
-                onMouseEnter={handlepagesMouseEnter}
-                onMouseLeave={handlepagesMouseLeave}>
+                onMouseEnter={() => handleDropdownEnter(setShowpagesDropdown)}
+                onMouseLeave={handleDropdownLeave}
+              >
+                  <div className='nav-dropdown-items'  >
                 <NavDropdown.Item href="#" className='navdropdown-item'>Action</NavDropdown.Item>
                 <NavDropdown.Item href="#"className='navdropdown-item'>Another action</NavDropdown.Item>
                 <NavDropdown.Item href="#" className='navdropdown-item'>Something else here</NavDropdown.Item>
+                </div>
               </NavDropdown>
               <NavDropdown title="Blog" 
                 id="projects-dropdown" 
                 className='NavDropdown' 
                 show={showblogDropdown}
-                onMouseEnter={handleblogMouseEnter}
-                onMouseLeave={handleblogMouseLeave}>
+                onMouseEnter={() => handleDropdownEnter(setShowblogDropdown)}
+                onMouseLeave={handleDropdownLeave}>
+                  <div className='nav-dropdown-items'   >
                 <NavDropdown.Item href="#" className='navdropdown-item'>Action</NavDropdown.Item>
                 <NavDropdown.Item href="#" className='navdropdown-item'>Another action</NavDropdown.Item>
                 <NavDropdown.Item href="#" className='navdropdown-item'>Something else here</NavDropdown.Item>
+                </div>
               </NavDropdown>
-              <Nav.Link href="/services">Contact</Nav.Link>
+              <Nav.Link href="/">Contact</Nav.Link>
             </Nav>
           </BootstrapNavbar.Collapse>
         </BootstrapNavbar>

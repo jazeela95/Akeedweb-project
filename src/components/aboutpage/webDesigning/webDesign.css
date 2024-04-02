@@ -1,0 +1,173 @@
+.webhead
+{
+    text-align: left !important;
+    margin-left: -500px !important;
+    margin-top: -10px;
+    text-decoration: none;
+    color: rgb(239, 11, 118);
+    font-size: 50px;
+}
+.webhead-span
+{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.webdign-second-div
+{
+    margin-top: 120px;
+    display: flex;
+    width: 1150px !important;
+    margin-left: 11%;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    /* padding-top: 150px; */
+}
+.web-div2-logodiv1
+{
+    width:80px;
+    position: relative;
+    height: 80px;
+    border-radius: 50%;
+   
+    
+}
+.logdiv1{
+    background-image: linear-gradient(48deg, #0255fc 0%, #24a1f1 64%); 
+}
+.webdign-second-div-div:hover .logdiv1
+{
+    background-image: linear-gradient(48deg, #0255fc 0%, #24a1f1 64%);
+    animation: pulseBig 4s infinite;
+
+}
+.logdiv2{
+    background-image: linear-gradient(48deg, #b058df 0%, #e22eb4 64%); 
+}
+.webdign-second-div-div:hover .logdiv2
+{
+    background-image: linear-gradient(48deg, #b058df 0%, #e22eb4 64%);
+    animation: pulseBig 4s infinite;
+
+}
+.logdiv3{
+    background-image: linear-gradient(48deg, #fb7710 0%, #fda620 64%); 
+}
+.webdign-second-div-div:hover .logdiv3
+{
+    background-image: linear-gradient(48deg, #fb7710 0%, #fda620 64%);
+    animation: pulseBig 4s infinite;
+
+}
+@keyframes pulseBig {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.9;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.web-div2-logodiv-logo
+{
+    color: white;
+    width: 35px !important;
+    height: 35px !important;
+    margin-top: 22px;
+}
+.web-div2-logodiv-topcircle1,.web-div2-logodiv-topcircle2,.web-div2-logodiv-topcircle3
+{
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 60px;
+    top:-5px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+    z-index: 10000;
+}
+.webdign-second-div-div:hover .web-div2-logodiv-topcircle1 {
+    z-index: 100 !important;
+    background-image: linear-gradient(48deg, #0255fc 0%, #24a1f1 64%);
+    opacity: 1; /* Show the element when its parent is hovered over */
+}
+.webdign-second-div-div:hover .web-div2-logodiv-topcircle2 {
+    z-index: 100 !important;
+    background-image: linear-gradient(48deg, #b058df 0%, #e22eb4 64%);
+    opacity: 1; /* Show the element when its parent is hovered over */
+}
+.webdign-second-div-div:hover .web-div2-logodiv-topcircle3 {
+    z-index: 100 !important;
+    background-image: linear-gradient(48deg, #fb7710 0%, #fda620 64%);
+    opacity: 1; /* Show the element when its parent is hovered over */
+}
+.web-div2-logodiv1-span1,.web-div2-logodiv1-span2,.web-div2-logodiv1-span3
+{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: -10px;
+
+}
+.webdign-second-div-div:hover .web-div2-logodiv1-span1 {
+    color: #0255fc !important; /* Change to the desired color */
+}
+.webdign-second-div-div:hover .web-div2-logodiv1-span2 {
+    color: #b058df !important; /* Change to the desired color */
+}
+.webdign-second-div-div:hover .web-div2-logodiv1-span3 {
+    color: #fb7710 !important; /* Change to the desired color */
+}
+.web-img
+{
+    height:450px;
+    width: 400px;
+    margin-left: -20px !important;
+    /* margin-bottom: 50px; */
+}
+.web-4th-div
+{
+    width: 100%;
+    background-color: rgb(95, 172, 249);
+    height: 300px;
+    margin-top: -80PX;
+}
+.web-4th-div-div
+{
+    margin-top: 70px !important;
+    display: flex;
+    width: 1150px !important;
+    margin-left: 11%;
+}
+.web-4th-div-div-left
+{
+    flex: 4;
+}
+.web-4th-div-div-right{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 2.575rem;
+    line-height: 3.8rem;
+    font-style: italic;
+    max-width: 90%;
+    margin-top: 3.25rem;
+    flex: 8;
+    color: white;
+}
+.web-4th-div-div-left-img
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 60px;
+}

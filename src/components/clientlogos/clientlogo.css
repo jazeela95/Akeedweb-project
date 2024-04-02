@@ -7,6 +7,17 @@
     margin-top: 50px;
     padding-left: 150px;
 }
+@media screen and (max-width:1440px){
+    .complogo-main
+    {
+        width:1440px !important
+    }
+}
+@media screen and (max-width:420px){
+    .complogo-main
+    {margin-left: -70px !important;
+    overflow: hidden !important;}
+}
 .complogo-1
 {
     margin-left: 80px;

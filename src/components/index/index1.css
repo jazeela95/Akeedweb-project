@@ -3,8 +3,8 @@
     background-color: transparent !important;
     position: absolute;
     z-index: 1000;
-    margin-top: 20px;
-    margin-left: 30px;
+ 
+    overflow: hidden !important;
 }
 .caroselitem1
 {
@@ -449,6 +449,7 @@
     margin-top: -15%;
     transform: translate(-50%, -50%);
     z-index: 2;
+    background-color: rgb(250, 19, 96) !important;
 }
 .index-button1 {
     transition: duration 0.2s ease;
@@ -650,16 +651,19 @@
     0% { margin-top: 40px; } /* Start at the top */
     100% { margin-top: 80px; } /* Move to the bottom */
 }
+.homemain-topbar-backimg4{
+    margin-left:-800px !important;
+}
 .mb-3
 {
     position: fixed;
-    position: absolute;
-    top: -20px;
-    left:-30px !important;
-    width: 120% !important;
-    height: 100vh !important;
+    /* position: abs/olute; */
+    margin-top: -10px;
+    margin-left:-1800px !important;
+    width: 2000px !important;
+    height: 110vh !important;
     background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white background */
-    z-index: 9999999;
+    z-index: 99999999 !important;
     opacity: 1; /* Set opacity to 1 for the overlay to be visible */
     visibility: visible; /* Ensure the overlay is visible */
     display: flex;
@@ -667,15 +671,17 @@
     align-items: center;
     overflow: hidden !important; 
     border-radius: 0px !important;
-    /* position: relative; */
+    position: relative;
 }
 .form-control-index
 {
   border-radius: 0px !important;
    border: none ;
    border-bottom: 1px solid rgb(131, 128, 128) !important;
-   width:1000px !important;
-   margin-left: -400px !important;
+   width:1300px !important;
+   position: absolute;
+   margin-left: 430px !important;
+   /* margin-left: -400px !important; */
    /* position:absolute; */
 }
 
@@ -684,7 +690,7 @@
 {
     position: absolute; /* Adjust position as needed */
     
-    width: 1000px !important;
+    width: 1200px !important;
     height: 10vh !important;
     background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white background */
     z-index: 9999999;
@@ -700,7 +706,7 @@
     border: 0ch !important;
     border: none !important;
     border-bottom: 1px solid rgb(131, 128, 128) !important; /* Adjust focus border as needed */
-    margin-left: -540px !important;
+    margin-left: 340px !important;
     
 }
 .form-control-index:focus{
@@ -710,11 +716,13 @@
 {
     position: absolute;
     /* left: 1000px; */
-    margin-left: 1200px;
-    margin-top: -600px;
+    margin-left: 1770px !important;
+    margin-top: -620px;
     background-color: rgb(250, 19, 96);;
     border-color: rgb(250, 19, 96);
     border-radius: 50%;
+    width:50px;
+    height: 50px;
 
 }
 .indexform-icon:hover,
@@ -733,6 +741,7 @@
 .indexnav
 {
     font-size: 40px !important;
+    margin-left: 600px !important;
 }
 .dropdown-toggle::after
 {
@@ -756,5 +765,88 @@
     width: 20px;
     text-align: left;
     margin-left: -10px;
+}
+@media screen and (max-width:1440px)
+{
+    .index-main-bar
+    {
+        overflow-y: hidden !important;
+        min-width:1440px !important;
+    }
+    .homemain-topbar-right-div
+    {
+        margin-left: 600px;
+    }
+    .indexnav
+    {
+        margin-left: 600px !important;
+    }
+    .navicon{
+        left:100px !important ;
+        top: 730px !important;
+    }
+
+.form-control-index
+{
+    margin-left: 300px !important;
+}
+.form-control-index:focus
+{
+    margin-left: 290px !important;
+}
+} 
+@media screen and (max-width:420px){
+    .index-main-bar
+    {margin-left: -10px !important;
+        overflow-y: hidden !important;
+        width:240px !important;
+    /* margin-right: 10px !important; */
+margin-top: 10px;}
+    .homemain-topbar-right-div
+    {
+        margin-left:400px;
+        /* width:1000px ! */
+    }
+    
+.form-control-index
+{
+    margin-left: 600px !important;
+    width:900px !important
+}
+.form-control-index:focus
+{
+    margin-left: 390px !important;
+    width: 900px !important;
+}
+   .homemain-bottombar-rightimg
+   {margin-left: 230px !important;} 
+   
+  
+
+}
+.indexnav {
+    font-size: 40px !important;
+    margin-left: 600px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .indexnav {
+        font-size: 24px; /* Adjust font size for better readability on smaller screens */
+        margin-left: 0; /* Adjust margin for better layout on smaller screens */
+    }
+}
+@media screen and (max-width:770px)
+{
+    .navbar-right
+    {
+        flex: none !important;
+    }
+    
+}
+.navicon
+{
+    margin-left: 1700px !important;
+    margin-top: -700px !important;
+    color: white !important;
 }
 

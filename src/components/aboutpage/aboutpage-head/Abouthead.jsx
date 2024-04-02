@@ -1,26 +1,24 @@
-import React, { useState } from 'react';
-import "./index1.css"
-import { Carousel, Button } from 'react-bootstrap';
+import React, { useState } from 'react'
+import "./abouthead.css"
+import {  Table } from 'react-bootstrap';
+import {  Button } from 'react-bootstrap';
 import { Navbar as BootstrapNavbar, Nav, NavDropdown } from 'react-bootstrap';
-// import { motion } from 'framer-motion';
-import backimg1 from "../../assets/images/slide1-shape3.png";
-import backimg2 from "../../assets/images/slide1-shape1.png";
-import backimg3 from "../../assets/images/slide1-shape2.png";
-import manhome from "../../assets/images/slide1-mckp1.png";
 import SearchIcon from '@mui/icons-material/Search';
 import DensityMediumIcon from '@mui/icons-material/DensityMedium';
-import logo from "../../assets/images/akeedlogo.png";
-import man2 from "../../assets/images/man2.png"
-import backimg4 from "../../assets/images/slide2-shape1.png"
-import feat from "../../assets/images/parallax2.jpg"
-import para from "../../assets/images/parallax1.jpg"
-import port from "../../assets/images/port-img1-4.jpg"
+import logo from "../../../assets/images/akeedlogo.png";
 import CloseIcon from '@mui/icons-material/Close';
 import { Link } from 'react-router-dom';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
-const Index1 = () => {
-  // show searchbar
+import abouthead from "../../../assets/images/pattern4.jpg";
+import robo1 from "../../../assets/images/robo.jpg";
+import robo2 from "../../../assets/images/robo11.jpg";
+import CottageIcon from '@mui/icons-material/Cottage';
+import ArrowRightIcon from '@mui/icons-material/ArrowRight';
+import port from "../../../assets/images/port-img1-4.jpg"
+
+const Abouthead = () => {
+      // show searchbar
   const [showForm, setShowForm] = useState(false);
 
   const handleClick = () => {
@@ -69,11 +67,12 @@ const handleResetDropdowns = () => {
 };
 
   return (
-    <div style={{ position: "relative",overflow:"hidden" }} className='index-main-bar'>
-      <div style={{ display: "flex" }} className='index-top'>
+    
+        <div style={{ position: "relative",overflow:"hidden" }} className='index-main-bar'>
+      <div style={{ display: "flex" }} className='aboutheadtop'>
             <div className='homemain-topbar-left'>
               <div className='homemain-topbar-left-logodiv'>
-              <Link to="/"><img className='homemain-topbar-left-img' src={logo} alt="" style={{cursor:"pointer"}} /></Link>
+              <Link to="/"> <img className='homemain-topbar-left-img' style={{cursor:"pointer"}} src={logo} alt="" /></Link>
               </div>
             </div>
             <div className='homemain-topbar-right'>
@@ -245,181 +244,88 @@ const handleResetDropdowns = () => {
               </div>
             </div>
           </div>
-      <Carousel interval={100000} ride="carousel" style={{ position: "relative" }}>
-        <Carousel.Item className='caroselitem1'>
-          <div className='homemain-maindiv'>
-            <div className='homemain-topbar-backimg2div'>
-              <img src={backimg2} alt="" className='homemain-topbar-backimg2' />
+        <div className='aboutheadtop-imagediv'>
+        <img src={abouthead} alt="" className='aboutheadtop-img'/>
+        <div className='aboutheadtop-imagediv-span'>
+            About Us
+            <span>.</span>
+        </div>
+        <div className='aboutheadtop-imagediv-bottom'>
+            <CottageIcon className='aboutheadtop-imagediv-bottom-logo'/>
+            <div className='aboutheadtop-imagediv-bottom-span'>About Us</div>
+        </div>
+        </div>
+        <div className='aboutfewwords-div'>
+            <div className='aboutfewwords'>
+            <div className='aboutfewwords-span1'>About few words</div>
+            <div className='aboutfewwords-span2'>
+                <p style={{fontSize:"23px"}}>THE STORY OF WHO WE ARE</p>
+                <p style={{fontSize:"20px",marginTop:"-10px",fontWeight:"bold"}}>We understand what you need and we design the 
+                solutions</p>
+                <p style={{textAlign:"justify",marginTop:"-5px"}}>Akeed Technology, as our name itself reveals, offers IT infrastructure 
+                services to businesses in the UAE. We now have a world of technological 
+                advancement that forces companies to bring the changes that help them 
+                run their business in a better way. IT Solutions acts as a trusted service 
+                partner for different industries offering high-quality IT infrastructure 
+                services. We provide telecom solutions, telecom products, IT solutions, IT 
+                support, website solutions, security, audio-visual solutions, hardware 
+                services, software solutions.
+                Our expert team of certified professionals with extensive industry experience brings high-quality service to our clients. We focus on building a 
+                long-term service relationship to help clients achieve their business goals. 
+                Our passion for serving brought us a clientele of satisfied customers 
+                across UAE, from small-scale companies to large business organizations.</p>
             </div>
-            <div className='homemain-topbar-backimg3div'>
-              <img src={backimg3} alt="" className='homemain-topbar-backimg3' />
-            </div>
-            <div className='homemain-topbar-backimg1div'>
-              <img src={backimg1} alt="" className='homemain-topbar-backimg1' />
-            </div>
-            <div className='homemain-topbar'>
-              <div className='homemain-bottombar'>
-                <div className='homemain-bottombar-left'></div>
-                <div className='homemain-bottombar-right'>
-                  <div >
-                    <img src={manhome} alt="" className='homemain-bottombar-rightimg' />
-                  </div>
-                </div>
+        </div>
+        <div className='aboutpage-images-words'>
+            <img src={robo1} alt="" className='aboutpage-images-words-img1'/>
+            <img src={robo2} alt="" className='aboutpage-images-words-img2'/>
+        </div>
+        <div className='aboutpagehead-points-maindiv'>
+        <div className='aboutpagehead-points'>
+        <Table>
+                <tr>
+                   <td ><ArrowRightIcon className='aboutpagehead-points-icon'/><Link to="/digitalmarketing" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>Digital Marketing</Link></td> 
+                    <td><ArrowRightIcon className='aboutpagehead-points-icon'/><Link to="/webdesign" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>Website Development</Link> </td>
+                </tr>
+                <tr>
+                    <td><ArrowRightIcon className='aboutpagehead-points-icon'/><Link to="/mobileapp" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>Smart Mobile Apps</Link></td>
+                    <td><ArrowRightIcon className='aboutpagehead-points-icon'/><Link to="/ai-technology" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>Ai Tech Solution</Link></td>
+                </tr>
+                <tr>
+                    <td><ArrowRightIcon className='aboutpagehead-points-icon'/><Link to="/video-product" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>Social Media & Video Production</Link></td>
+                    <td><ArrowRightIcon className='aboutpagehead-points-icon'/><Link to="/brandDesign" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>Brand design & making</Link></td>
+                </tr>
+               </Table>
+        </div>
+        <div className='aboutpagehead-points-maincont'>
+        We focus on serving businesses with quality solutions updated 
+        based on changes in the technological world. Our team of certified 
+        experts with extensive experience targets high-level customer satisfaction
+        by offering services exceeding their expectations.
+        </div>
+        </div>
+        </div>
+        <div className='chooseusmainabout'>
+        <div className='chooseusabout'>
+              <div className='diglast-div-left'>
+              <img src={port} alt="" className='curser5-img dig-img' />
               </div>
-            </div>
-          </div>
-
-          <Carousel.Caption className='carosel-caption'>
-            <span
-              className='homemain-bottombar-left-cardhead head1'
-            >
-              Creative
-            </span>
-            <span className='homemain-bottombar-left-cardcont cardcont1'>
-              Our expert team of certified professionals with extensive industry experience brings high-quality service to our clients.
-            </span>
-             <button className='about-right-main-button index-button index-button1'>
-             <Link to="/digitalmarketing" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>
-              Read more
-              </Link></button>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item className='carousel2'>
-  <div className='homemain-maindiv'>
-    
-    <div className='homemain-topbar-backimg3div'>
-      <img src={backimg4} alt="" className='homemain-topbar-backimg4' />
-    </div>
-    
-    <div className='homemain-topbar'>
-      <div className='homemain-bottombar'>
-        <div className='homemain-bottombar-left'></div>
-        <div className='homemain-bottombar-right'>
-          <div>
-            <img src={man2} alt="" className='curser2-img' />
-          </div>
+              <div className='diglast-div-right' style={{marginLeft:"40px"}}>
+                <div className='diglast-div-right-one'>
+                Why Choose Us?
+                </div>
+                <div className='diglast-div-right-2'>
+                    <ArrowRightIcon className='digital-points-icon'/>Strategic Planning<br></br>
+                    <ArrowRightIcon className='digital-points-icon'/> Investment Trusts<br></br>
+                   <ArrowRightIcon className='digital-points-icon'/> Financial Projection<br></br>
+                  <ArrowRightIcon className='digital-points-icon'/> Consulting
+                </div>
+                <Link to="/"><button className='about-right-main-button' >Choose us</button></Link>
+              </div>
+              </div>
         </div>
-      </div>
     </div>
-  </div>
-
-  <Carousel.Caption className='carosel-caption'>
-    <span className='homemain-bottombar-left-cardhead head2' >
-      Creative your Website
-    </span>
-    <span className='homemain-bottombar-left-cardcont cardcont2'>
-      We add creativity to your business,Good design of your website is key to creating easy navigation for
-      visitors; Which increases user conversions into customers
-    </span>
-    <button className='about-right-main-button index-button index-button2'>
-      View Projects
-    </button>
-  </Carousel.Caption>
-</Carousel.Item>
-  <Carousel.Item className='carousel3'>
-  <div className='homemain-maindiv'>
-    <div className='homemain-topbar'>
-      <div className='homemain-bottombar'>
-        <div className='homemain-bottombar-left'></div>
-        <div className='homemain-bottombar-right'>
-          <div>
-            <img src={feat} alt="" className='curser3-img' />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <Carousel.Caption className='carosel-caption '>
-    <span homemain-bottombar-left-cardhead style={{zIndex:"1000"}} className='homemain-bottombar-left-cardhead head3'>
-      Creative MobileApp
-    </span>
-    <span
-      
-      className='homemain-bottombar-left-cardcont cont3'
-    >
-      We add creativity to your business,Good design of your website is key to creating easy navigation for
-      visitors; Which increases user conversions into customers
-    </span>
-    <button
-    className='about-right-main-button index-button index-button3'
-    
-    >
-      View Projects
-    </button>
-  </Carousel.Caption>
-</Carousel.Item>
-  <Carousel.Item className='carousel4'>
-  <div className='homemain-maindiv'>
-    <div className='homemain-topbar'>
-      <div className='homemain-bottombar'>
-        <div className='homemain-bottombar-left'></div>
-        <div className='homemain-bottombar-right'>
-          <div>
-            <img src={para} alt="" className='curser4-img' />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <Carousel.Caption className='carosel-caption '>
-    <span homemain-bottombar-left-cardhead style={{zIndex:"1000"}} className='homemain-bottombar-left-cardhead head4'>
-      Social Media & vedio Making
-    </span>
-    <span
-      
-      className='homemain-bottombar-left-cardcont cont4'
-    >
-     We specialize in creating valuable content for brands and businesses. We will make sure your message is delivered through our wealth of expertise.
-    </span>
-    <button
-    className='about-right-main-button index-button index-button3'
-    
-    >
-      View Projects
-    </button>
-  </Carousel.Caption>
-</Carousel.Item>
-  <Carousel.Item className='carousel5'>
-  <div className='homemain-maindiv'>
-    <div className='homemain-topbar'>
-      <div className='homemain-bottombar'>
-        <div className='homemain-bottombar-left'></div>
-        <div className='homemain-bottombar-right'>
-          <div>
-            <img src={port} alt="" className='curser5-img' />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <Carousel.Caption className='carosel-caption '>
-    <span homemain-bottombar-left-cardhead style={{zIndex:"1000"}} className='homemain-bottombar-left-cardhead head5'>
-      AI Technologies
-    </span>
-    <span
-      
-      className='homemain-bottombar-left-cardcont cont5'
-    >
-      This technology add a new way to suggest the user while searching integration of Machine Learning, voice recognition, and image recognition, etc in mobile apps takes the experience to the high level.
-    </span>
-    <button
-    className='about-right-main-button index-button index-button3'
-    style={{marginTop:"-100px"}}
-    
-    >
-      View Projects
-    </button>
-  </Carousel.Caption>
-</Carousel.Item>
-
-
-       
-      </Carousel>
-    </div>
-  );
+  )
 }
 
-export default Index1;
+export default Abouthead
