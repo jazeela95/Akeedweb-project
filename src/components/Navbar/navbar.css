@@ -32,6 +32,13 @@
 {
   color:white;
 }
+.custlinkcontact
+{
+  color: var(--bs-nav-link-color);
+}
+.custlinkcontact:hover{
+  color:rgb(250, 19, 96);
+}
 .navbar-container.show {
     top: 0; /* Slide down to top of the viewport */
   }

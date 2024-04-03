@@ -1,25 +1,28 @@
-import React, { useState } from 'react';
-import "./index1.css"
-import { Carousel, Button } from 'react-bootstrap';
+
+import React, { useState } from 'react'
+import "./portfoliopages.css"
+// import { Link} from 'react-router-dom';
+// import {  Row, Table,Label, FormGroup, Col, Form, FormLabel, FormControl } from 'react-bootstrap';
+import {  Button} from 'react-bootstrap';
 import { Navbar as BootstrapNavbar, Nav, NavDropdown } from 'react-bootstrap';
-import backimg1 from "../../assets/images/slide1-shape3.png";
-import backimg2 from "../../assets/images/slide1-shape1.png";
-import backimg3 from "../../assets/images/slide1-shape2.png";
-import manhome from "../../assets/images/slide1-mckp1.png";
 import SearchIcon from '@mui/icons-material/Search';
 import DensityMediumIcon from '@mui/icons-material/DensityMedium';
 import logo from "../../assets/images/akeedlogo.png";
-import man2 from "../../assets/images/man2.png"
-import backimg4 from "../../assets/images/slide2-shape1.png"
-import feat from "../../assets/images/parallax2.jpg"
-import para from "../../assets/images/parallax1.jpg"
-import port from "../../assets/images/port-img1-4.jpg"
 import CloseIcon from '@mui/icons-material/Close';
 import { Link } from 'react-router-dom';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
-const Index1 = () => {
-  // show searchbar
+import contacthead from "../../assets/images/parallax1.jpg";
+import CottageIcon from '@mui/icons-material/Cottage';
+// import port1 from "../../assets/images/port-img1-1.jpg"
+// import port2 from "../../assets/images/port-img1-2.jpg"
+// import port3 from "../../assets/images/port-img1-3.jpg"
+// import port4 from "../../assets/images/port-img1-4.jpg"
+// import port5 from "../../assets/images/port-img1-5.jpg"
+import port6 from "../../assets/images/port-img1-6.jpg"
+// import port7 from "../../assets/images/port-img1-7.jpg"
+const Portfoliopages = () => {
+      // show searchbar
   const [showForm, setShowForm] = useState(false);
 
   const handleClick = () => {
@@ -68,11 +71,12 @@ const handleResetDropdowns = () => {
 };
 
   return (
-    <div style={{ position: "relative",overflow:"hidden" }} className='index-main-bar'>
-      <div style={{ display: "flex" }} className='index-top'>
+    
+        <div style={{ position: "relative",overflow:"hidden" }} className='index-main-bar'>
+      <div style={{ display: "flex" }} className='aboutheadtop'>
             <div className='homemain-topbar-left'>
               <div className='homemain-topbar-left-logodiv'>
-              <Link to="/"><img className='homemain-topbar-left-img' src={logo} alt="" style={{cursor:"pointer"}} /></Link>
+              <Link to="/"> <img className='homemain-topbar-left-img' style={{cursor:"pointer"}} src={logo} alt="" /></Link>
               </div>
             </div>
             <div className='homemain-topbar-right'>
@@ -153,12 +157,14 @@ const handleResetDropdowns = () => {
         onMouseLeave={handleResetDropdowns}
     >
          {dropdownStates.about && (
-          <div>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Something else here</NavDropdown.Item>
-              
-              </div>
+          <div className='nav-dropdown-items'>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/digitalmarketing" className='custlink'>Digital Marketing</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/webdesign" className='custlink'>Web Design</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/mobileapp" className='custlink'>Mobile App</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/ai-technology" className='custlink'>AI-Technology</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/video-product" className='custlink'>Video-Prduction</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/brandDesign" className='custlink'>Brand-Designing</Link></NavDropdown.Item>
+          </div>
         )}
         </NavDropdown>
         <NavDropdown
@@ -244,189 +250,35 @@ const handleResetDropdowns = () => {
               </div>
             </div>
           </div>
-      <Carousel interval={8000} ride="carousel" style={{ position: "relative" }}>
-        <Carousel.Item className='caroselitem1'>
-          <div className='homemain-maindiv'>
-            <div className='homemain-topbar-backimg2div'>
-              <img src={backimg2} alt="" className='homemain-topbar-backimg2' />
-            </div>
-            <div className='homemain-topbar-backimg3div'>
-              <img src={backimg3} alt="" className='homemain-topbar-backimg3' />
-            </div>
-            <div className='homemain-topbar-backimg1div'>
-              <img src={backimg1} alt="" className='homemain-topbar-backimg1' />
-            </div>
-            <div className='homemain-topbar'>
-              <div className='homemain-bottombar'>
-                <div className='homemain-bottombar-left'></div>
-                <div className='homemain-bottombar-right'>
-                  <div >
-                    <img src={manhome} alt="" className='homemain-bottombar-rightimg' />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <Carousel.Caption className='carosel-caption'>
-            <span
-              className='homemain-bottombar-left-cardhead head1'
-            >
-              Creative
-            </span>
-            <span className='homemain-bottombar-left-cardcont cardcont1'>
-              Our expert team of certified professionals with extensive industry experience brings high-quality service to our clients.
-            </span>
-             <button className='about-right-main-button index-button index-button1'>
-             <Link to="/digitalmarketing" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>
-              Read more
-              </Link></button>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item className='carousel2'>
-  <div className='homemain-maindiv'>
-    
-    <div className='homemain-topbar-backimg3div'>
-      <img src={backimg4} alt="" className='homemain-topbar-backimg4' />
-    </div>
-    
-    <div className='homemain-topbar'>
-      <div className='homemain-bottombar'>
-        <div className='homemain-bottombar-left'></div>
-        <div className='homemain-bottombar-right'>
-          <div>
-            <img src={man2} alt="" className='curser2-img' />
-          </div>
+        <div className='aboutheadtop-imagediv'>
+        <img src={contacthead} alt="" className='aboutheadtop-img'/>
+        <div className='aboutheadtop-imagediv-span' style={{color:"black",textDecoration:"none"}}>
+        Portfolio
+            <span>.</span>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <Carousel.Caption className='carosel-caption'>
-    <span className='homemain-bottombar-left-cardhead head2' >
-      Creative your Website
-    </span>
-    <span className='homemain-bottombar-left-cardcont cardcont2'>
-      We add creativity to your business,Good design of your website is key to creating easy navigation for
-      visitors; Which increases user conversions into customers
-    </span>
-    <button className='about-right-main-button index-button index-button2'>
-    <Link to="/webdesign" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>
-    Read more
-      </Link>
-    </button>
-  </Carousel.Caption>
-</Carousel.Item>
-  <Carousel.Item className='carousel3'>
-  <div className='homemain-maindiv'>
-    <div className='homemain-topbar'>
-      <div className='homemain-bottombar'>
-        <div className='homemain-bottombar-left'></div>
-        <div className='homemain-bottombar-right'>
-          <div>
-            <img src={feat} alt="" className='curser3-img' />
-          </div>
+        <div className='aboutheadtop-imagediv-bottom'>
+            <CottageIcon className='aboutheadtop-imagediv-bottom-logo'/>
+            <div className='aboutheadtop-imagediv-bottom-span' >portfolio</div>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <Carousel.Caption className='carosel-caption '>
-    <span homemain-bottombar-left-cardhead style={{zIndex:"1000"}} className='homemain-bottombar-left-cardhead head3'>
-      Creative MobileApp
-    </span>
-    <span
-      
-      className='homemain-bottombar-left-cardcont cont3'
-    >
-      We add creativity to your business,Good design of your website is key to creating easy navigation for
-      visitors; Which increases user conversions into customers
-    </span>
-    <button
-    className='about-right-main-button index-button index-button3'
-    
-    >
-      <Link to="/mobileapp" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>
-      Read more
-      </Link>
-    </button>
-  </Carousel.Caption>
-</Carousel.Item>
-  <Carousel.Item className='carousel4'>
-  <div className='homemain-maindiv'>
-    <div className='homemain-topbar'>
-      <div className='homemain-bottombar'>
-        <div className='homemain-bottombar-left'></div>
-        <div className='homemain-bottombar-right'>
-          <div>
-            <img src={para} alt="" className='curser4-img' />
-          </div>
+        <div className='portfolio-main'>
+            <div className='portfolio-main-left'>
+            <div className='portfolio-main-left-one'>
+                    <img src={port6} alt="" className='portfolio-main-left-one-img'/>
+                <div className='portfolio-main-left-one-spandiv'>
+                    <div className='port-bottom-left-right-span1 port1span1'>AI Technologies</div>
+                    <div className='port-bottom-left-right-span2 port1span2'>solution</div>
+                
+                <button className='about-right-main-button portpage1button' ><Link to="/aboutpages" className='customport-link'>Read More</Link></button>
+                    </div>
+                    </div>
+            </div>
+            <div className='portfolio-main-right'></div>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <Carousel.Caption className='carosel-caption '>
-    <span homemain-bottombar-left-cardhead style={{zIndex:"1000"}} className='homemain-bottombar-left-cardhead head4'>
-      Social Media & vedio Making
-    </span>
-    <span
-      
-      className='homemain-bottombar-left-cardcont cont4'
-    >
-     We specialize in creating valuable content for brands and businesses. We will make sure your message is delivered through our wealth of expertise.
-    </span>
-    <button
-    className='about-right-main-button index-button index-button3'
-    
-    >
-      <Link to="/video-product" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>
-      Read more
-      </Link>
-    </button>
-  </Carousel.Caption>
-</Carousel.Item>
-  <Carousel.Item className='carousel5'>
-  <div className='homemain-maindiv'>
-    <div className='homemain-topbar'>
-      <div className='homemain-bottombar'>
-        <div className='homemain-bottombar-left'></div>
-        <div className='homemain-bottombar-right'>
-          <div>
-            <img src={port} alt="" className='curser5-img' />
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <Carousel.Caption className='carosel-caption '>
-    <span homemain-bottombar-left-cardhead style={{zIndex:"1000"}} className='homemain-bottombar-left-cardhead head5'>
-      AI Technologies
-    </span>
-    <span
-      
-      className='homemain-bottombar-left-cardcont cont5'
-    >
-      This technology add a new way to suggest the user while searching integration of Machine Learning, voice recognition, and image recognition, etc in mobile apps takes the experience to the high level.
-    </span>
-    <button
-    className='about-right-main-button index-button index-button3'
-    style={{marginTop:"-100px"}}
-    
-    >
-      <Link to="/ai-technology" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>
-      Read more
-      </Link>
-    </button>
-  </Carousel.Caption>
-</Carousel.Item>
-
-
+        
        
-      </Carousel>
     </div>
-  );
+  )
 }
 
-export default Index1;
+export default Portfoliopages

@@ -402,7 +402,7 @@ margin-top: 20px !important;
 {
     height: 100% !important;
     top:0;
-    opacity: 0.9;
+    opacity: 0.9
     /* width:52.5%; */
 }
 .port-bottom-left-left:hover .port-bottom-left-left-span1
@@ -461,7 +461,7 @@ margin-top: 20px !important;
     opacity: 0.9;
     position: absolute;
     z-index: 1000;
-    width: 100%;
+    width: 100% !important;
     height: 100px;
     top:290px;
     text-align: left !important;

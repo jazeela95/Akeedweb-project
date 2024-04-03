@@ -1,10 +1,8 @@
 import React from 'react';
 import { Card, Carousel } from 'react-bootstrap';
 import serviceDetails from "./serviceDetails";
-// import { motion } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./services.css"; // Import your custom CSS file for styling
-
 const Service = () => {
   // Function to chunk the serviceDetails array into groups of 3
   const chunkArray = (arr, chunkSize) => {
@@ -21,7 +19,7 @@ const Service = () => {
   return (
     
       <div className='cardmaindiv'>
-        <Carousel interval={10000} pause={false} wrap={true}> {/* Auto sliding every 5 seconds */}
+        <Carousel interval={8000} pause={false} wrap={true}> {/* Auto sliding every 5 seconds */}
           {chunkedDetails.map((chunk, chunkIndex) => (
             <Carousel.Item key={chunkIndex}>
               <div className='servicescardmaindiv'>

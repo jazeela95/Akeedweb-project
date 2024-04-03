@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./ai-technology.css"
 import {  Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import CottageIcon from '@mui/icons-material/Cottage';
+// import CottageIcon from '@mui/icons-material/Cottage';
 import webdesign from "../../../assets/images/pattern4.jpg"
 import SearchIcon from '@mui/icons-material/Search';
 import DensityMediumIcon from '@mui/icons-material/DensityMedium';
@@ -129,9 +129,12 @@ const handleDropdownLeave = () => {
                 onMouseEnter={() => handleDropdownEnter(setShowaboutDropdown)}
                 onMouseLeave={handleDropdownLeave}>
                   <div className='nav-dropdown-items'>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Something else here</NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/digitalmarketing" className='custlink'>Digital Marketing</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/webdesign" className='custlink'>Web Design</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/mobileapp" className='custlink'>Mobile App</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/ai-technology" className='custlink'>AI-Technology</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/video-product" className='custlink'>Video-Prduction</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/brandDesign" className='custlink'>Brand-Designing</Link></NavDropdown.Item>
                 </div>
               </NavDropdown>
               <NavDropdown title="Portfolio" 

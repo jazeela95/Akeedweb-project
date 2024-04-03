@@ -84,12 +84,13 @@
 }
 .about-right-main-button
 {
-    background-color: ;
+    background-color:rgb(250, 19, 96) ;
     color: white;
     height: 50px;
     width: 150px;
     border-color: rgb(250, 19, 96);
     margin-top: 50px;
     cursor: pointer;
+    font-weight: 600;
     background-color: rgb(250, 19, 96) !important;
 }

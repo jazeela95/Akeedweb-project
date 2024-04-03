@@ -44,9 +44,15 @@
 .brandbutton
 {
     background-color: rgb(250, 19, 96);
-    padding-top: 0px !important;
-    position: relative;
+    border-color:rgb(250, 19, 96) ;
+    padding-top: -90px !important;
+    position: absolute;
+    align-items: center !important;
+    justify-content: center !important;
+    line-height:0%;
+    font-weight: bold;
     /* text-align: center; */
+    /* width: 130px; */
 }
 .about-right-main-button:hover{
     color:black;
@@ -62,7 +68,7 @@
 }
 .brand-card
 {
-    margin-top: 140px !important;
+    margin-top: 220px !important;
     display: flex;
     width: 1150px !important;
     margin-left: 11%;
@@ -80,9 +86,10 @@
 }
 .brand-card-1-img
 {
-    width: 383px;
+    width: 380px;
     height: 217px;
     object-fit: cover;
+    margin-left: 3px;
     
 }
 .brand-card-1-div1
@@ -102,4 +109,106 @@
     height: 30px;
     margin: 40px;
     margin-left: 1px;
+}
+.brand4thdiv
+{
+    background: linear-gradient(90deg, rgba(103, 57, 182, 1) 0%, rgba(0, 127, 251, 1) 100%);
+    height:350px;
+    width: 100%;
+    /* padding-left: 80px; */
+}
+.brand4thdiv-top
+{
+    margin-top: 140px !important;
+    display: flex;
+    width: 1150px !important;
+    margin-left: 11% !important;
+    text-align: left;
+    /* margin-bottom: 60px; */
+}
+.brand4thdiv-bottom
+{
+    margin-top: -40px !important;
+    display: flex;
+    width: 1150px !important;
+    margin-left: 11%;
+    text-align: left;
+    /* margin-bottom: 60px; */
+}
+.brand4thdivdivs
+{
+    margin-top: 100px !important;
+    flex: 1;
+}
+.brand4thdivdivs-span
+{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.0625rem;
+    color: white;
+}
+.brand4thdivdivs-shape
+{
+    display: flex;
+    width:300px;
+    margin-left: 160px !important;
+
+}
+.brand4thdivdivs-shape2
+{
+    height: 1.25rem;
+    background-color: rgba(255, 255, 255, .15);
+    margin-top: 0.625rem;
+    width: 100% !important;
+    position: relative;
+    border-radius: 50rem;
+    /* margin-left: 120px !important; */
+}
+.brand4thdivdivs-shape1
+{
+    height: 1.25rem;
+    background-color: yellow;
+    margin-top: 0.625rem;
+    width: 30% !important;
+    position: absolute;
+    border-radius: 5rem;
+    z-index: 1000;
+    left: 40px;
+    margin-left: 120px;
+}
+.brand4thdivdivs-shape-span
+{
+    position: absolute;
+    left: 660px !important;
+    bottom:190px !important;
+    color:white;
+    font-weight: bold;
+    /* font-size: 0.875rem; */
+}
+.shape11
+{
+    left: 720px;
+    width:28% !important; 
+}
+.span11
+{
+    left: 1340px !important; 
+}
+.span1
+{
+    left: 660px !important;  
+    bottom:75px !important
+}
+.span2{
+    bottom:75px !important;
+    left: 1340px !important; 
+}
+.shape111
+{
+    width:30.5% !important;
+}
+.shape12
+{
+    width: 29% !important;
 }

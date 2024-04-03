@@ -54,10 +54,11 @@ const Portfolium = () => {
             <div className='port-bottom-left-left'>
                     <div className='port-bottom-left-leftdiv'>
                     <img src={port5} alt="" className='port-bottom-left-left-img'/>
-                <div className='port-bottom-left-spandiv'>
+                <div className='port-bottom-left-spandiv' style={{width:"100%"}}>
                     <div className='port-bottom-left-left-span1'>Website</div>
                     <div className='port-bottom-left-left-span2'>Developement</div>
                 </div>
+                    </div>
                     </div>
                     <div className='port-bottom-left-right'>
                     <img src={port6} alt="" className='port-bottom-left-right-img'/>
@@ -66,7 +67,7 @@ const Portfolium = () => {
                     <div className='port-bottom-left-right-span2'>solution</div>
                 </div>
                     </div>
-                </div>
+                
             </div>
             <div className='port-bottom-right'>
             <img src={port7} alt="" className='port-bottom-right-img'/>

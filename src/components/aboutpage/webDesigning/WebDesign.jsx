@@ -259,12 +259,14 @@ const handleDropdownLeave = () => {
         onMouseLeave={handleResetDropdowns}
     >
          {dropdownStates.about && (
-          <div>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Something else here</NavDropdown.Item>
-              
-              </div>
+          <div className='nav-dropdown-items'>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/digitalmarketing" className='custlink'>Digital Marketing</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/webdesign" className='custlink'>Web Design</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/mobileapp" className='custlink'>Mobile App</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/ai-technology" className='custlink'>AI-Technology</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/video-product" className='custlink'>Video-Prduction</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/brandDesign" className='custlink'>Brand-Designing</Link></NavDropdown.Item>
+          </div>
         )}
         </NavDropdown>
         <NavDropdown

@@ -4,7 +4,7 @@ import {  Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import CottageIcon from '@mui/icons-material/Cottage';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import webdesign from "../../../assets/images/webdesign.avif"
+// import webdesign from "../../../assets/images/webdesign.avif"
 import SearchIcon from '@mui/icons-material/Search';
 import DensityMediumIcon from '@mui/icons-material/DensityMedium';
 import logo from "../../../assets/images/akeedlogo.png";
@@ -12,12 +12,12 @@ import CloseIcon from '@mui/icons-material/Close';
 import { Navbar as BootstrapNavbar, Nav, NavDropdown } from 'react-bootstrap';
 import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
-import CameraIcon from '@mui/icons-material/Camera';
-import Diversity2Icon from '@mui/icons-material/Diversity2';
-import ExtensionIcon from '@mui/icons-material/Extension';
+// import CameraIcon from '@mui/icons-material/Camera';
+// import Diversity2Icon from '@mui/icons-material/Diversity2';
+// import ExtensionIcon from '@mui/icons-material/Extension';
 import DoneIcon from '@mui/icons-material/Done';
 import port from "../../../assets/images/port-img1-4.jpg"
-import des from "../../../assets/images/post-img1-1.png"
+// import des from "../../../assets/images/post-img1-1.png"
 import brandcr1 from "../../../assets/images/post-img1-2.png"
 import brandcr2 from "../../../assets/images/post-img1-1.png"
 import brandcr3 from "../../../assets/images/port-img1-7.jpg"
@@ -264,12 +264,14 @@ const handleDropdownLeave = () => {
         onMouseLeave={handleResetDropdowns}
     >
          {dropdownStates.about && (
-          <div>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Something else here</NavDropdown.Item>
-              
-              </div>
+          <div className='nav-dropdown-items'>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/digitalmarketing" className='custlink'>Digital Marketing</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/webdesign" className='custlink'>Web Design</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/mobileapp" className='custlink'>Mobile App</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/ai-technology" className='custlink'>AI-Technology</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/video-product" className='custlink'>Video-Prduction</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/brandDesign" className='custlink'>Brand-Designing</Link></NavDropdown.Item>
+          </div>
         )}
         </NavDropdown>
         <NavDropdown
@@ -363,8 +365,9 @@ const handleDropdownLeave = () => {
             <div className='brandhead-left-span2'>We Create Unique Branding</div>
             <div className='brandhead-left-span3'>We are professional Designer</div>
             <div>
-            <Link to="/aboutpages"><button className='about-right-main-button brandbutton' style={{fontSize:"15px",marginTop:"30px",backgroundColor:"rgb(250, 19, 96",paddingTop:"-10px",height:"50px"}}>
-                ABOUT US</button></Link>
+            <Link to="/"><button className='about-right-main-button brandbutton' style={{fontSize:"15px",marginTop:"30px",backgroundColor:"rgb(250, 19, 96",paddingTop:"-90px",height:"50px"}}>
+               HIRE HERE
+               </button></Link>
                 </div>
             </div>
             <div className='brandhead-right'>
@@ -411,30 +414,62 @@ clarify your desired message.</div>
               <div className='diglast-div-left'>
               <img src={port} alt="" className='curser5-img web-img' />
               </div>
-              <div className='diglast-div-right'>
+              <div className='diglast-div-right' style={{marginBottom:"-30px"}}>
                 <div className='diglast-div-right-one'>
-                We have solution for <span style={{color:'rgb(250, 19, 96)'}}>Social Medai & <br></br>Video Production</span>
+                We Create Unique <span style={{color:'rgb(250, 19, 96)'}}> Branding</span>
                 </div>
                 <div className='diglast-div-right-2'>
-                We specialize in creating valuable content for brands 
-and businesses. We will make sure your message is delivered through our wealth of expertise. We use cutting 
-edge technology which provides us with flexibility and 
-agility in every shoot. We are driven through our love for 
-film and promise to be the production partner you can 
-always count on.
+                <div className='diglast-div-right-2 ai-second-div-left-span3' style={{fontWeight:"normal"}}>
+                    <DoneIcon className='digital-points-icon'/> Branding Materials<br></br>
+                    <DoneIcon className='digital-points-icon'/>  Other Creative Services<br></br>
+                   <DoneIcon className='digital-points-icon'/> Responsive designs<br></br>
+                   <DoneIcon className='digital-points-icon'/>Distinctive designs<br></br>
+                   <DoneIcon className='digital-points-icon'/> Expert work team<br></br>
+                   <DoneIcon className='digital-points-icon'/> Reflects the desired message<br></br>
                 </div>
-                <Link to="/aboutpages"><button className='about-right-main-button' >ABOUT US</button></Link>
+                </div>
+                <Link to="/aboutpages"><button className='about-right-main-button' style={{marginTop:"45px"}} >ABOUT US</button></Link>
               </div>
             </div>
             <div className='video-4th-div'>
-                <div className='web-4th-div-div'>
-                    <div className='web-4th-div-div-left' style={{marginTop:"-20px"}}>
-                        <img src={des} alt="" className='web-4th-div-div-left-img'/>
+                <div className='brand4thdiv' >
+                    <div className='brand4thdiv-top'>
+                      <div className='brand4thdivdivs'>
+                        <span className='brand4thdivdivs-span'>Responsive designs</span>
+                        <div className='brand4thdivdivs-shape'>
+                        <div className='brand4thdivdivs-shape1'></div>
+                        <div className='brand4thdivdivs-shape2'></div>
+                        <div className='brand4thdivdivs-shape-span'>90%</div>
+                        </div>
+                      </div>
+                      <div className='brand4thdivdivs' style={{marginLeft:"200px"}}>
+                        <span className='brand4thdivdivs-span'>Distinctive designs</span>
+                        <div className='brand4thdivdivs-shape'>
+                        <div className='brand4thdivdivs-shape1 shape11'></div>
+                        <div className='brand4thdivdivs-shape2'></div>
+                        <div className='brand4thdivdivs-shape-span span11'>80%</div>
+                        </div>
+                      </div>
                     </div>
-                    <div className='web-4th-div-div-right' style={{color:"black",fontSize:"30px",marginBottom:"20px"}}>
-                    to the means of interactions among people in which they create, 
-                    share, and/or exchange information and ideas in virtual communities and networks. 
+                    <div className='brand4thdiv-bottom'>
+                    <div className='brand4thdivdivs'>
+                        <span className='brand4thdivdivs-span'>Expert work team</span>
+                        <div className='brand4thdivdivs-shape'>
+                        <div className='brand4thdivdivs-shape1 shape12'></div>
+                        <div className='brand4thdivdivs-shape2'></div>
+                        <div className='brand4thdivdivs-shape-span span1 '>85%</div>
+                        </div>
+                      </div>
+                      <div className='brand4thdivdivs' style={{marginLeft:"200px"}}>
+                        <span className='brand4thdivdivs-span'>Reflects the desired message</span>
+                        <div className='brand4thdivdivs-shape'>
+                        <div className='brand4thdivdivs-shape1 shape11 shape111'></div>
+                        <div className='brand4thdivdivs-shape2'></div>
+                        <div className='brand4thdivdivs-shape-span span2'>95%</div>
+                        </div>
+                      </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

@@ -14,7 +14,7 @@ const serviceDetails=[
     {
     id:"3",
     servicename:"SMART APP SOLUTION",
-    Details:"",
+    Details:"The demand for new technology has opened the entryway for brilliant mobile applications created and utilized by individuals for some reasons. The improvement of such a mobile application is normally called app development.",
     image:"serv-icon2",
     },
     {

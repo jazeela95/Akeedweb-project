@@ -1,6 +1,5 @@
-// import logo from '../public/akeed.png';
+
 import './App.css';
-// import Navbar from './components/Navbar/Navbar';
 import Footer from './components/footer/Footer';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Webdesig from './components/webdisigndetails/Webdesig';
@@ -25,6 +24,8 @@ import Mobileapp from './components/aboutpage/mobileapp/Mobileapp';
 import Aitechnology from './components/aboutpage/Aitechnology/Ai-technology';
 import Videoproduction from './components/aboutpage/videoproduction/Videoproduction';
 import BrandDesign from './components/aboutpage/Brandingpage/BrandDesign';
+import Contactus from './components/contact/Contactus';
+// import Portfoliopages from './components/portfoliopages/portfoliopages';
 
 
 function App() {
@@ -54,6 +55,8 @@ function App() {
         <Route path="/ai-technology" element={<Aitechnology/>}/>
         <Route path="/video-product" element={<Videoproduction/>}/>
         <Route path="/brandDesign" element={<BrandDesign/>}/>
+        <Route path="/contactus" element={<Contactus/>}/>
+        {/* <Route path="/portfoliopages1" element={<Portfoliopages/>}/> */}
         
         </Routes>
         <Footer/>

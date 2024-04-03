@@ -1,0 +1,197 @@
+.mobileapp-main
+{
+    /* display: flex; */
+    width: 1150px;
+    margin-left: 11%;
+    margin-top: 110px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+.mobileapp-main-redspan
+{
+    color:rgb(250, 19, 96);
+    font-weight: bold;
+}
+.mobileapp-main-headspan
+{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 50px;
+}
+.mobileapp-main-paraspan
+{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+    line-height: 40px;
+    color: rgb(102, 101, 101);
+}
+.mobilecard-div
+{
+    width: 1150px;
+    margin-left: 11%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between !important; /* Adjust alignment as needed */
+    /* margin-left: 100px; */
+    /* margin-top: 70px; */
+    margin-right: 60px;
+    cursor: pointer;
+}
+.mobilecard-1
+{
+    width: 31%;
+    height:320px;
+    background-color: #afeff9; /* Background color of the card */
+  border-radius: 8px; /* Rounded corners for the card */
+  box-shadow: 12px 9px 9px rgba(23, 20, 20, 0.1);
+  padding: 30px;
+  position: relative;
+  border: none;
+    
+}
+.mobilecard-2
+{
+    width: 31%;
+    height:320px;
+    background-color: #faf03d; /* Background color of the card */
+  border-radius: 8px; /* Rounded corners for the card */
+  box-shadow: 12px 9px 9px rgba(23, 20, 20, 0.1);
+  padding: 30px;
+  position: relative;
+  border: none;
+    
+}
+.mobilecard-3
+{
+    width: 31%;
+    height:320px;
+    background-color: #b0b3b4; /* Background color of the card */
+  border-radius: 8px; /* Rounded corners for the card */
+  box-shadow: 12px 9px 9px rgba(23, 20, 20, 0.1);
+  padding: 30px;
+  position: relative;
+  border: none;
+    
+}
+.mobilecard-div-imgdiv
+{
+    width:100px !important;
+    height:100px !important;
+    background-color: rgb(232, 234, 236);
+    border-radius: 20px !important;
+    position: absolute;
+    top:-40px;
+    left: 15px;
+}
+.mobilecard-1-image
+{
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.mobilecard-1-head
+{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.mobilecard-1-desrp
+{
+    text-align: justify;
+    font-size: 18px;
+}
+.chooseusmain
+{
+    width: 1150px;
+    margin-left: 11%;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+.chooseusmain-lastdiv
+{
+    display: flex;
+    margin-top: 30px;
+}
+.chooseusmain-lastdiv-div1
+{
+    width:360px !important;
+    /* text-align: center; */
+    /* background-color: red; */
+}
+.chooseusmain-lastdiv-div2
+{
+    width:420px !important;
+    
+}
+.chooseusmain-lastdiv-div2-img
+{
+    width:420px;
+    height: 920px;
+    object-fit: cover;
+    margin: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.chooseusmain-lastdiv-div1-card
+{
+    width: 100% !important;
+    height:280px;
+  padding: 10px;
+  margin-top: 40px;
+  box-shadow: 1px 1px 0px rgba(23, 20, 20, 0.1);
+  /* position: relative; */
+  border: none;
+}
+.chooseusmain-lastdiv-div1-imgdiv
+{
+    width:80px;
+    height: 80px !important;
+    background-color:rgb(250, 19, 96);
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.chooseus-image
+{
+    height: 70px !important;
+    width: 50px !important;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.chooseusmain-lastdiv-div3
+{
+    width:360px !important;
+}
+.mobile-4th-div
+{
+    width: 100% !important;
+    height:350px;
+    background-color:rgb(254, 150, 167) ;
+    position: relative;
+}
+.mobile-4th-div-imgdiv
+{
+    position:absolute;
+    height: 280px;
+    width:220px;
+   z-index: 1000;
+   top:30px;
+   left:1000px;
+   transform: rotate(20deg);
+
+}
+.mobile-4th-div-img
+{
+    /* position:absolute; */
+    height: 280px;
+    width:220px;
+    object-fit: cover;
+    border-radius: 20px;
+
+
+}

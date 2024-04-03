@@ -11,8 +11,8 @@ import { Navbar as BootstrapNavbar, Nav, NavDropdown } from 'react-bootstrap';
 import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
 import CameraIcon from '@mui/icons-material/Camera';
-import Diversity2Icon from '@mui/icons-material/Diversity2';
-import ExtensionIcon from '@mui/icons-material/Extension';
+// import Diversity2Icon from '@mui/icons-material/Diversity2';
+// import ExtensionIcon from '@mui/icons-material/Extension';
 import DoneIcon from '@mui/icons-material/Done';
 import port from "../../../assets/images/port-img1-4.jpg"
 import des from "../../../assets/images/post-img1-1.png"
@@ -131,10 +131,13 @@ const handleDropdownLeave = () => {
                 show={showaboutDropdown}
                 onMouseEnter={() => handleDropdownEnter(setShowaboutDropdown)}
                 onMouseLeave={handleDropdownLeave}>
-                  <div className='nav-dropdown-items'>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Something else here</NavDropdown.Item>
+                 <div className='nav-dropdown-items'>
+                <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/digitalmarketing" className='custlink'>Digital Marketing</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/webdesign" className='custlink'>Web Design</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/mobileapp" className='custlink'>Mobile App</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/ai-technology" className='custlink'>AI-Technology</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/video-product" className='custlink'>Video-Prduction</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/brandDesign" className='custlink'>Brand-Designing</Link></NavDropdown.Item>
                 </div>
               </NavDropdown>
               <NavDropdown title="Portfolio" 

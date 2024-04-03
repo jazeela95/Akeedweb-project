@@ -153,12 +153,14 @@ const handleResetDropdowns = () => {
         onMouseLeave={handleResetDropdowns}
     >
          {dropdownStates.about && (
-          <div>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Something else here</NavDropdown.Item>
-              
-              </div>
+          <div className='nav-dropdown-items'>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/digitalmarketing" className='custlink'>Digital Marketing</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/webdesign" className='custlink'>Web Design</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/mobileapp" className='custlink'>Mobile App</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/ai-technology" className='custlink'>AI-Technology</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/video-product" className='custlink'>Video-Prduction</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#" className='navdropdown-item'><Link to="/brandDesign" className='custlink'>Brand-Designing</Link></NavDropdown.Item>
+          </div>
         )}
         </NavDropdown>
         <NavDropdown
@@ -284,8 +286,11 @@ const handleResetDropdowns = () => {
         <div className='aboutpagehead-points'>
         <Table>
                 <tr>
-                   <td ><ArrowRightIcon className='aboutpagehead-points-icon'/><Link to="/digitalmarketing" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>Digital Marketing</Link></td> 
-                    <td><ArrowRightIcon className='aboutpagehead-points-icon'/><Link to="/webdesign" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>Website Development</Link> </td>
+                   <td ><ArrowRightIcon className='aboutpagehead-points-icon'/>
+                   <Link to="/digitalmarketing" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>
+                    Digital Marketing</Link></td> 
+                    <td><ArrowRightIcon className='aboutpagehead-points-icon'/>
+                    <Link to="/webdesign" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>Website Development</Link> </td>
                 </tr>
                 <tr>
                     <td><ArrowRightIcon className='aboutpagehead-points-icon'/><Link to="/mobileapp" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>Smart Mobile Apps</Link></td>

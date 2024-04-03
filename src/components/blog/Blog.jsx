@@ -7,6 +7,7 @@ import funcimg from "../../assets/images/parallax2.jpg"
 import funct1 from "../../assets/images/serv-icon1.png"
 import funct2 from "../../assets/images/feat-icon2.png"
 import funct3 from "../../assets/images/feat-icon3.png"
+import { Link } from 'react-router-dom'
 export const Blog = () => {
   return (
     <div className='blog-main-div'>
@@ -14,7 +15,7 @@ export const Blog = () => {
         <div className='bloghead-span1'>Latest blog</div>
         <div className='bloghead-span2'> Around Our Agency</div>
       </div>
-         <Carousel interval={4000} pause={false} wrap={true}> {/* Auto sliding every 5 seconds */}
+         <Carousel interval={8000} pause={false} wrap={true}> {/* Auto sliding every 5 seconds */}
             <Carousel.Item>
               <div className='carousel-item1-frst'>
                 <div className='carousel-item1-left'>
@@ -23,7 +24,10 @@ export const Blog = () => {
                     <div className='carousel-item1-frst-left-third'>
                     You can get designs that are responsive to all screens and electronic devices, even smart phones and ill get your designs unique and suitable for everything new
                     </div>
-                    <button className='about-right-main-button blog-botton'>Read More</button>
+                    <button className='about-right-main-button blog-botton'>
+                    <Link to="/brandDesign" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>Read More
+                    </Link>
+                    </button>
                 </div>
                 <div className='carousel-item1-right'>
                     <img src={blog1} alt="" className='carousel-item1-frst-rightimg'/>
@@ -40,7 +44,11 @@ export const Blog = () => {
                     We add creativity to your business,Good design of your website is key to creating easy navigation for visitors; 
                     Which increases user onversions into customers
                     </div>
-                    <button className='about-right-main-button blog-botton'>Read More</button>
+                    <button className='about-right-main-button blog-botton'>
+                    <Link to="/webdesign" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>
+                      Read More
+                      </Link>
+                      </button>
                 </div>
                 </div>
             </Carousel.Item>
@@ -53,7 +61,11 @@ export const Blog = () => {
                     We specialize in creating valuable content for brands and businesses. 
                     We will make sure your message is delivered through our wealth of expertise.
                     </div>
-                    <button className='about-right-main-button blog-botton'>Read More</button>
+                    <button className='about-right-main-button blog-botton'>
+                    <Link to="/video-product" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>
+                      Read More
+                      </Link>
+                      </button>
                 </div>
                 <div className='carousel-item1-right'>
                     <img src={blog2} alt="" className='carousel-item1-frst-rightimg'/>
@@ -70,7 +82,11 @@ export const Blog = () => {
                     This technology add a new way to suggest the user while searching integration of Machine Learning, voice recognition, and image recognition,
                      etc in mobile apps takes the experience to the high level.
                     </div>
-                    <button className='about-right-main-button blog-botton'>Read More</button>
+                    <button className='about-right-main-button blog-botton'>
+                    <Link to="/ai-technology" onClick={() => window.scrollTo(0, 0)} style={{textDecoration:"none",color:"inherit",textDecorationColor:"white"}}>
+                      Read More
+                      </Link> 
+                      </button>
                 </div>
                 </div>
             </Carousel.Item>
