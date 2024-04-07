@@ -13,14 +13,91 @@
         
     }
 }
-@media screen and (max-width:440px){
+@media screen and (min-width:1000px) and (max-width:1200px){
+    .newslettermain-left{
+        left: 200px !important;
+    }
+    .newslettermain-right-img{
+        width: 90% !important;
+        margin-left: -155px !important;
+    }
+}
+@media screen and (min-width:700px) and (max-width:800px){
+    .newslettermain-left{
+        left: 200px !important;
+        
+    }
+    .newslettermain-right-img{
+        width: 70% !important;
+        margin-left: -450px !important;
+    }
+}
+@media screen and (min-width:400px) and (max-width:500px){
+    .newslettermain-left{
+        left: 20px !important;
+        width: 400px !important;
+    }
+    .newslettermain-right-img{
+        width: 70% !important;
+        margin-left: -450px !important;
+    }
+    .newformicon
+    {
+        top:165px !important
+    }
+}
+@media screen and (min-width:350px) and (max-width:400px){
     .newslettermain
     {
-        width:1450px !important;
-        overflow: hidden !important;
+        height: auto !important;
+        /* margin-bottom: 30px !important; */
+    }
+    .newslettermain-left{
+        left: 20px !important;
+        width: 350px !important;
+        /* height: auto !important; */
+    }
+    .newslettermain-right-img{
+        width: 70% !important;
+        margin-left: -450px !important;
+        height: 350px !important;
+    }
+    .newformicon
+    {
+        top:190px !important;
+        left: 280px !important;
+    }
+    #exampleInputEmail1{
+        margin-left: -10px !important;
+    }
+}
+@media screen and (min-width:310px) and (max-width:350px){
+    .newslettermain
+    {
+        height: auto !important;
+        /* margin-bottom: 30px !important; */
+    }
+    .newslettermain-left{
+        left: 20px !important;
+        width: 280px !important;
+    }
+    .newslettermain-right-img{
+        width: 70% !important;
+        margin-left: -450px !important;
+        height: 350px !important;
+    }
+    .newformicon
+    {
+        top:190px !important;
+        left: 240px !important;
+    }
+    #exampleInputEmail1{
+        margin-left: 10px !important;
+        WIDTH:280PX !important
     }
 }
 .newslettermain-left
+
 {
     position: absolute;
     z-index: 1000;

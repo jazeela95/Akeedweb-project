@@ -21,22 +21,37 @@
 }
 @media screen and (max-width:1440px)
 {
-    .cardmaindiv
-    {
-        width: 1440px !important;
-        margin-right: 0px;
-        
-    }
     .servicescardmaindiv
     {
-        width: 1360px !important;
+        /* width: 1360px !important; */
         overflow: hidden !important;
-        margin-left: 200px !important;
+        margin-left: 100px !important;
         /* margin-right: -80px; */
     }
     
 }
-@media screen and (max-width:420px)
+@media screen and (max-width:1025px)
+{
+    
+    .servicescardmaindiv
+    {
+        /* width: 1360px !important; */
+        overflow: hidden !important;
+        margin-left: 50px !important;
+        /* margin-right: -80px; */
+    }
+    .cardimageservices
+    {
+        margin-left: 60px !important;
+    }
+    .maincardservicesname
+{
+    margin-left: -5px !important;
+}
+    
+    
+}
+@media screen and (min-width: 360px) and (max-width: 430px)
 {
     .servicescardmaindiv
     {
@@ -44,28 +59,82 @@
      display: flex;
      overflow: hidden !important;
      flex-direction: column-reverse !important;
-        
+     margin-left: -20px !important ;
+     /* z-index: 1000; */
+        /* width: 100%; */
     } 
     .maincardservices
     {
-        width:40% !important;
-        margin-left: 230px;
-        font-size: 25px;
+        width:95% !important;
+        /* margin-left: -40px; */
+        padding: 10px !important;
+        /* font-size: 25px; */
     }
+    /* .maincardservicesname
+    {
+    font-size: 10px !important;
+    } */
     .cardimageservices
 {
-    width:150px !important;
-    height: 150px !important;
+    width:100px !important;
+    height: 100px !important;
     object-fit: cover;
-    margin-left: 170px !important;
-    margin-top: 30px;
-    margin-bottom: 20px !important;
+    margin-left: 110px !important;
+    margin-top: 10px;
+    margin-bottom: 10px !important;
 }
-.maincardservicesname
+
+}
+
+@media screen and (min-width:700px) and (max-width:780px)
 {
-    font-size: 30px !important;
+  
+    .maincardservices
+    {
+        width:25.33% !important;
+        margin-left: 10px;
+        
+    } 
+    .cardimageservices
+    {
+        width:100px !important;
+        height: 100px !important;
+        object-fit: cover;
+        margin-left: 50px !important;
+        /* margin-top: 10px; */
+        /* margin-bottom: 20px !important; */
+    }
+} 
+@media screen and (min-width:300px) and (max-width:330px)
+{
+    .servicescardmaindiv
+    {
+        /* width: 420px !important; */
+     display: flex;
+     overflow: hidden !important;
+     flex-direction: column-reverse !important;
+     margin-left: -20px !important  ;
+
+        /* width: 100%; */
+    } 
+    .maincardservices
+    {
+        width:95% !important;
+        
+    }
+    
+    .cardimageservices
+{
+    width:100px !important;
+    height: 100px !important;
+    object-fit: cover;
+    margin-left: 90px !important;
+    margin-top: 10px;
+    /* margin-bottom: 20px !important; */
 }
+
 }
+
 .maincardservices:hover
 {
     box-shadow:  1px 1px 2px 2px rgba(161, 157, 157, 0.2) !important;
@@ -76,7 +145,7 @@
     height: 100px;
     object-fit: cover;
     margin-left: 100px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .maincardservicesname
 {

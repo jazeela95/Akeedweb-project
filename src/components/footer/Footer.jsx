@@ -12,13 +12,13 @@ const Footer = () => {
         <div>
             <img src={akeedlogo} alt="" className='footerlogo'/>
         </div>
-        <div>
-            <span style={{color:"white"}}>IS NOT END, WE JUST THE </span>
+        <div className='footerspan'>
+            <span style={{color:"white"}} >IS NOT END, WE JUST THE </span>
             <span style={{color:"yellow"}}>
             BEGINNING
             </span>
         </div>
-        <div>
+        <div className='FOOTERLOGO-MAIN'>
             <a href="https://www.facebook.com/"><FacebookIcon className='footericons'/></a>
             <a href="https://www.instagram.com/accounts/login/?hl=en"><InstagramIcon className='footericons'/></a>
             <a href="https://twitter.com/i/flow/login"> <TwitterIcon className='footericons'/></a>

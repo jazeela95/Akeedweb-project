@@ -36,9 +36,9 @@ function App() {
   return (
       <div className="App">
         <Navbar/>
-        <Routes>
+         <Routes> 
         <Route path="/" element={<Home/>}></Route>
-        <Route path="/services" element={<Service/>} />
+         <Route path="/services" element={<Service/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/portfolio" element={<Portfolium/> } />
         <Route path="/video" element={<Video/>} />
@@ -46,8 +46,8 @@ function App() {
         <Route path="/blog" element={<Blog/>} />
         <Route path="/clientlogo" element={<Clientlogo/>} />
         <Route path="/newsletter" element={<Newletter/>} />
-        <Route path="/index1" element={<Index1/>}/>
-        <Route path="/aboutpages" element={<Aboutpage/>}/>
+        {/* <Route path="/index1" element={<Index1/>}/> */}
+         <Route path="/aboutpages" element={<Aboutpage/>}/> 
         <Route path="/aboutpagehead" element={<Abouthead/>}/>
         <Route path="/digitalmarketing" element={<Digitalmarketing/>}/>
         <Route path="/webdesign" element={<WebDesign/>}/>
@@ -56,11 +56,11 @@ function App() {
         <Route path="/video-product" element={<Videoproduction/>}/>
         <Route path="/brandDesign" element={<BrandDesign/>}/>
         <Route path="/contactus" element={<Contactus/>}/>
-        {/* <Route path="/portfoliopages1" element={<Portfoliopages/>}/> */}
-        
+        {/* <Route path="/portfoliopages1" element={<Portfoliopages/>}/> */} */}
+         
         </Routes>
         <Footer/>
-        <Webdesig/>
+        <Webdesig/> 
         
         
     

@@ -1,21 +1,18 @@
 .webmain
 {
     background-color: black;
-    width: 100%;
+    max-width: 100%;
     height: 80px;
     color:gray;
     padding-top: 30px;
+    overflow-x: hidden; 
+    /* margin-bottom: 50px; */
     
 }
-@media screen and (max-width:1440px){
-    .webmain
-    {
-        width:1440px !important
+@media screen and (max-width:350px){
+    .webmain{
+        padding-bottom: 40px !important;
     }
-}
-@media screen and (max-width:420px){
-    .webmain
-    {margin-left: -70px !important;
-    width: 1300 !important;
-overflow: hidden !important;}
-}
+       
+    }
+

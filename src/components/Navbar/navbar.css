@@ -1,7 +1,7 @@
 .navbar-container
 {
     display: flex;
-    overflow: visible;
+    overflow-x: hidden !important;
     background-color: rgb(235, 231, 233);
     height:auto;
     position: fixed;
@@ -12,6 +12,7 @@
   transition: top 0.3s;
   cursor: pointer;
 }
+
 .navbar-container {
   transition: transform 0.3s ease-in-out;
 }
@@ -85,9 +86,10 @@
     padding-left: 10px !important;
     /* line-height: 4.375rem; */
 }
-@media screen and (max-width:74px){
+/* @media screen and (max-width:780px){
   .navbar
-  {margin-left: 350px !important;
+  {
+    margin-left: 350px !important;
   width: 1300 !important;
   position: fixed !important;
 overflow: hidden !important;}
@@ -95,14 +97,27 @@ overflow: hidden !important;}
   {
     padding-top: 20px !important;
   }
+  .navbar-right{
+    margin-left: 420px !important;
+  }
 
-}
-@media screen and (max-width:1440px){
+} */
+/* @media screen and (max-width:1440px){
   .navbar-container
   {
-      width:1440px !important
+      /* width:1440px !important */
+  /* }
+} */
+/* @media screen and (max-width:350px){
+  .navbar-container
+  {
+      width:1280px !important;
+      overflow: hidden !important;
   }
+  .navbar-right {
+    margin-left: 340px !important;
 }
+}  */
 .navbar-nav .show .dropdown-menu {
     display: block;
   }
@@ -163,6 +178,18 @@ overflow: hidden !important;}
   top: 100%; /* Position below the navbar */
   left: 0; /* Align with the left edge of the navbar */
   margin-top: 5px;
+  }
+  @media only screen and (max-width: 1440px) {
+    .navimg
+{
+    height: 80px !important;
+    width: 180px !important;
+    object-fit: contain !important;
+    margin-top: -5px;
+    margin-left:30px !important ;
+}
+
+
   }
   
   

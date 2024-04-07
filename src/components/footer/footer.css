@@ -10,10 +10,64 @@
         width:1440px !important
     }
 }
-@media screen and (max-width:420px){
+@media screen and (min-width:1000px) and (max-width:1200px){
+    .footerlogo{
+        margin-left: -400px !important;
+    }
+    .footerspan{
+        margin-left: -400px !important;
+    }
+    .FOOTERLOGO-MAIN
+    {
+        margin-left: -400px !important;
+    }
+}
+@media screen and (min-width:700px) and (max-width:800px){
+    .footerlogo{
+        margin-left: -650px !important;
+    }
+    .footerspan{
+        margin-left: -650px !important;
+    }
+    .FOOTERLOGO-MAIN
+    {
+        margin-left: -650px !important;
+    }
+}
+@media screen and (min-width:400px) and (max-width:450px){
+    .footerlogo{
+        margin-left: -980px !important;
+    }
+    .footerspan{
+        margin-left: -980px !important;
+    }
+    .FOOTERLOGO-MAIN
+    {
+        margin-left: -980px !important;
+    }
+}
+@media screen and (min-width:350px) and (max-width:400px){
     .footer-main
-    {margin-left: -90px !important;
-    overflow: hidden !important;}
+    {
+        width: 100% !important;
+    }
+    
+}
+@media screen and (min-width:300px) and (max-width:350px){
+    .footer-main
+    {
+        width: 100% !important;
+    }
+    .footerlogo{
+        /* margin-left: -980px !important; */
+        width: 200px !important;
+    }
+    .footerspan
+    {
+        /* width: 200px !important; */
+        font-size: 10px !important;
+    }
+   
 }
 .footerlogo
 {

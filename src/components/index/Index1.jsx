@@ -244,7 +244,7 @@ const handleResetDropdowns = () => {
               </div>
             </div>
           </div>
-      <Carousel interval={8000} ride="carousel" style={{ position: "relative" }}>
+      <Carousel className="Carousel" interval={100000} ride="carousel" style={{ position: "relative" }}>
         <Carousel.Item className='caroselitem1'>
           <div className='homemain-maindiv'>
             <div className='homemain-topbar-backimg2div'>

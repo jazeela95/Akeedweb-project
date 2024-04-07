@@ -9,15 +9,34 @@
 .caroselitem1
 {
     height: 100vh !important;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
     background-color: #fdc90b;
     position: relative;
 }
+
+@media only screen and (max-width: 1440px) {
+    .index-main-bar
+    {
+        overflow: hidden !important;
+        overflow-x: hidden !important;
+        /* overflow-block:hidden; */
+    }
+    .Carousel{
+        overflow: hidden !important;
+    }
+}
 .carousel2
 {
     background-color: rgb(149, 131, 131) !important;
-    height: 100vh !important;
+    /* height: 100  vh !important; */
+}
+@media only screen and (max-width: 1440px){
+    .homemain-topbar-backimg1
+    {
+        width: 230px !important;
+    height: 139px;
+    }
 }
 
 .homemain-topbar-backimg1
@@ -117,13 +136,13 @@
     flex: 1;
     text-align: left;
     position: relative;
-    z-index: 10000 !important;
+    z-index: 100000 !important;
 }
 .homemain-topbar-backimg1
 {
     position: absolute;
     top: -20px;
-    left: 250px;
+    left: 230px;
     width: 200px !important;
     height: 209px !important;
     object-fit: contain;
@@ -134,11 +153,11 @@
     0% { left: 200; }
     100% { left: 270px; }
 }
-.homemain-topbar-backimg1 {
+/* .homemain-topbar-backimg1 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 
 .homemain-topbar-left-img
 {
@@ -402,8 +421,8 @@
     margin-top:-450px;
     margin-left: 400px;
     /* position: absolute; */
-    height: 1100px;
-    width:1100px;
+    height: 1100px !important;
+    width:1100px ;
     z-index: 5;
     overflow: hidden; /* Hide overflowing content */
     transition: margin-top 0.5s ease, height 0.5s ease; 
@@ -570,20 +589,22 @@
 }
 .carousel3
 {
-   background-color: transparent; 
+   /* background-color: yellow;  */
    height: 100vh;
-   width: 100%;
+   width: 1600px !important;
    margin:0;
+   overflow: hidden !important;
 }
 .curser3-img
 {
     margin-top: 0px;
-    width: 100% ;
+    width: 100% !important ;
     height:80vh ;
     animation: moveingFromtop 2s ease forwards;
     margin-left: 0px;
     position: relative;
     margin-right: 0px;
+    /* object-fit: contain; */
 
 }
 
@@ -609,13 +630,13 @@
 .curser4-img
 {
     margin-top: 0px;
-    width: 100% ;
+    width: 1600px !important ;
     opacity: .5;
     height:100vh ;
     animation: moveingFromstop 2s ease forwards;
-    margin-left: 0px;
+    margin-left: -20px;
     position: relative;
-    margin-right: 0px !important;
+    margin-right: -20px !important;
     /* object-fi    t: contain; */
 }
 @keyframes moveingFromstop {
@@ -768,14 +789,20 @@
 }
 @media screen and (max-width:1440px)
 {
+    body{
+        max-width: 1440px;
+        overflow-x: hidden !important;
+    }
     .index-main-bar
     {
-        overflow-y: hidden !important;
-        min-width:1440px !important;
+        overflow-x: hidden !important;
+        max-width:1440px !important;
     }
-    .homemain-topbar-right-div
+    .homemain-topbar-left-img
     {
-        margin-left: 600px;
+        height: 80px;
+        width: 200px;
+        margin-left: 50px;
     }
     .indexnav
     {
@@ -786,67 +813,831 @@
         top: 730px !important;
     }
 
-.form-control-index
-{
-    margin-left: 300px !important;
 }
-.form-control-index:focus
-{
-    margin-left: 290px !important;
-}
-} 
-@media screen and (max-width:420px){
-    .index-main-bar
-    {margin-left: -10px !important;
-        overflow-y: hidden !important;
-        width:240px !important;
-    /* margin-right: 10px !important; */
-margin-top: 10px;}
-    .homemain-topbar-right-div
-    {
-        margin-left:400px;
-        /* width:1000px ! */
-    }
-    
-.form-control-index
-{
-    margin-left: 600px !important;
-    width:900px !important
-}
-.form-control-index:focus
-{
-    margin-left: 390px !important;
-    width: 900px !important;
-}
-   .homemain-bottombar-rightimg
-   {margin-left: 230px !important;} 
-   
-  
 
-}
 .indexnav {
     font-size: 40px !important;
     margin-left: 600px !important;
 }
 
-@media only screen and (max-width: 600px) {
-    .indexnav {
-        font-size: 24px; /* Adjust font size for better readability on smaller screens */
-        margin-left: 0; /* Adjust margin for better layout on smaller screens */
-    }
-}
-@media screen and (max-width:770px)
-{
-    .navbar-right
-    {
-        flex: none !important;
-    }
-    
-}
+
 .navicon
 {
     margin-left: 1700px !important;
     margin-top: -700px !important;
     color: white !important;
 }
+@media only screen and (min-width: 1001px) and (max-width: 1100px){
 
+    .homemain-bottombar-left-cardhead{
+        font-size: 70px;
+        top:-680px !important;
+     }
+     .homemain-bottombar-left-cardcont{
+        font-size: 15px !important;
+        margin-top: -330px !important;
+        width:350px !important;
+    
+     }
+     .index-button
+     {
+        margin-top: -470px !important;
+     }
+     .cardcont1
+    {
+        animation: moveTotopbottom 1s ease-in-out  ;
+    }
+    @keyframes moveTotopbottom{
+        0% {
+            font-size: 0px;;
+            top: -170px; /* Start at the bottom */
+        }
+        100% {
+            font-size: 20px;
+            top: -230px; /* Move to the top */
+        }
+    }
+    .homemain-topbar-backimg1
+    {
+        width: 100px !important;
+        height: 100px !important;
+        margin-left:-10px !important;
+        top:4px !important;
+        z-index: 2 !important;
+      animation: moveLeftToRight 2s ease-in-out infinite alternate;
+        /* background-color: #f0f0f0; */
+    }
+    @keyframes moveLeftToRight {
+        0% { left: 200 !important; }
+        100% { left: 200px ; }
+    }
+    
+    .homemain-bottombar-rightimg
+    {
+        height:920px !important;
+        width:790px !important;
+        left: -270px !important;
+        /* margin-top: -260px !important; */
+        animation: moveToBottomsTop 2s ease-in-out forwards;
+        position: absolute;
+    }
+    @keyframes moveToBottomsTop{
+        0% { margin-top: -20px; } /* Start at the top */
+        100% { margin-top:-325px; } /* Move to the bottom */
+    
+    }
+    .homemain-topbar-right-div
+   {
+       margin-left: 210px !important;
+   }
+   .searchicon-homemain-button
+   {
+       width: 45px !important;
+         
+       height: 45px !important;
+   }
+    .homemain-topbar-backimg2{
+        width:500px;
+        height:500px;
+        margin-left:-300px !important
+        
+    }
+    .homemain-topbar-backimg3{
+     width: 240px !important;
+     height: 240px !important;
+    margin-left: -1420px;
+     animation: moveTopToBottom 2s ease-in-out infinite alternate;
+     /* margin-left: 100px !important; */
+ }
+ @keyframes moveTopToBottom {
+     0% { margin-top: 390px; } /* Start at the top */
+     100% { margin-top: 400px; } /* Move to the bottom */
+ }
+ 
+.head2
+{
+    animation: moveTobottom 2s ease-in-out forwards ;
+    font-size: 50px !important;
+}
+@keyframes moveTobottom{
+    0% {
+        
+        left: 600px; /* Start at the left */
+        font-size: 0;
+    }
+    100% {
+       
+        left: -160px; /* Move to the right */
+        font-size: 50px;
+    }
+
+}
+.curser2-img
+{
+    margin-top:-70px;
+    margin-left: -100px;
+    height: 585px !important;
+    width:455px !important;
+    transition: margin-top 3s ease, height 0.5s ease; 
+    animation: moveToBottomTops 1s ease-in-out  ;
+}
+@keyframes moveToBottomTops{
+    0% { margin-top: 500px } /* Start at the top */
+    100% { margin-top: -70px; } /* Move to the bottom */
+
+}
+.homemain-topbar-backimg4
+{   width: 210px;
+    height: 219px;
+    margin-top:200px}
+   
+    .head3
+    {
+        animation: movesTobottom 2s ease-in-out forwards ;
+        font-size: 50px ;
+        z-index: 0 !important;
+    }
+    @keyframes movesTobottom{
+        0% {
+            
+            top: 100px; /* Start at the left */
+            font-size: 0;
+        }
+        100% {
+           
+            top: -380px; /* Move to the right */
+            font-size: 50px;
+        }
+    
+    }
+    .head4
+    {
+        animation: moveToleftRight 1s ease-in-out  ;
+        font-size: 40px;
+        z-index: 0 !important;
+    }
+    @keyframes moveToleftRight{
+        0% {
+            font-size: 0;
+            left: -100px; /* Start at the left */
+        }
+        100% {
+            font-size: 40px;
+            left: -160px; /* Move to the right */
+        }
+    
+    }
+    .head5
+    {
+        animation: moveTobottom 2s ease-in-out forwards ;
+        font-size: 60px;
+        z-index: 0 !important;
+    }
+    @keyframes moveTobottom{
+        0% {
+            
+            left: 600px; /* Start at the left */
+            font-size: 0;
+        }
+        100% {
+           
+            left: -160px; /* Move to the right */
+            font-size: 60px;
+        }
+    
+    }
+    .curser5-img
+{
+    margin-top: 80px;
+    width: 20% ;
+    height:40vh ;
+    /* animation: moveTopsToBottom 2s ease forwards; */
+    margin-left:20px !important;
+    animation: moveTopsToBottom 1s ease-in-out infinite alternate;
+    /* margin-left: 100px !important; */
+}
+@keyframes moveTopsToBottom {
+    0% { margin-top: 40px; } /* Start at the top */
+    100% { margin-top: 80px; } /* Move to the bottom */
+}
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1450px){
+    .homemain-bottombar-left-cardhead{
+       font-size: 70px !important;
+       top:-850px !important;
+    }
+    .homemain-bottombar-left-cardcont{
+       font-size: 15px !important;
+       margin-top: -490px !important;
+       width:350px !important;
+   
+    }
+    .index-button
+    {
+       margin-top: -640px !important;
+    }
+    .cardcont1
+   {
+       animation: moveTotopbottom 1s ease-in-out  ;
+   }
+   @keyframes moveTotopbottom{
+       0% {
+           font-size: 0px;
+           top: -220px; /* Start at the bottom */
+       }
+       100% {
+           font-size: 20px;
+           top: -240px; /* Move to the top */
+       }
+   }
+   .homemain-topbar-backimg1
+   {
+       width: 100px !important;
+       height: 100px !important;
+       margin-left:-10px !important;
+       top:4px !important;
+       z-index: 2 !important;
+     animation: moveLeftToRight 2s ease-in-out infinite alternate;
+       /* background-color: #f0f0f0; */
+   }
+   @keyframes moveLeftToRight {
+       0% { left: 200 !important; }
+       100% { left: 200px ; }
+   }
+   
+   .homemain-bottombar-rightimg
+   {
+       height:860px !important;
+       width:760px !important;
+       left: -250px !important;
+       /* top: 110px !important; */
+       animation: moveToBottomTop 2s ease-in-out forwards;
+       position: absolute;
+   }
+   @keyframes moveToBottomTop{
+       0% { top: 510px; } /* Start at the top */
+       100% { top: 110px; } /* Move to the bottom */
+   
+   }
+   .homemain-topbar-right-div
+   {
+       margin-left: 210px !important;
+   }
+   .searchicon-homemain-button
+   {
+       width: 45px !important;
+         
+       height: 45px !important;
+   }
+   .homemain-topbar-backimg2{
+       width:500px;
+       height:500px;
+       margin-left:-300px !important
+       
+   }
+   .Carousel{
+    height:55rem !important;
+    width:200px !important
+ }
+   .homemain-topbar-backimg3{
+    width: 240px !important;
+    height: 240px !important;
+   margin-left: -1420px;
+    animation: moveTopToBottom 2s ease-in-out infinite alternate;
+    /* margin-left: 100px !important; */
+}
+@keyframes moveTopToBottom {
+    0% { margin-top: 390px; } /* Start at the top */
+    100% { margin-top: 400px; } /* Move to the bottom */
+}
+.head2
+{
+    animation: moveTobottom 2s ease-in-out forwards ;
+    font-size: 50px !important;
+}
+@keyframes moveTobottom{
+    0% {
+        
+        left: 600px; /* Start at the left */
+        font-size: 0;
+    }
+    100% {
+       
+        left: -160px; /* Move to the right */
+        font-size: 50px;
+    }
+
+}
+.curser2-img
+{
+    margin-top:-70px;
+    margin-left: -100px;
+    height: 585px !important;
+    width:455px !important;
+    transition: margin-top 3s ease, height 0.5s ease; 
+    animation: moveToBottomTops 1s ease-in-out  ;
+}
+@keyframes moveToBottomTops{
+    0% { margin-top: 500px } /* Start at the top */
+    100% { margin-top: -70px; } /* Move to the bottom */
+
+}
+.homemain-topbar-backimg4
+{   width: 210px;
+    height: 219px;
+    margin-top:200px}
+    .curser5-img
+    {
+        margin-top: 80px;
+        width: 20% ;
+        height:35vh ;
+        /* animation: moveTopsToBottom 2s ease forwards; */
+        margin-left:20px !important;
+        animation: moveTopsToBottom 1s ease-in-out infinite alternate;
+        /* margin-left: 100px !important; */
+    }
+    @keyframes moveTopsToBottom {
+        0% { margin-top: 40px; } /* Start at the top */
+        100% { margin-top: 80px; } /* Move to the bottom */
+    }
+   
+   }
+   @media only screen and (min-width: 750px) and (max-width: 780px){
+
+    .homemain-bottombar-left-cardhead{
+        font-size: 70px;
+        top:-420px !important;
+     }
+     .homemain-bottombar-left-cardcont{
+        font-size: 15px !important;
+        margin-top: -70px !important;
+        width:350px !important;
+    
+     }
+     .index-button
+     {
+        margin-top: -220px !important;
+     }
+     .cardcont1
+    {
+        animation: moveTotopbottom 1s ease-in-out  ;
+    }
+    @keyframes moveTotopbottom{
+        0% {
+            font-size: 0px;;
+            top: -170px; /* Start at the bottom */
+        }
+        100% {
+            font-size: 20px;
+            top: -230px; /* Move to the top */
+        }
+    }
+    .homemain-topbar-backimg1
+    {
+        width: 100px !important;
+        height: 100px !important;
+        margin-left:-10px !important;
+        top:4px !important;
+        z-index: 2 !important;
+      animation: moveLeftToRight 2s ease-in-out infinite alternate;
+        /* background-color: #f0f0f0; */
+    }
+    @keyframes moveLeftToRight {
+        0% { left: 200 !important; }
+        100% { left: 200px ; }
+    }
+    
+    .homemain-bottombar-rightimg
+    {
+        height:910px !important;
+        width:790px !important;
+        left: -270px !important;
+       
+        animation: moveToBottomsTop 2s ease-in-out forwards;
+        position: absolute;
+    }
+    @keyframes moveToBottomsTop{
+        0% { margin-top: -20px; } /* Start at the top */
+        100% { margin-top:-325px; } /* Move to the bottom */
+    
+    }
+    .homemain-topbar-right-div
+    {
+        margin-left: 220px !important;
+    }
+    .searchicon-homemain-button
+    {
+        width: 45px !important;
+          
+        height: 45px !important;
+    }
+    .homemain-topbar-backimg2{
+        width:500px;
+        height:500px;
+        margin-left:-300px !important
+        
+    }
+    .homemain-topbar-backimg3{
+     width: 240px !important;
+     height: 240px !important;
+    margin-left: -1420px;
+     animation: moveTopToBottom 2s ease-in-out infinite alternate;
+     /* margin-left: 100px !important; */
+ }
+ @keyframes moveTopToBottom {
+     0% { margin-top: 390px; } /* Start at the top */
+     100% { margin-top: 400px; } /* Move to the bottom */
+ }
+ .head2
+{
+    animation: moveTobottom 2s ease-in-out forwards ;
+    font-size: 50px !important;
+}
+@keyframes moveTobottom{
+    0% {
+        
+        left: 600px; /* Start at the left */
+        font-size: 0;
+    }
+    100% {
+       
+        left: -160px; /* Move to the right */
+        font-size: 50px;
+    }
+
+}
+.curser2-img
+{
+    margin-top:-70px;
+    margin-left: -100px;
+    height: 585px !important;
+    width:455px !important;
+    transition: margin-top 3s ease, height 0.5s ease; 
+    animation: moveToBottomTops 1s ease-in-out  ;
+}
+@keyframes moveToBottomTops{
+    0% { margin-top: 500px } /* Start at the top */
+    100% { margin-top: -70px; } /* Move to the bottom */
+
+}
+.homemain-topbar-backimg4
+{   width: 210px;
+    height: 219px;
+    margin-top:200px}
+    .curser5-img
+    {
+        margin-top: 80px;
+        width: 20% ;
+        height:40vh ;
+        /* animation: moveTopsToBottom 2s ease forwards; */
+        margin-left:20px !important;
+        animation: moveTopsToBottom 1s ease-in-out infinite alternate;
+        /* margin-left: 100px !important; */
+    }
+    @keyframes moveTopsToBottom {
+        0% { margin-top: 40px; } /* Start at the top */
+        100% { margin-top: 80px; } /* Move to the bottom */
+    }
+}
+
+
+@media only screen and (min-width: 310px) and (max-width: 330px)
+{
+    .homemain-topbar-right-div
+    {
+        margin-left: 120px !important;
+    }
+    .searchicon-homemain-button
+    {
+        width: 45px !important;
+          
+        height: 45px !important;
+    }
+    .homemain-bottombar-rightimg
+    {
+        height:910px !important;
+        width:690px !important;
+        left: -270px !important;
+      
+        animation: moveToBottomsTop 2s ease-in-out forwards;
+        position: absolute;
+    }
+    @keyframes moveToBottomsTop{
+        0% { margin-top: -20px; } /* Start at the top */
+        100% { margin-top:-315px; } /* Move to the bottom */
+    
+    }
+    .homemain-bottombar-left-cardhead{
+        font-size: 70px;
+        top:-370px !important;
+     }
+     .homemain-bottombar-left-cardcont{
+        font-size: 15px !important;
+        margin-top: 0px !important;
+        width:290px !important;
+        text-align: justify;
+    
+     }
+    
+     .cardcont1
+    {
+        animation: moveTotopbottom 1s ease-in-out  ;
+    }
+    @keyframes moveTotopbottom{
+        0% {
+            font-size: 0px;;
+            top: -200px; /* Start at the bottom */
+        }
+        100% {
+            font-size: 20px;
+            top: -230px; /* Move to the top */
+        }
+    }
+    .head2
+{
+    animation: moveTobottom 2s ease-in-out forwards ;
+    font-size: 50px !important;
+}
+@keyframes moveTobottom{
+    0% {
+        
+        left: 600px; /* Start at the left */
+        font-size: 0;
+    }
+    100% {
+       
+        left: -160px; /* Move to the right */
+        font-size: 50px;
+    }
+
+}
+.curser2-img
+{
+    margin-top:0px;
+    margin-left: -170px;
+    height: 525px !important;
+    width:415px !important;
+    transition: margin-top 3s ease, height 0.5s ease; 
+    animation: moveToBottomTops 1s ease-in-out  ;
+}
+@keyframes moveToBottomTops{
+    0% { margin-top: -20px } /* Start at the top */
+    100% { margin-top: 0px; } /* Move to the bottom */
+
+}
+.homemain-topbar-backimg4
+{   width: 210px;
+    height: 219px;
+    margin-top:200px}
+    .curser5-img
+    {
+        margin-top: 80px;
+        width: 20% ;
+        height:40vh ;
+        /* animation: moveTopsToBottom 2s ease forwards; */
+        margin-left:20px !important;
+        animation: moveTopsToBottom 1s ease-in-out infinite alternate;
+        /* margin-left: 100px !important; */
+    }
+    @keyframes moveTopsToBottom {
+        0% { margin-top: 40px; } /* Start at the top */
+        100% { margin-top: 80px; } /* Move to the bottom */
+    }
+}
+@media only screen and (min-width: 340px) and (max-width: 380px)
+{
+    .homemain-topbar-right-div
+    {
+        margin-left: 210px !important;
+    }
+    .searchicon-homemain-button
+    {
+        width: 45px !important;
+          
+        height: 45px !important;
+    }
+.homemain-bottombar-rightimg
+{
+    height:860px !important;
+    width:590px !important;
+    left: -80px !important;
+
+    animation: moveToBottomsTop 2s ease-in-out forwards;
+    position: absolute;
+}
+@keyframes moveToBottomsTop{
+    0% { margin-top: -20px; } 
+    100% { margin-top:-325px; } 
+}
+.homemain-topbar-backimg1
+    {
+        width: 100px !important;
+        height: 100px !important;
+        margin-left:-10px !important;
+        top:4px !important;
+        z-index: 2 !important;
+      animation: moveLeftToRight 2s ease-in-out infinite alternate;
+        /* background-color: #f0f0f0; */
+    }
+    @keyframes moveLeftToRight {
+        0% { left: 200 !important; }
+        100% { left: 200px ; }
+    }
+    .homemain-bottombar-left-cardhead{
+        font-size: 70px;
+        top:-370px !important;
+     }
+     .homemain-bottombar-left-cardcont{
+        font-size: 15px !important;
+        margin-top: 0px !important;
+        width:310px !important;
+        text-align: justify;
+    
+     }
+    
+     .cardcont1
+    {
+        animation: moveTotopbottom 1s ease-in-out  ;
+    }
+    @keyframes moveTotopbottom{
+        0% {
+            font-size: 0px;;
+            top: -200px; /* Start at the bottom */
+        }
+        100% {
+            font-size: 20px;
+            top: -230px; /* Move to the top */
+        }
+    }
+    .head2
+{
+    animation: moveTobottom 2s ease-in-out forwards ;
+    font-size: 50px !important;
+}
+@keyframes moveTobottom{
+    0% {
+        
+        left: 600px; /* Start at the left */
+        font-size: 0;
+    }
+    100% {
+       
+        left: -160px; /* Move to the right */
+        font-size: 50px;
+    }
+
+}
+.curser2-img
+{
+    margin-top:-50px;
+    margin-left: -100px;
+    height: 585px !important;
+    width:455px !important;
+    transition: margin-top 3s ease, height 0.5s ease; 
+    animation: moveToBottomTops 1s ease-in-out  ;
+}
+@keyframes moveToBottomTops{
+    0% { margin-top: 150px } /* Start at the top */
+    100% { margin-top: -50px; } /* Move to the bottom */
+
+}
+.homemain-topbar-backimg4
+{   width: 210px;
+    height: 219px;
+    margin-top:200px}
+    .curser5-img
+    {
+        margin-top: 80px;
+        width: 20% ;
+        height:40vh ;
+        /* animation: moveTopsToBottom 2s ease forwards; */
+        margin-left:20px !important;
+        animation: moveTopsToBottom 1s ease-in-out infinite alternate;
+        /* margin-left: 100px !important; */
+    }
+    @keyframes moveTopsToBottom {
+        0% { margin-top: 40px; } /* Start at the top */
+        100% { margin-top: 80px; } /* Move to the bottom */
+    }
+}
+    
+@media only screen and (min-width: 410px) and (max-width: 430px)
+{
+    .homemain-topbar-right-div
+    {
+        margin-left: 210px !important;
+    }
+    .searchicon-homemain-button
+    {
+        width: 45px !important;
+          
+        height: 45px !important;
+    }
+.homemain-bottombar-rightimg
+{
+    height:860px !important;
+    width:590px !important;
+    left: -80px !important;
+
+    animation: moveToBottomsTop 2s ease-in-out forwards;
+    position: absolute;
+}
+@keyframes moveToBottomsTop{
+    0% { margin-top: -20px; } 
+    100% { margin-top:-325px; } 
+}
+.homemain-topbar-backimg1
+    {
+        width: 100px !important;
+        height: 100px !important;
+        margin-left:-10px !important;
+        top:4px !important;
+        z-index: 2 !important;
+      animation: moveLeftToRight 2s ease-in-out infinite alternate;
+        /* background-color: #f0f0f0; */
+    }
+    @keyframes moveLeftToRight {
+        0% { left: 200 !important; }
+        100% { left: 200px ; }
+    }
+    .homemain-bottombar-left-cardhead{
+        font-size: 70px;
+        top:-370px !important;
+     }
+     .homemain-bottombar-left-cardcont{
+        font-size: 15px !important;
+        margin-top: 0px !important;
+        width:310px !important;
+        text-align: justify;
+    
+     }
+     .Carousel{
+        height:55rem !important;
+     }
+    
+     .cardcont1
+    {
+        animation: moveTotopbottom 1s ease-in-out  ;
+    }
+    @keyframes moveTotopbottom{
+        0% {
+            font-size: 0px;;
+            top: -200px; /* Start at the bottom */
+        }
+        100% {
+            font-size: 20px;
+            top: -230px; /* Move to the top */
+        }
+    }
+    .head2
+{
+    animation: moveTobottom 2s ease-in-out forwards ;
+    font-size: 50px !important;
+}
+@keyframes moveTobottom{
+    0% {
+        
+        left: 600px; /* Start at the left */
+        font-size: 0;
+    }
+    100% {
+       
+        left: -160px; /* Move to the right */
+        font-size: 50px;
+    }
+
+}
+.curser2-img
+{
+    margin-top:-60px;
+    margin-left: -100px;
+    height: 585px !important;
+    width:455px !important;
+    transition: margin-top 3s ease, height 0.5s ease; 
+    animation: moveToBottomTops 1s ease-in-out  ;
+}
+@keyframes moveToBottomTops{
+    0% { margin-top: 10px } /* Start at the top */
+    100% { margin-top: -60px; } /* Move to the bottom */
+
+}
+.homemain-topbar-backimg4
+{   width: 210px;
+    height: 219px;
+    margin-top:200px}
+    .curser5-img
+    {
+        margin-top: 80px;
+        width: 20% ;
+        height:40vh ;
+        /* animation: moveTopsToBottom 2s ease forwards; */
+        margin-left:20px !important;
+        animation: moveTopsToBottom 1s ease-in-out infinite alternate;
+        /* margin-left: 100px !important; */
+    }
+    @keyframes moveTopsToBottom {
+        0% { margin-top: 40px; } /* Start at the top */
+        100% { margin-top: 80px; } /* Move to the bottom */
+    }
+}

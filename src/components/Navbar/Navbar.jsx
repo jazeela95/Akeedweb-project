@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import "./navbar.css"
-import { Navbar as BootstrapNavbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar as BootstrapNavbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import logo from "../../assets/images/akeedlogo.png";
 import { Link} from 'react-router-dom';
 const Navbar = () => {
@@ -21,7 +21,6 @@ const Navbar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
   
   const [showhomeDropdown, setShowhomeDropdown] = useState(false);
   const [showaboutDropdown, setShowaboutDropdown] = useState(false);
@@ -52,6 +51,7 @@ const Navbar = () => {
 
  
   return (
+    <Container>
     <div className={`navbar-container ${scrolled ? 'show' : ''}`}>
       <div className='navbar-left'>
        <Link to="/"> <img src={logo} alt="" className='homemain-topbar-left-img navimg'/></Link>
@@ -137,7 +137,9 @@ const Navbar = () => {
           </BootstrapNavbar.Collapse>
         </BootstrapNavbar>
       </div>
+     
     </div>
+    </Container>
   )
 }
 

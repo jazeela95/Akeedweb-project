@@ -9,10 +9,235 @@
         width:1440px !important
     }
 }
-@media screen and (max-width:420px){
+@media screen and (min-width:1000px) and (max-width:1200px){
     .blog-main-div
-    {margin-left: -70px !important;
-    overflow: hidden !important; }
+{
+    width: 100%;
+    text-align: center;
+    margin-left: -210px !important;
+}
+.carousel-item1-frst{
+    margin-left: 2% !important;
+    width: 950px !important;
+  
+}
+.functionality-main-rightfrst
+{
+    left: 800px !important;
+}
+.functionality-main-rightscnd
+{
+    left: 800px !important;
+}
+.functionality-main-leftimg
+{
+    opacity: 0.6;
+}
+
+}
+@media screen and (min-width:700px) and (max-width:800px){
+    .blog-main-div
+{
+    width: 100%;
+    
+    text-align: center;
+    margin-left: -310px !important;
+}
+
+.carousel-item1-left,.carousel-item2-right
+{
+ 
+   /* position: absolute; */
+   margin-left: 130px !important;
+   width: 65% !important;
+   padding: 50px !important;
+}
+.carousel-item1-frst,.carousel-item1-second
+{
+    
+    display: flex;
+    width: 100% !important;
+    flex-direction: column-reverse!important;
+    height:auto !important;
+    position: relative !important;
+    
+}
+
+.carousel-item1-frst-rightimg{
+    /* padding-top: -300px !important; */
+    padding-left: -100px !important;
+
+}
+.functionality-main-rightfrst
+{
+    left: 650px !important;
+}
+.functionality-main-rightscnd
+{
+    left: 650px !important;
+}
+.functionality-main-leftimg
+{
+    opacity: 0.5;
+}
+}
+@media screen and (min-width:400px) and (max-width:450px){
+    .bloghead-span1
+    {
+        
+            font-size: 3.38rem !important;
+        }
+    .blog-main-div
+{
+    
+    
+    text-align: center;
+    margin-left: -510px !important;
+}
+
+.carousel-item1-left,.carousel-item2-right
+{
+ 
+   /* position: absolute; */
+   margin-left: 240px !important;
+   width: 48% !important;
+   padding: 28px !important;
+}
+.carousel-item1-frst,.carousel-item1-second
+{
+    
+    display: flex;
+    width: 70% !important;
+    flex-direction: column-reverse!important;
+    height:auto !important;
+    position: relative !important;
+    
+}
+
+.carousel-item1-frst-rightimg{
+    /* padding-top: -300px !important; */
+    /* padding-left: -100px !important; */
+margin-left: -40px !important;
+}
+.functionality-main-rightfrst
+{
+    left: 570px !important;
+}
+.functionality-main-rightscnd
+{
+    left: 520px !important;
+}
+.functionality-main-leftimg
+{
+    opacity: 0.5;
+}
+}
+@media screen and (min-width:350px) and (max-width:400px){
+    .bloghead-span1
+    {
+        
+            font-size: 3.38rem !important;
+        }
+    .blog-main-div
+{
+    
+    
+    text-align: center;
+    margin-left: -510px !important;
+}
+
+.carousel-item1-left,.carousel-item2-right
+{
+ 
+   /* position: absolute; */
+   margin-left: 250px !important;
+   width: 38% !important;
+   padding: 23px !important;
+}
+.carousel-item1-frst,.carousel-item1-second
+{
+    
+    display: flex;
+    width: 50% !important;
+    flex-direction: column-reverse!important;
+    height:auto !important;
+    position: relative !important;
+    
+}
+
+.carousel-item1-frst-rightimg{
+   
+margin-left: -90px !important;
+height: 300px !important;
+    width:340px !important ;
+}
+.functionality-main-rightfrst
+{
+    left: 550px !important;
+}
+.functionality-main-rightscnd
+{
+    left: 510px !important;
+    width: 350px !important;
+}
+.functionality-main-leftimg
+{
+    opacity: 0.5;
+}
+}
+@media screen and (min-width:300px) and (max-width:350px){
+    .bloghead-span1
+    {
+        
+            font-size: 3.18rem !important;
+        }
+    .blog-main-div
+{
+    
+    
+    text-align: center;
+    margin-left: -550px !important;
+}
+
+.carousel-item1-left,.carousel-item2-right
+{
+ 
+   /* position: absolute; */
+   margin-left: 280px !important;
+   width: 36% !important;
+   padding: 13px !important;
+}
+.carousel-item1-frst,.carousel-item1-second
+{
+    
+    display: flex;
+    width: 50% !important;
+    flex-direction: column-reverse!important;
+    height:auto !important;
+    position: relative !important;
+    
+}
+
+.carousel-item1-frst-rightimg{
+   
+margin-left: -60px !important;
+height: 250px !important;
+    width:290px !important ;
+}
+.functionality-main-rightfrst
+{
+    left: 590px !important;
+    font-size: 2.3rem !important;
+}
+.functionality-main-rightscnd
+{
+    left: 560px !important;
+    width: 310px !important;
+}
+.functionality-main-leftimg
+{
+    opacity: 0.5;
+}
 }
 .bloghead-span1
 {
@@ -33,7 +258,7 @@
 {
     background-color: rgb(252, 216, 236);
     width:1050px !important;
-    height: 480px !important;
+    height: auto !important;
 margin-left: 15% !important;
     margin: 50px;
     display: flex;
@@ -41,16 +266,17 @@ margin-left: 15% !important;
     box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.1);
     padding-left: 20px;
     padding-top: 30px;
+    padding-bottom: 50px !important;
 }
 .carousel-item1-left
 {
-    width: 500px !important;
+    width: 500px ;
     background-color: rgb(252, 205, 213);
     height: 380px;
     border-radius: 10px;
     box-shadow: 2px 8px 16px rgba(225, 177, 177, 0.1);
     margin-top: 20px !important;
-    margin-left: 30px !important;
+    margin-left: 30px ;
     text-align: left;
     padding-top: 30px;
 }
@@ -93,7 +319,7 @@ margin-left: 15% !important;
     height: 350px;
     width:390px ;
     object-fit: cover;
-    margin-left: 60px !important;
+    margin-left: 60px ;
     margin-top: 20px !important;
 }
 .blog-botton
@@ -108,9 +334,10 @@ margin-left: 15% !important;
 {
     background-color: rgb(219, 237, 243);
     width:1050px !important;
-    height: 480px !important;
+    height: auto !important;
 margin-left: 15% !important;
     margin: 50px;
+    padding-bottom: 50px !important;
     display: flex;
     border-radius: 8px;
     box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.1);
@@ -119,13 +346,13 @@ margin-left: 15% !important;
 }
 .carousel-item2-right
 {
-    width: 500px !important;
+    width: 500px ;
     background-color: rgb(185, 236, 233);
     height: 380px;
     border-radius: 10px;
     box-shadow: 2px 8px 16px rgba(225, 177, 177, 0.1);
     margin-top: 20px !important;
-    margin-left: 30px !important;
+    margin-left: 30px ;
     text-align: left;
     padding-top: 30px;
 }

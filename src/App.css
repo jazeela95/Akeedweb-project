@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+@media screen and (max-width:1440px) {
+  .App{
+    overflow-x: hidden;
+    max-width: 100%;
+    
+  }
+  
+}
+

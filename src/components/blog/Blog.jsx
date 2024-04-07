@@ -15,7 +15,7 @@ export const Blog = () => {
         <div className='bloghead-span1'>Latest blog</div>
         <div className='bloghead-span2'> Around Our Agency</div>
       </div>
-         <Carousel interval={8000} pause={false} wrap={true}> {/* Auto sliding every 5 seconds */}
+         <Carousel className='carousel-blog' interval={100000} pause={false} wrap={true}> {/* Auto sliding every 5 seconds */}
             <Carousel.Item>
               <div className='carousel-item1-frst'>
                 <div className='carousel-item1-left'>

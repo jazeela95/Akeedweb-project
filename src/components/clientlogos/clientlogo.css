@@ -13,10 +13,87 @@
         width:1440px !important
     }
 }
-@media screen and (max-width:420px){
+@media screen and (min-width:1000px) and (max-width:1200px){
     .complogo-main
-    {margin-left: -70px !important;
-    overflow: hidden !important;}
+    {
+        padding-left:20px !important
+    }
+    .complogo-1
+{
+    margin-left: 40px !important;
+    /* margin-top: 150px; */
+}
+
+}
+@media screen and (min-width:700px) and (max-width:800px){
+    .complogo-main
+    {
+        padding-left:10px !important;
+        flex-wrap: wrap !important;
+    }
+    .complogo-1
+{
+    margin-left: 10px !important;
+    /* margin-top: 150px; */
+}
+
+}
+@media screen and (min-width:400px) and (max-width:500px){
+    .complogo-main
+    {
+        padding-left:10px !important;
+        display: flex;
+        flex-direction: column-reverse !important;
+        height: auto !important;
+        margin-left: -500px;
+        margin-bottom: 80px !important;
+    }
+    .complogo-1
+{
+    margin-left: 10px !important;
+    margin-top: 80px !important;
+    
+    /* margin-top: 150px; */
+}
+
+}
+@media screen and (min-width:350px) and (max-width:400px){
+    .complogo-main
+    {
+        padding-left:10px !important;
+        display: flex;
+        flex-direction: column-reverse !important;
+        height: auto !important;
+        margin-left: -550px;
+        margin-bottom: 80px !important;
+    }
+    .complogo-1
+{
+    margin-left: 10px !important;
+    margin-top: 60px !important;
+    margin-left: -500px;
+    /* margin-top: 150px; */
+}
+
+}
+@media screen and (min-width:300px) and (max-width:350px){
+    .complogo-main
+    {
+        padding-left:10px !important;
+        display: flex;
+        flex-direction: column-reverse !important;
+        height: auto !important;
+        margin-left: -580px;
+        margin-bottom: 80px !important;
+    }
+    .complogo-1
+{
+    margin-left: 10px !important;
+    margin-top: 60px !important;
+    margin-left: -500px;
+    /* margin-top: 150px; */
+}
+
 }
 .complogo-1
 {

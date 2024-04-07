@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Homemain from '../homemain/Homemain'
+// import Homemain from '../homemain/Homemain'
 import Service from '../../services/Service'
 import About from '../about/About'
 import Portfolium from '../portfolio/Portfolium'
@@ -8,7 +8,7 @@ import Count from '../count/Count'
 import { Blog } from '../blog/Blog'
 import Clientlogo from '../clientlogos/Clientlogo'
 import Newletter from '../newsletter/Newletter'
-import Index1 from '../index/Index1'
+// import Index1 from '../index/Index1'
 import Layout from '../Layout'
 // import { Routes, Route } from "react-router-dom";
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div>
     <Layout>
-        <Index1/>
+        {/* <Index1/> */}
         <Service />
         <About/>
         <Portfolium/>
