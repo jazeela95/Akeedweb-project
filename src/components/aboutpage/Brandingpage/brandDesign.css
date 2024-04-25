@@ -1,3 +1,28 @@
+.brand-design-main
+{
+    width: 100%;
+}
+@media screen and (min-width:1000px) and (max-width:1200px){
+    .brand-design-main
+{
+    width: 100% !important;
+}
+.brand-div-img{
+    margin-left: -102px !important;
+    height: 440px !important;
+}
+.brandhead-left
+{
+    font-size: 40px !important;
+}
+.brand-card{
+    width: 600px !important;
+    margin-left: 2% !important;
+}
+.brand-card-1{
+    width: 320px !important;
+}
+}
 .brandheaddiv
 {
     width: 100% !important;
@@ -64,13 +89,13 @@
 }
 .brand-div-img
 {
-    margin-left: 90px !important;
+    margin-left: 90px;
 }
 .brand-card
 {
     margin-top: 220px !important;
     display: flex;
-    width: 1150px !important;
+    width: 1150px ;
     margin-left: 11%;
     text-align: left;
     margin-bottom: 60px;

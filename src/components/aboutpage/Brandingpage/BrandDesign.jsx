@@ -99,7 +99,7 @@ const handleDropdownLeave = () => {
   setShowblogDropdown(false);
 };
   return (
-    <div>
+    <div className='brand-design-main'>
            <div style={{ position: "relative",overflow:"hidden" }} className='index-main-bar'>
       <div style={{ display: "flex" }} className='aboutheadtop'>
             <div className='homemain-topbar-left'>

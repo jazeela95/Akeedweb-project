@@ -154,9 +154,9 @@ const handleResetDropdowns = () => {
     >
          {dropdownStates.about && (
           <div>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Something else here</NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'></NavDropdown.Item>
               
               </div>
         )}
@@ -178,9 +178,9 @@ const handleResetDropdowns = () => {
     >
          {dropdownStates.portfolio && (
           <div>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Something else here</NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'></NavDropdown.Item>
               </div>)}
               </NavDropdown>
               <NavDropdown
@@ -200,9 +200,9 @@ const handleResetDropdowns = () => {
     >
          {dropdownStates.pages && (
           <div>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Action</NavDropdown.Item>
-                <NavDropdown.Item href="#"className='navdropdown-item'>Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Something else here</NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'></NavDropdown.Item>
+                <NavDropdown.Item href="#"className='navdropdown-item'></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'></NavDropdown.Item>
               </div>)}
               </NavDropdown>
               <NavDropdown
@@ -222,9 +222,9 @@ const handleResetDropdowns = () => {
     >
          {dropdownStates.blog && (
           <div>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#" className='navdropdown-item'>Something else here</NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'></NavDropdown.Item>
+                <NavDropdown.Item href="#" className='navdropdown-item'></NavDropdown.Item>
               </div>)}
               </NavDropdown>
               <Nav.Link href="/services">Contact</Nav.Link>
@@ -244,7 +244,7 @@ const handleResetDropdowns = () => {
               </div>
             </div>
           </div>
-      <Carousel className="Carousel" interval={100000} ride="carousel" style={{ position: "relative" }}>
+      <Carousel className="Carousel" interval={8000} ride="carousel" style={{ position: "relative" }}>
         <Carousel.Item className='caroselitem1'>
           <div className='homemain-maindiv'>
             <div className='homemain-topbar-backimg2div'>

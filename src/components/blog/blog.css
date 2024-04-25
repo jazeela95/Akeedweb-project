@@ -303,8 +303,12 @@ margin-left: 15% !important;
 {
     padding-top: 20px;
     padding-left: 30px;
+    padding-right: 30px !important;
+    font-family: Muli;
     color: rgb(98, 95, 95);
     padding-right: 10px;
+    font-size: 17px;
+    text-align: justify;
 }
 
 .carousel-item1-rigt

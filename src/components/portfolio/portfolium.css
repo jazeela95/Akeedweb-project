@@ -5,12 +5,114 @@
         width: 1440px !important;
     }
 }
-@media screen and (max-width:420px)
-{
-    .portfolio-main-div
+@media screen and (min-width:1000px) and (max-width:1200px){
+    .portfolio-main-div{
+        width: 100% !important;
+    }
+}
+@media screen and (min-width:700px) and (max-width:800px){
+    .portfolio-main-div{
+        width: 100% !important;
+    }
+    .port-top{
+        display: flex;
+        height: auto !important;
+        flex-direction: column !important;
+    }
+    .port-top-left{
+        width: 100% !important;
+    }
+    .port-top-right
     {
-        width: 1380px !important;
-        overflow: hidden !important;
+        width: 100% !important;
+    }
+    .port-bottom{
+         display: flex;
+        height: auto !important;
+        flex-direction: column !important;
+    }
+    .port-bottom-left{
+        width: 100% !important;
+    }
+    .port-bottom-right
+    {
+        width: 100% !important;
+    }
+}
+@media screen and  (max-width:500px){
+    .portfolio-main-div{
+        width: 100% !important;
+    }
+    .port-top{
+        display: flex;
+        height: auto !important;
+        flex-direction: column !important;
+    }
+    .port-top-right-bottom
+    {
+        display: flex;
+        height: auto !important;
+        flex-direction: column !important;
+    }
+    .port-top-right-bottom-left,.port-top-right-bottom-right
+    {
+        width: 100% !important;
+    }
+    
+.port-top-rightbottomspandiv,.port-top-rightbottomright-spandiv {
+    top:385px !important
+}
+.port-top-right-bottom-right:hover .port-top-rightbottomright-spandiv,
+.port-top-right-bottom-left:hover .port-top-rightbottomspandiv
+{
+    top:0px !important;
+}
+.port-bottom-left
+{
+    display: flex;
+    height: auto !important;
+    flex-direction: column !important;
+}
+.port-bottom-left-left{
+    width: 100% !important;
+}
+.port-bottom-left-right{
+    width: 100% !important;
+}
+   
+    .port-top-left:hover .port-top-left-span1
+{
+    margin-top: 160px !important;
+    margin-left: 60px !important;
+
+}
+.port-top-right-top{
+    width: 100% !important;
+}
+    .port-top-left:hover .port-top-left-span2
+{
+    /* margin-top: 160px !important; */
+    margin-left: 60px !important;
+
+}
+    .port-top-left{
+        width: 100% !important;
+    }
+    .port-top-right
+    {
+        width: 100% !important;
+    }
+    .port-bottom{
+         display: flex;
+        height: auto !important;
+        flex-direction: column !important;
+    }
+    .port-bottom-left{
+        width: 100% !important;
+    }
+    .port-bottom-right
+    {
+        width: 100% !important;
     }
 }
 .portpoliospan1
@@ -31,19 +133,19 @@ margin-top: 20px !important;
     display: flex;
     margin-top: 40px !important;
     /* height: auto; */
-    height: 780px;;
+    height: 780px;
 }
 .port-top-left
 {
     flex: 1 !important;
     height: 780px !important;
     position: relative;
-    width: 50% !important;
+    width: 50% ;
     /* background-color: red; */
 }
 .port-top-left-img
 {
-    height: 780px !important;
+    height: 780px ;
     width: 100% !important;
     object-fit: cover;
     
@@ -123,13 +225,13 @@ margin-top: 20px !important;
     flex: 1 !important;
     height: 880px !important;
     position: relative;
-    width: 50% !important;
+    width: 50% ;
     /* background-color: palegoldenrod; */
 }
 .port-top-right-top
 {
     flex: 1;
-    width: 100% !important;
+    width: 100% ;
     height: 440px;
     overflow: hidden;
     position: relative;
@@ -138,7 +240,7 @@ margin-top: 20px !important;
 {
     height: 390px;
     margin-top: 5px;
-    object-fit: contain;
+    object-fit: cover;
 }
 .port-top-righttop-spandiv
 {
@@ -217,7 +319,7 @@ margin-top: 20px !important;
     height: 390px;
     overflow: hidden;
     position: relative;
-    width: 50% !important;
+    width: 50% ;
 }
 .port-top-rightbottomspandiv
 {
@@ -290,7 +392,7 @@ margin-top: 20px !important;
     height: 390px;
     overflow: hidden;
     position: relative;
-    width: 50% !important;
+    width: 50% ;
 }
 .port-top-rightbottomright-spandiv
 {
@@ -361,7 +463,7 @@ margin-top: 20px !important;
 .port-bottom-left
 {
     flex: 1;
-    width: 50% !important;
+    width: 50% ;
     height:390px;
     overflow: hidden;
     position: relative;
@@ -378,7 +480,7 @@ margin-top: 20px !important;
     height: 390px;
     overflow: hidden;
     position: relative;
-    width: 50% !important;
+    width: 50%;
     display: flex;
 }
 .port-bottom-left-spandiv
@@ -453,7 +555,7 @@ margin-top: 20px !important;
     height: 390px;
     overflow: hidden;
     position: relative;
-    width: 50% !important;
+    width: 50% !;
 }
 .port-bottom-left-right-spandiv
 {
@@ -529,7 +631,7 @@ margin-top: 20px !important;
     flex: 1 !important;
     height: 390px !important;
     position: relative;
-    width: 50% !important;
+    width: 50%;
     /* background-color: red; */
 }
 .port-bottom-right-img

@@ -1,7 +1,7 @@
 .navbar-container
 {
     display: flex;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
     background-color: rgb(235, 231, 233);
     height:auto;
     position: fixed;
@@ -86,49 +86,23 @@
     padding-left: 10px !important;
     /* line-height: 4.375rem; */
 }
-/* @media screen and (max-width:780px){
-  .navbar
-  {
-    margin-left: 350px !important;
-  width: 1300 !important;
-  position: fixed !important;
-overflow: hidden !important;}
-  .navbar-container
-  {
-    padding-top: 20px !important;
-  }
-  .navbar-right{
-    margin-left: 420px !important;
-  }
 
-} */
-/* @media screen and (max-width:1440px){
-  .navbar-container
-  {
-      /* width:1440px !important */
-  /* }
-} */
-/* @media screen and (max-width:350px){
-  .navbar-container
-  {
-      width:1280px !important;
-      overflow: hidden !important;
-  }
-  .navbar-right {
-    margin-left: 340px !important;
-}
-}  */
 .navbar-nav .show .dropdown-menu {
-    display: block;
+    display: block !important;
   }
   .NavDropdown
   {
     border-radius: 0px !important;
     margin-left: 10px;
+    /* z-index: 100001 !important; */
      
   }
+  
   .NavDropdown .dropdown-menu {
+    /* z-index: 100002 !important; */
     margin-top: -60; /* Remove default margin */
+    position: absolute;
+    
   }
   
   .NavDropdown .dropdown-menu .nav-link {
@@ -145,6 +119,9 @@ overflow: hidden !important;}
   .nav-dropdown-items {
     display: flex;
     flex-direction: column;
+    z-index: 100000 !important;
+    margin-top: -70px !important;
+    padding-top :60px !important;
   }
   
   .nav-dropdown-items .navdropdown-item {
@@ -159,6 +136,17 @@ overflow: hidden !important;}
   .navbar-nav .NavDropdown:hover .dropdown-menu {
     display: block;
   }
+  .navbar-nav .dropdown-menu {
+  position: absolute; /* Change position to absolute */
+  top: calc(100% - 1px); /* Position below the navbar */
+  left: 0; /* Align with the left edge of the navbar */
+  margin-top: 0; /* Remove the margin */
+  z-index: 100000 !important; /* Increase the z-index to ensure it appears above other elements */
+}
+
+.NavDropdown.show .dropdown-menu {
+  display: block; /* Ensure the dropdown menu is visible when the dropdown is active */
+}
    
   .navdropdown-item:hover
   {
@@ -166,11 +154,13 @@ overflow: hidden !important;}
     cursor: pointer;
     color:white !important
   }
- 
+  .NavDropdown.show .dropdown-menu {
+    display: block !important; /* Ensure the dropdown menu is visible when the dropdown is active */
+  }
   .navbar-nav .dropdown-menu {
     border-radius:0px;
     box-shadow: 1px 1px 2px 2px rgba(161, 157, 157, 0.2) !important;
-    z-index: 2000;
+    z-index:100000 !important;
     background-color: #fff;
   border: 1px solid #ccc;
   /* padding: 10px; */
@@ -191,8 +181,53 @@ overflow: hidden !important;}
 
 
   }
-  
-  
+  @media only screen and (min-width:700px) and (max-width: 800px) {
+    .navbar-toggler
+    {
+      margin-left: 290px !important;
+      margin-top: 20px !important;
+    }
+  }
+  @media only screen and (min-width:400px) and (max-width: 500px) {
+    .navbar-toggler
+    {
+      margin-left: 120px !important;
+      margin-top: 20px !important;
+    }
+    .navimg{
+      margin-left: 0px !important;
+    }
+    .navbar-nav{
+      margin-left: 80px !important;
+    }
+  }
+  @media only screen and (min-width:350px) and (max-width: 400px) {
+    .navbar-toggler
+    {
+      margin-left: 100px !important;
+      margin-top: 20px !important;
+    }
+    .navimg{
+      margin-left: -20px !important;
+    }
+    .navbar-nav{
+      margin-left: -80px !important;
+    }
+  }
+  @media only screen and (min-width:300px) and (max-width: 350px) {
+    .navbar-toggler
+    {
+      margin-left: 60px !important;
+      margin-top: 20px !important;
+    }
+    .navimg{
+      margin-left: -20px !important;
+    }
+    .navbar-nav{
+      margin-left: -50px !important;
+    }
+  }
+ 
 
  
   

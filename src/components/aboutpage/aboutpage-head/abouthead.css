@@ -5,6 +5,424 @@
     z-index: 10000;
     margin-right: 60px;
 }
+.index-main-bar
+{
+  width: 100% !important;
+}
+@media screen and (min-width:1000px) and (max-width:1200px)
+{
+  .aboutpage
+  {
+    width: 100% !important;
+  }
+  .aboutheadtop-img{
+    width: 100% !important;
+    margin-left: -350px !important;
+  }
+  .aboutheadtop-imagediv-span{
+    left: 29% !important;
+  }
+  .aboutheadtop-imagediv-bottom
+  {
+    width: 890px !important;
+    left: 7% !important;
+  }
+  .aboutfewwords-div{
+    width: 900px !important;
+    margin-left: 8% !important;
+  }
+  .aboutpage-images-words-img1, .aboutpage-images-words-img2{
+    width: 440px !important;
+  }
+  .ABOUTPAGETR
+  {
+    font-size: 12PX !important;
+  }
+  .aboutpageimg
+  {
+    width: 375px !important;
+    margin-left: 25px !important;
+    animation: moveTopedToBottom 1s ease-in-out infinite alternate;
+    margin-bottom: 90px !important;
+  }
+  @keyframes moveTopedToBottom {
+    0% { margin-top: 40px; } /* Start at the top */
+    100% { margin-top: 50px; } /* Move to the bottom */
+}
+.about-div
+{
+  /* margin-bottom: 300px !important; */
+  margin-bottom: 40px !important;
+  height: 600px !important;
+  margin-left: 100px !important;
+}
+.chooseusabout{
+  margin-left: 4% !important;
+}
+  .diglast-div-right-one {
+    font-size: 2.7375rem !important;}
+    .aboutheadright{
+      margin-left: -90px !important;
+    }
+}
+@media screen and (max-width:800px)
+{
+  .aboutpage
+  {
+    width: 100% !important;
+  }
+  .aboutheadtop-img{
+    width: 765px !important;
+    margin-left: -643px !important;
+  }
+  .aboutheadtop-imagediv-span{
+    left: 18% !important;
+    font-size: 3.7rem !important;
+  }
+  .aboutheadtop-imagediv-bottom
+  {
+    width: 690px !important;
+    left: 5% !important;
+  }
+  .aboutfewwords-div{
+    width: 680px !important;
+    margin-left: 6% !important;
+  }
+  .aboutpage-images-words-img1, .aboutpage-images-words-img2{
+    width: 330px !important;
+  }
+  .ABOUTPAGETR
+  {
+    font-size: 16PX !important;
+    line-height: 1px !important;
+  
+  }
+  .aboutpagehead-points-maincont{
+    line-height: 40px !important;
+  }
+  .aboutpageimg
+  {
+    width: 275px !important;
+    margin-left: 170px !important;
+    height: 340px !important;
+  }
+  .diglast-div-right-one {
+    font-size: 2.3375rem !important;}
+    .chooseusabouthead
+    {
+      margin-left: -7% !important;
+    }
+    .ABOUTPAGETR {
+      display: block;
+    }
+  
+    /* Set width to 100% and display as block for each table cell */
+    .ABOUTPAGETR td {
+      display: block;
+      width: 100%;
+    }
+  
+    /* Add spacing between table rows */
+    .ABOUTPAGETR td + td {
+      margin-top: 10px; /* Adjust as needed */
+    }
+}
+@media screen and (min-width:400px) and (max-width:500px)
+{
+  .aboutpage
+  {
+    width: 100% !important;
+  }
+  .aboutheadtop-img{
+    width: 435px !important;
+    margin-left: -990px !important;
+  }
+  .aboutheadtop-imagediv-span{
+    left: 9% !important;
+    font-size: 3.2rem !important;
+  }
+  .aboutheadtop-imagediv-bottom
+  {
+    width: 400px !important;
+    left: 3% !important;
+  }
+  .aboutfewwords-div{
+    width: 400px !important;
+    margin-left: 3% !important;
+  }
+  .aboutpage-images-words
+  {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+  .aboutpage-images-words-img1, .aboutpage-images-words-img2{
+    width: 390px !important;
+    margin-top: 20px !important;
+    margin-left: 4px !important;
+  }
+  .aboutpagehead-points-maindiv
+  {
+    flex-direction: column-reverse !important;
+  }
+  
+  .ABOUTPAGETR
+  {
+    font-size: 16PX !important;
+    line-height: 1px !important;
+    margin-left: 20px !important;
+  
+  }
+  .aboutpagehead-points-maincont{
+    line-height: 30px !important;
+    width:400px !important;
+    margin-left: 4px !important;
+  }
+  .chooseusabouthead
+  {
+    flex-direction: column !important;
+    /* margin-bottom: 30px !important; */
+  }
+  
+  
+  .aboutpageimg
+  {
+    width: 275px !important;
+    margin-top:4% !important;
+    margin-left: 60px !important;
+    height: 340px !important;
+    /* margin-bottom: 30px !important; */
+    transform: translateX(-10%); /* Center the image horizontally */
+    animation: moveTopedToBottom 1s ease-in-out infinite alternate;
+    
+}
+@keyframes moveTopedToBottom {
+  0% { margin-top: 3%; } /* Start at the top */
+  100% { margin-top: 4%; } /* Move to the bottom */
+}
+  .diglast-div-right-one {
+    font-size: 2.3375rem !important;}
+    .chooseusabouthead
+    {
+      margin-left: 50px !important;
+      padding-bottom: 30px !important;
+    }
+    .ABOUTPAGETR {
+      display: block;
+    }
+  
+    /* Set width to 100% and display as block for each table cell */
+    .ABOUTPAGETR td {
+      display: block;
+      width: 100%;
+    }
+  
+    /* Add spacing between table rows */
+    .ABOUTPAGETR td + td {
+      margin-top: 10px; /* Adjust as needed */
+    }
+}
+@media screen and (min-width:350px) and (max-width:400px)
+{
+  .aboutpage
+  {
+    width: 100% !important;
+  }
+  .aboutheadtop-img{
+    width: 435px !important;
+    margin-left: -990px !important;
+  }
+  .aboutheadtop-imagediv-span{
+    left: 8% !important;
+    font-size: 3.2rem !important;
+  }
+  .aboutheadtop-imagediv-bottom
+  {
+    width: 350px !important;
+    left: 3% !important;
+  }
+  .aboutfewwords-span1
+  {
+    font-size: 45px !important;
+  }
+  .aboutfewwords-div{
+    width: 350px !important;
+    margin-left: 3% !important;
+  }
+  .aboutpage-images-words
+  {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+  .aboutpage-images-words-img1, .aboutpage-images-words-img2{
+    width: 340px !important;
+    margin-top: 20px !important;
+    margin-left: 4px !important;
+  }
+  .aboutpagehead-points-maindiv
+  {
+    flex-direction: column-reverse !important;
+  }
+  
+  .ABOUTPAGETR
+  {
+    font-size: 16PX !important;
+    line-height: 1px !important;
+    margin-left: 20px !important;
+  
+  }
+  .aboutpagehead-points-maincont{
+    line-height: 30px !important;
+    width:340px !important;
+    margin-left: 4px !important;
+  }
+  .chooseusabouthead
+  {
+    flex-direction: column !important;
+    /* margin-bottom: 30px !important; */
+  }
+  .aboutpageimg
+  {
+    width: 275px !important;
+    margin-top:4% !important;
+    margin-left: 60px !important;
+    height: 340px !important;
+    /* margin-bottom: 30px !important; */
+    transform: translateX(-10%); /* Center the image horizontally */
+    animation: movedAndRotate 3s linear infinite !important;
+    
+}
+
+@keyframes movedAndRotate {
+    0%, 100% {
+    margin-top: 2% !important;
+  }
+  50% {
+    margin-top: 4% !important;
+  }
+}
+  .diglast-div-right-one {
+    font-size: 2.3375rem !important;}
+    .chooseusabouthead
+    {
+      margin-left: 50px !important;
+      padding-bottom: 30px !important;
+    }
+    .ABOUTPAGETR {
+      display: block;
+    }
+  
+    /* Set width to 100% and display as block for each table cell */
+    .ABOUTPAGETR td {
+      display: block;
+      width: 100%;
+    }
+  
+    /* Add spacing between table rows */
+    .ABOUTPAGETR td + td {
+      margin-top: 10px; /* Adjust as needed */
+    }
+}
+@media screen and (min-width:300px) and (max-width:350px)
+{
+  .aboutpage
+  {
+    width: 100% !important;
+  }
+  .aboutheadtop-img{
+    width: 395px !important;
+    margin-left: -1016px !important;
+  }
+  .aboutheadtop-imagediv-span{
+    left: 5% !important;
+    font-size: 3.2rem !important;
+  }
+  .aboutheadtop-imagediv-bottom
+  {
+    width: 300px !important;
+    left: 3% !important;
+  }
+  .aboutfewwords-span1
+  {
+    font-size: 45px !important;
+  }
+  .aboutfewwords-div{
+    width: 300px !important;
+    margin-left: 3% !important;
+  }
+  .aboutpage-images-words
+  {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+  .aboutpage-images-words-img1, .aboutpage-images-words-img2{
+    width: 290px !important;
+    margin-top: 20px !important;
+    margin-left: 4px !important;
+  }
+  .aboutpagehead-points-maindiv
+  {
+    flex-direction: column-reverse !important;
+  }
+  
+  .ABOUTPAGETR
+  {
+    font-size: 16PX !important;
+    line-height: 1px !important;
+    margin-left: 20px !important;
+  
+  }
+  .aboutpagehead-points-maincont{
+    line-height: 30px !important;
+    width:290px !important;
+    margin-left: 4px !important;
+  }
+  .chooseusabouthead
+  {
+    flex-direction: column !important;
+    /* margin-bottom: 30px !important; */
+  }
+  .aboutpageimg
+  {
+    width: 275px !important;
+    margin-top:4% !important;
+    margin-left: 30px !important;
+    height: 340px !important;
+    /* margin-bottom: 30px !important; */
+    transform: translateX(-10%); /* Center the image horizontally */
+    animation: movedAndRotate 3s linear infinite !important;
+    
+}
+
+@keyframes movedAndRotate {
+    0%, 100% {
+    margin-top: 2% !important;
+  }
+  50% {
+    margin-top: 4% !important;
+  }
+}
+  .diglast-div-right-one {
+    font-size: 2.3375rem !important;}
+    .chooseusabouthead
+    {
+      margin-left: 50px !important;
+      padding-bottom: 30px !important;
+    }
+    .ABOUTPAGETR {
+      display: block;
+    }
+  
+    /* Set width to 100% and display as block for each table cell */
+    .ABOUTPAGETR td {
+      display: block;
+      width: 100%;
+    }
+  
+    /* Add spacing between table rows */
+    .ABOUTPAGETR td + td {
+      margin-top: 10px; /* Adjust as needed */
+    }
+}
 @media screen and (max-width:1440px)
 {
     .index-main-bar
@@ -17,7 +435,7 @@
 
 .aboutheadtop-img
 {
-    width: 1920px !important;
+    width: 1920px;
     height: 655px !important;
     object-fit: cover;
 }
@@ -31,8 +449,8 @@
     font-weight: bold;
     font-size: 70px;
     top:300px;
-    left:38%;
-    color: white;
+    left:44%;
+    color: black;
     text-decoration: underline;
 }
 .aboutheadtop-imagediv-span span{
@@ -145,116 +563,10 @@ td:hover{
     margin-left: 40px;
     font-size: 17px;
     line-height: 30px;
+    font-family: Muli;
 }
-@media screen and (max-width: 500px) {
-    /* Adjustments for elements in mobile view */
-  
-    .aboutheadtop-img {
-      max-width: 100%; /* Prevent image overflow */
-      height: auto;
-    }
-  
-    .aboutheadtop-imagediv-span {
-      font-size: 24px;
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  
-    .aboutheadtop-imagediv-bottom {
-      width: 85%;
-      left: 9%;
-      bottom: 20px;
-      height: 80px;
-      padding: 20px;
-      z-index: 1000;
-      display: flex !important;
-      flex-direction: row;
-      overflow: hidden; /* Prevent content overflow */
-    }
-  
-    .aboutheadtop-imagediv-bottom-logo
-     {
-      margin-left: 0;
-      margin-top: 5px;
-      font-size: 14px;
-    }
-    .aboutheadtop-imagediv-bottom-span
-    {
-        margin-left: 0;
-      margin-top: 5px !important;
-      font-size: 14px;
-      margin-left: 30px;
-    }
-  
-    .aboutfewwords-div {
-      width: 90%;
-      margin-left: 5%;
-      padding-top: 50px;
-      overflow: hidden; /* Prevent content overflow */
-    }
-  
-    .aboutfewwords {
-      padding-top: 60px;
-      text-align: center;
-      width:85% !important;
-      margin-left: 10%;
-    }
-    
-  
-    .aboutfewwords-span1 {
-      font-size: 24px;
-    }
-  
-    .aboutpage-images-words {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width:85%;
-      margin-left: 10%;
-      margin-top: 30px;
-      overflow: hidden; /* Prevent content overflow */
-    }
-  
-    .aboutpage-images-words-img1,
-    .aboutpage-images-words-img2 {
-      width: 100%; /* Prevent image overflow */
-      height: auto;
-      margin: 20px 0;
-    }
-  
-    .aboutpagehead-points-maindiv {
-      display: flex;
-      flex-direction: column;
-      margin-left: 0;
-    }
-  
-    .aboutpagehead-points {
-      width: 85%;
-      margin-left: 0;
-      text-align: left;
-      margin-left: 10%;
-    }
-  
-    .aboutpagehead-points-maincont {
-      width: 85%;
-      margin-left: 0;
-      text-align: justify;
-      margin-left: 10%;
-      margin-bottom: 40px;
-    }
-    .aboutheadtop-imagediv-bottom {
-        overflow-x: hidden; /* Hide horizontal overflow */
-      }
-    
-      .aboutfewwords-div {
-        overflow-x: hidden; /* Hide horizontal overflow */
-      }
-    
-      .aboutpage-images-words {
-        overflow-x: hidden; /* Hide horizontal overflow */
-      }
-  }
+
+
   .chooseusmainabout
   {
     width: 100% !important;
@@ -268,3 +580,12 @@ td:hover{
     margin-left: 11%;
   
   }
+.aboutpageimg
+{
+  animation: moveTopedToBottom 1s ease-in-out infinite alternate;
+ 
+}
+@keyframes moveTopedToBottom {
+  0% { margin-top: 30px; } /* Start at the top */
+  100% { margin-top: 50px; } /* Move to the bottom */
+}

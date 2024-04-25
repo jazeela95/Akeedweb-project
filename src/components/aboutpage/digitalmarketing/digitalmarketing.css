@@ -3,10 +3,291 @@
     margin-left: -50px !important;
     color: black;
 }
+.digitalmarketingpage
+{
+    width: 100%;
+}
+@media screen and (min-width:1000px) and (max-width:1200px){
+    .digitalmarketingpage
+{
+    width: 100% !important;
+}
+
+.website-middle 
+{
+    display: none !important;
+}
+.digmarket-topspan
+{
+    margin-left: -11% !important;
+}
+.marketing-caption-div
+{
+    width: 890px !important;
+    margin-left: 7% !important;
+}
+.ditigal-services-head
+{
+    margin-left: -20% !important;
+}
+.diglast-div
+{
+    width: 850px !important;
+    margin-left: -14% !important;
+}
+.dig-img
+{
+    width: 380px !important;
+    margin-left: 325px !important;
+    margin-top: 20px !important;
+    margin-bottom: 40px !important;
+}
+.diglast-div-right
+{
+    margin-left: 50px !important;
+}
+}
+@media screen and  (max-width:800px){
+    .digitalmarketingpage
+{
+    width: 100% !important;
+}
+
+.website-middle 
+{
+    display: none !important;
+}
+.digmarket-topspan
+{
+    margin-left: -7% !important;
+}
+.maincarddigdiv
+{
+    width: 720px !important;
+    justify-content: space-around !important;
+    margin-left: 40px !important;
+}
+.marketing-caption-div
+{
+    width: 700px !important;
+    margin-left: 5% !important;
+    margin-right: 2% !important;
+}
+.ditigal-services-head
+{
+    margin-left: -40% !important;
+}
+.diglast-div
+{
+    width: 700px !important;
+    margin-left: -19% !important;
+}
+.dig-img
+{
+    width: 310px !important;
+    margin-left: 325px !important;
+    margin-top: 20px !important;
+    margin-bottom: 40px !important;
+}
+.diglast-div-right
+{
+    margin-left: 50px !important;
+    margin-right: 10px !important;
+}
+}
+@media screen and  (min-width:400px) and (max-width:500px){
+    .digitalmarketingpage
+{
+    width: 100% !important;
+}
+
+.website-middle 
+{
+    display: none !important;
+}
+.digmarket-topspan
+{
+    margin-left: -5% !important;
+    font-size: 40px !important;
+}
+
+.maincarddigdiv
+{
+    width: 360px !important;
+    justify-content: space-around !important;
+    margin-left: 40px !important;
+}
+.marketing-caption-div
+{
+    width: 360px !important;
+    margin-left: 5% !important;
+    margin-right: 2% !important;
+    flex-direction: column !important;
+}
+.marketing-caption-left 
+{font-size: 2.8rem !important;}
+.ditigal-services-head
+{
+    margin-left: -69% !important;
+    font-size: 40px !important;
+}
+.diglast-div
+{
+    width: 360px !important;
+    margin-left: 1% !important;
+    flex-direction: column-reverse !important;
+}
+.dig-img
+{
+    width: 310px !important;
+    margin-left: 85px !important;
+    margin-top: 20px !important;
+    margin-bottom: 40px !important;
+}
+.diglast-div-right
+{
+    margin-left: 50px !important;
+    margin-right: 10px !important;
+    margin-bottom: 30px !important;
+}
+.diglast-div-right-one{
+    font-size: 1.65rem !important;
+}
+}
+@media screen and  (min-width:350px) and (max-width:400px){
+    .digitalmarketingpage
+{
+    width: 100% !important;
+}
+
+.website-middle 
+{
+    display: none !important;
+}
+.digmarket-topspan
+{
+    margin-left: -5% !important;
+    font-size: 40px !important;
+}
+
+.maincarddigdiv
+{
+    width: 320px !important;
+    justify-content: space-around !important;
+    margin-left: 40px !important;
+}
+.marketing-caption-div
+{
+    width: 320px !important;
+    margin-left: 5% !important;
+    margin-right: 2% !important;
+    flex-direction: column !important;
+}
+.marketing-caption-left 
+{font-size: 2.8rem !important;}
+.ditigal-services-head
+{
+    margin-left: -69% !important;
+    font-size: 40px !important;
+}
+.diglast-div
+{
+    width: 320px !important;
+    margin-left: 1% !important;
+    flex-direction: column-reverse !important;
+}
+.dig-img
+{
+    width: 310px !important;
+    margin-left: 45px !important;
+    margin-top: 20px !important;
+    margin-bottom: 40px !important;
+}
+.diglast-div-right
+{
+    margin-left: 50px !important;
+    margin-right: 10px !important;
+    margin-bottom: 30px !important;
+}
+.diglast-div-right-one{
+    font-size: 1.45rem !important;
+}
+}
+@media screen and  (min-width:300px) and (max-width:350px){
+    .digitalmarketingpage
+{
+    width: 100% !important;
+}
+
+.website-middle 
+{
+    display: none !important;
+}
+.digmarket-topspan
+{
+    margin-left: -1% !important;
+    font-size: 32px !important;
+}
+
+.maincarddigdiv
+{
+    width: 300px !important;
+    justify-content: space-around !important;
+    margin-left: 20px !important;
+}
+.digital-card
+{
+    width: 280px !important;
+    padding: 10px !important;
+}
+.marketing-caption-left {
+    font-size: 2.4rem !important;
+}
+.marketing-caption-div
+{
+    width: 300px !important;
+    margin-left: 3% !important;
+    margin-right: 2% !important;
+    flex-direction: column !important;
+}
+.marketing-caption-left 
+{font-size: 2.8rem !important;}
+.ditigal-services-head
+{
+    margin-left: -74% !important;
+    font-size: 40px !important;
+}
+.diglast-div
+{
+    width: 300px !important;
+    margin-left: 0px !important;
+    flex-direction: column-reverse !important;
+}
+.dig-img
+{
+    width: 280px !important;
+    margin-left: 58px !important;
+    margin-top: 20px !important;
+    margin-bottom: 40px !important;
+}
+.diglast-div-right
+{
+    margin-left: 50px !important;
+    margin-right: 40px !important;
+    margin-bottom: 30px !important;
+}
+.diglast-div-right-one{
+    font-size: 1.35rem !important;
+}
+.diglast-div-right-2
+{
+    font-size: 0.8rem !important;
+}
+}
 .marketing-caption-div
 {
     display: flex;
-    width: 1150px !important;
+    width: 1150px ;
     margin-left: 11%;
     padding-top: 150px;
     text-align: left;
@@ -141,9 +422,9 @@ letter-spacing: -2.5px;
 }
 .dig-img
 {
-    margin-left: -10px !important;
-    width:480px !important;
-    height: 425px !important;
+    margin-left: -10px;
+    width:480px ;
+    height: 425px;
     /* margin-top: -20px !important; */
     
 }

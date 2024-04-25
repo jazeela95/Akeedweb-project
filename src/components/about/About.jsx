@@ -12,7 +12,8 @@ const About = () => {
         <div className='about-right-main'>
           <div className='about-right-div'>
             <span className='about-right-main-span1' style={{textAlign:"left"}}>Offering Bespoke Solutions</span><br></br><br></br>
-            <span className='about-right-main-span2'>
+            <div style={{textAlign:"justify",fontFamily:"Muli",fontSize:"17px"}}>
+            <span className='about-right-main-span2' style={{textAlign:"justify"}}>
             Akeed Technology, as our name itself reveals, offers IT infrastructure 
 services to businesses in the UAE. We now have a world of technological 
 advancement that forces companies to bring the changes that help them 
@@ -21,8 +22,9 @@ partner for different industries offering high-quality IT infrastructure
 services. We provide telecom solutions, telecom products, IT solutions, IT 
 support, website solutions, security, audio-visual solutions, hardware 
 services, software solutions.
-
-            </span><br></br>
+            
+            </span></div><br></br>
+            
             <Link to="/aboutpages"><button className='about-right-main-button' >ABOUT US</button></Link>
             </div>
         </div>

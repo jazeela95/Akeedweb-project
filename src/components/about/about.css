@@ -3,7 +3,7 @@
     display: flex;
     margin: 20px;
     margin-bottom: 100px !important;
-    text-align: justify !important;
+    
 }
 @media screen and (min-width:1200px) and (max-width:1440px)
 {
@@ -16,6 +16,7 @@
     {
         font-size: 2.3rem !important;
         line-height: 3.7rem !important;
+        text-align: left !important;
         /* font-weight: bold !important; */
     }
 }
@@ -64,6 +65,7 @@
     }
     .about-right-main-span2{
         font-size: 10px !important;
+        text-align: justify;
     }
 }
 @media screen and (min-width:400px) and (max-width:430px)
@@ -169,6 +171,7 @@
     .about-right-main-span2{
         font-size: 10px !important;
         margin-top: 100px !important;
+        font-family: Muli;
     }
 }
 
@@ -218,7 +221,7 @@
     max-width: 70% !important;
     margin: 30px;
     /* margin-left: 100rgb(250, 19, 96)px !important; */
-    text-align: justify;
+    text-align: left;
 }
 .about-right-main-span1
 {

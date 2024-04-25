@@ -361,15 +361,15 @@ const handleDropdownLeave = () => {
           </div>
         <div className='aboutheadtop-imagediv'>
         <img src={webdesign} alt="" className='aboutheadtop-img'/>
-        <div className='aboutheadtop-imagediv-span webhead' >
+        <div className='aboutheadtop-imagediv-span webhead mobilehead' >
         Mobile App Developement Solutions
             <span>.</span>
-            <div className='webhead-span'>We are creating your own ideas</div>
+            <div className='webhead-span mobileheadspan'>We are creating your own ideas</div>
             <Link to="/aboutpages"><button className='about-right-main-button' style={{fontSize:"15px",marginTop:"30px"}}>ABOUT US</button></Link>
         </div>
         <div className='aboutheadtop-imagediv-bottom'>
             <CottageIcon className='aboutheadtop-imagediv-bottom-logo'/>
-            <div className='aboutheadtop-imagediv-bottom-span'>Mobile App Developement Solutions</div>
+            <div className='aboutheadtop-imagediv-bottom-span mobilebottomhead'>Mobile App Developement Solutions</div>
         </div>
         </div>
         <div className='mobileapp-main'>
@@ -486,7 +486,7 @@ const handleDropdownLeave = () => {
               <div className='chooseusmain-lastdiv-div2'>
                 <img src={mobileapp} alt="" className='chooseusmain-lastdiv-div2-img'/>
               </div>
-              <div className='chooseusmain-lastdiv-div1 ' style={{marginLeft:"60px"}}>
+              <div className='chooseusmain-lastdiv-div1 mobdivcard' style={{marginLeft:"60px"}}>
               <Card className='chooseusmain-lastdiv-div1-card' >
           <div className='chooseusmain-lastdiv-div1-imgdiv'>
             <Diversity2RoundedIcon className='chooseus-image'/>

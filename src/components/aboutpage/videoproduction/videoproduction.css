@@ -1,7 +1,7 @@
 .videohead
 {
     margin-left: -130px;
-    color: rgb(240, 10, 10);
+    color: black;
     font-size: 60px !important;
 }
 .video-4th-div
@@ -9,4 +9,127 @@
     width: 100%;
     background-color: rgb(169, 166, 166);
     color: black;
+}
+@media screen and (min-width:1000px) and (max-width:1200px){
+    
+    .video-4th-div-div{
+        margin-left: -170px !important;
+
+    }
+    .video-4th-div{
+        width: 75% !important;
+    }
+}
+@media screen and (min-width:700px) and (max-width:800px){
+    
+    .video-4th-div-div{
+        margin-left: -170px !important;
+
+    }
+    .video-4th-div{
+        width: 75% !important;
+    }
+    .video-right-2{
+        width: 378px !important;
+        text-align: justify !important;
+    }
+    .videohead {
+        font-size: 52px !important;
+    }
+    .video-4th-div-div{
+        margin-left: -50px !important;
+        font-size: 22px !important;
+
+    }
+    .video-4th-div{
+        width: 75% !important;
+    }
+}
+@media screen and (min-width:400px) and (max-width:500px){
+    
+    .video-right-2{
+        width: 378px !important;
+        text-align: justify !important;
+    }
+    .videohead {
+        font-size: 35px !important;
+        margin-left: -79px !important;
+    }
+    .videopro-bottom-span{
+        font-size: 16px !important;
+    }
+    .video-4th-div-div{
+        margin-left: -50px !important;
+        font-size: 22px !important;
+
+    }
+    .video-4th-div{
+        width: 75% !important;
+        margin-top: -170px !important;
+    }
+}
+@media screen and (min-width:350px) and (max-width:400px){
+    
+    .video-right-2{
+        width: 322px !important;
+        text-align: justify !important;
+    }
+    .videohead {
+        font-size: 33px !important;
+        margin-left: -79px !important;
+    }
+    .videopro-bottom-span{
+        font-size: 14px !important;
+    }
+    .video-4th-div-div{
+        margin-left: -50px !important;
+        font-size: 22px !important;
+
+    }
+    .video-4th-div{
+        width: 75% !important;
+        margin-top: -170px !important;
+    }
+    .vid-img
+    {
+        margin-left: 43px !important;
+    }
+    .vid-img-lastdiv
+    {
+        margin-left: 16px !important
+        ;
+    }
+}
+@media screen and (min-width:300px) and (max-width:350px){
+    
+    .video-right-2{
+        width: 282px !important;
+        text-align: justify !important;
+    }
+    .videohead {
+        font-size: 27px !important;
+        margin-left: -21px !important;
+    }
+    .videopro-bottom-span{
+        font-size: 11px !important;
+    }
+    .video-4th-div-div{
+        margin-left: -75px !important;
+        font-size: 22px !important;
+        width: 292px;
+
+    }
+    .video-4th-div{
+        width: 75% !important;
+        margin-top: -170px !important;
+    }
+    .vid-img
+    {
+        margin-left: 43px !important;
+    }
+    .vid-img-lastdiv
+    {
+        margin-left: -7px !important
+        ;
+    }
 }

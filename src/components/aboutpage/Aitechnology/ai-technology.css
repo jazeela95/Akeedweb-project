@@ -1,9 +1,80 @@
 .aihead
 {
-    margin-left: -70px !important;
-    font-size: 70px !important;
+    margin-left: -50px !important;
+    font-size: 70px;
     text-decoration: underline;
-    color: white;
+    color: black;
+}
+@media screen and (min-width:1000px) and (max-width:1200px){
+    .aiport{
+        width: 1000px !important;
+        margin-left: 0% !important;
+    }
+   
+    .ai-second-div 
+    {
+        margin-left: 2% !important;
+    }
+    .ai-second-div-right-img {
+        width: 354px !important;
+        height: 450px !important;
+        top: 620px !important;
+    }
+}
+@media screen and (min-width:700px) and (max-width:800px){
+    .aiport{
+        width: 800px !important;
+        margin-left: -2% !important;
+    }
+    .ai-second-div 
+    {
+        margin-left: 2% !important;
+    }
+    .ai-second-div-right-img {
+        width: 254px !important;
+        height: 340px !important;
+        top: 620px !important;
+
+        margin-left: -71px !important;
+    }
+}
+@media screen and (min-width:400px) and (max-width:500px){
+    .aihead {
+        font-size: 46px !important;
+    }
+    .ai-second-div-left-span1 {
+        font-size: 1.1875rem !important;
+        letter-spacing: -0.5px !important;
+    }
+    
+.ai-second-div-left-span2{
+    width: 380px !important;
+    text-align: justify !important;
+    margin-right: 20px !important;
+}
+    .aiport{
+        width: 400px !important;
+        margin-left: -4% !important;
+    }
+   .aiport1{
+    width: 400px !important;
+   }
+    .ai-second-div 
+    {
+        margin-left: 2% !important;
+    }
+    .ai-second-div-right-img {
+        width: 254px !important;
+        height: 340px !important;
+        top: 620px !important;
+        margin-left: -71px !important;
+    }
+    .aiimgdiv
+{
+    margin-right: 120px;
+    margin-left: 100px;
+    width: 400px !important;
+}
 }
 .ai-second-div
 {
@@ -65,7 +136,7 @@
 {
     margin-top: 80px !important;
     /* display: flex; */
-    width: 1150px !important;
+    width: 1150px ;
     margin-left: 11%;
     text-align: left;
 }

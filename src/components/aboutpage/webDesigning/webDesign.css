@@ -1,11 +1,265 @@
 .webhead
 {
     text-align: left !important;
-    margin-left: -500px !important;
+    margin-left: -500px ;
     margin-top: -10px;
     text-decoration: none;
-    color: rgb(239, 11, 118);
+    color: black;
     font-size: 50px;
+}
+.webdesign-mainhead{
+    width: 100%;
+}
+@media screen and (min-width:1000px) and (max-width:1200px){
+    .webdesign-mainhead{
+        width: 100% !important;
+    }
+    .webhead{
+        margin-left:-380px !important ;
+    }
+    .webdign-second-div{
+        width: 900px !important;
+        margin-left: 7% !important;
+    }
+    .weblastdiv
+    {
+        width: 900px !important;
+        margin-left: 10% !important;
+    }
+    .web-img
+    {
+        width: 380px !important;
+        margin-left: 325px !important;
+        margin-top: 75px !important;
+        margin-bottom: 40px !important;
+}
+.web-4th-div-div-left-img 
+{
+    margin-left: -340px !important;
+}
+.web-4th-div-div-right{
+    width: 400px !important;
+    margin-right: 220px !important;
+    margin-left: -285px !important;
+    font-size: 2.3rem !important;
+}
+.web-4th-div {
+    width: 75% !important;
+}
+}
+@media screen and (max-width:800px){
+    .webdesign-mainhead{
+        width: 100% !important;
+    }
+    .webhead{
+        margin-left:-210px !important ;
+        font-size: 40px !important;
+    }
+    .webdign-second-div{
+        width: 700px !important;
+        margin-left: 5% !important;
+    }
+    .weblastdiv
+    {
+        width: 700px !important;
+        margin-left: 6% !important;
+    }
+    .web-img
+    {
+        width: 310px !important;
+        margin-left: 325px !important;
+        margin-top: 80px !important;
+        margin-bottom: 40px !important;
+}
+.web-4th-div-div-left-img 
+{
+    margin-left: -70px !important;
+}
+.web-4th-div-div-right{
+    /* width: 400px !important; */
+    margin-right: 40px !important;
+    /* margin-left: -285px !important; */
+    font-size: 1.8rem !important;
+}
+.web-4th-div {
+    width: 75% !important;
+}
+.web-4th-div-div
+{
+    width: 700px !important;
+}
+}
+@media screen and (min-width:400px) and (max-width:500px){
+    .webdesign-mainhead{
+        width: 100% !important;
+    }
+    .webhead{
+        margin-left:-85px !important ;
+        font-size: 37px !important;
+        width: 400px !important;
+    }
+    .webdign-second-div{
+        width: 400px !important;
+        margin-left: 4% !important;
+    }
+    .weblastdiv
+    {
+        width: 400px !important;
+        margin-left: 3% !important;
+    }
+    .web-img
+    {
+        width: 310px !important;
+        margin-left: 48px !important;
+        margin-top: 80px !important;
+        margin-bottom: 20px !important;
+}
+.web-4th-div-div-left-img 
+{
+    margin-left: 40px !important;
+}
+.web-4th-div-div-right{
+    /* width: 400px !important; */
+    margin-right: 40px !important;
+    /* margin-left: -285px !important; */
+    font-size: 1.8rem !important;
+}
+.web-4th-div {
+    width: 460px !important;
+    height: auto !important;
+    padding-bottom: 40px !important;
+    padding-left: 20px !important;
+}
+.web-4th-div-div
+{
+    width: 400px !important;
+    flex-direction: column !important;
+    height: auto !important;
+    text-align: justify !important;
+}
+}
+@media screen and (min-width:350px) and (max-width:400px){
+    .webdesign-mainhead{
+        width: 100% !important;
+    }
+    .webhead{
+        margin-left:-65px !important ;
+        font-size: 33px !important;
+        width: 400px !important;
+    }
+    .web-headbottom
+    {
+        font-size: 15px !important;
+    }
+    .webhead-span{
+        font-size: 0.8rem !important;
+        margin-left: 5px !important;
+    }
+    .webdign-second-div{
+        width: 320px !important;
+        margin-left: 4% !important;
+    }
+    .web-div2-logodiv1-span1, .web-div2-logodiv1-span2, .web-div2-logodiv1-span3
+    {
+        font-size: 1rem !important;
+    }
+    .weblastdiv
+    {
+        width: 400px !important;
+        margin-left: 3% !important;
+    }
+    .web-img
+    {
+        width: 310px !important;
+        margin-left: 24px !important;
+        margin-top: 80px !important;
+        margin-bottom: 20px !important;
+}
+.web-4th-div-div-left-img 
+{
+    margin-left: 70px !important;
+}
+.web-4th-div-div-right{
+    /* width: 400px !important; */
+    margin-right: 40px !important;
+    /* margin-left: -285px !important; */
+    font-size: 1.8rem !important;
+}
+.web-4th-div {
+    width: 420px !important;
+    height: auto !important;
+    padding-bottom: 40px !important;
+    padding-left: 20px !important;
+}
+.web-4th-div-div
+{
+    width: 350px !important;
+    flex-direction: column !important;
+    height: auto !important;
+    text-align: justify !important;
+}
+}
+@media screen and (min-width:300px) and (max-width:350px){
+    .webdesign-mainhead{
+        width: 100% !important;
+    }
+    .webhead{
+        margin-left:-28px !important ;
+        font-size: 28px !important;
+        width: 400px !important;
+    }
+    .web-headbottom
+    {
+        font-size: 12px !important;
+    }
+    .webhead-span{
+        font-size: 0.8rem !important;
+        margin-left: 5px !important;
+    }
+    .webdign-second-div{
+        width: 290px !important;
+        margin-left: 3% !important;
+    }
+    .web-div2-logodiv1-span1, .web-div2-logodiv1-span2, .web-div2-logodiv1-span3
+    {
+        font-size: 0.8rem !important;
+    }
+    .weblastdiv
+    {
+        width: 400px !important;
+        margin-left: 3% !important;
+    }
+    .web-img
+    {
+        width: 280px !important;
+        margin-left: 8px !important;
+        margin-top: 80px !important;
+        margin-bottom: 20px !important;
+        height: 300px !important;
+}
+.web-4th-div-div-left-img 
+{
+    margin-left: 70px !important;
+}
+.web-4th-div-div-right{
+    /* width: 400px !important; */
+    margin-right: 40px !important;
+    /* margin-left: -285px !important; */
+    font-size: 1.8rem !important;
+}
+.web-4th-div {
+    width: 420px !important;
+    height: auto !important;
+    padding-bottom: 40px !important;
+    padding-left: 20px !important;
+}
+.web-4th-div-div
+{
+    width: 350px !important;
+    flex-direction: column !important;
+    height: auto !important;
+    text-align: justify !important;
+}
 }
 .webhead-span
 {
@@ -19,7 +273,7 @@
 {
     margin-top: 120px;
     display: flex;
-    width: 1150px !important;
+    width: 1150px ;
     margin-left: 11%;
     margin-bottom: 30px;
     justify-content: space-around;
@@ -131,7 +385,7 @@
 {
     height:450px;
     width: 400px;
-    margin-left: -20px !important;
+    margin-left: -20px ;
     /* margin-bottom: 50px; */
 }
 .web-4th-div
@@ -145,7 +399,7 @@
 {
     margin-top: 70px !important;
     display: flex;
-    width: 1150px !important;
+    width: 1150px ;
     margin-left: 11%;
 }
 .web-4th-div-div-left

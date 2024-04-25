@@ -7,6 +7,174 @@
     margin-bottom: 100px;
     text-align: left;
 }
+@media screen and (min-width:1000px) and (max-width:1200px){
+    .mobileapp-main{
+        width: 900px !important;
+        margin-left: 7% !important;
+    }
+    .mobilecard-div
+    {
+        width: 950px !important;
+        margin-left: 7% !important;
+        margin-left: 55px !important;
+    }
+    .mobilecard-3,.mobilecard-2,.mobilecard-1
+    {
+        height: auto !important;
+        padding-bottom: 20px !important;
+    }
+    .chooseusmain
+    {
+        width: 950px !important;
+        margin-left: 7% !important;
+        margin-left: 95px !important;
+    }
+    .mobile-4th-div
+    {
+        width: 100% !important;
+    }
+}
+@media screen and  (max-width:800px){
+    .mobileapp-main{
+        width: 750px !important;
+        margin-left: 4% !important;
+    }
+    .mobilecard-div
+    {
+        width: 735px !important;
+        margin-left: 4% !important;
+        margin-left: 55px !important;
+    }
+    .mobilecard-3,.mobilecard-2,.mobilecard-1
+    {
+        height: auto !important;
+        padding-bottom: 20px !important;
+        padding: 5px !important;
+    }
+    .mobilecard-1-head 
+    {
+        font-size: 25px !important;
+    }
+    .chooseusmain
+    {
+        width: 700px !important;
+        margin-left: 4% !important;
+        margin-right: 15px !important;
+    }
+    .chooseusmain-lastdiv-div2{
+        width: 700px !important;
+        margin-top: 10px !important;
+    }
+    .chooseusmain-lastdiv-div2-img 
+    {
+        width: 600px !important;
+        height:400px !important
+    }
+    
+    .mobile-4th-div
+    {
+        width: 100% !important;
+    }
+    .chooseusmain-lastdiv-div1-card
+    {
+        height: auto !important;
+        padding-bottom: 20px !important;
+    }
+    .chooseusmain-lastdiv{
+        flex-direction: column !important;
+    }
+    .chooseusmain-lastdiv-div1
+    {
+        display: flex !important;
+        width: 700px !important;
+    }
+    .mobdivcard
+    {
+        margin-left: 0px !important;
+    }
+}
+@media screen and  (min-width:400px) and (max-width:500px){
+    .mobileapp-main{
+        width: 375px !important;
+        margin-left: 4% !important;
+    }
+    .mobileapp-main-headspan {
+        font-size: 24px !important;
+        line-height: 37px !important;
+    }
+    .mobileapp-main-paraspan
+    {
+        font-size: 15px !important;
+    }
+    .mobilehead
+    {
+        font-size: 30px !important;
+    }
+    .mobileheadspan
+    {
+        margin-left: 5px !important;
+    }
+    .mobilebottomhead
+    {
+        font-size: 15px !important;
+    }
+    .mobilecard-div
+    {
+        width: 405px !important;
+        flex-direction: column !important;
+        margin-left: 4% !important;
+        margin-left: 55px !important;
+    }
+    .mobilecard-3,.mobilecard-2,.mobilecard-1
+    {
+        height: auto !important;
+        padding-bottom: 20px !important;
+        padding: 5px !important;
+        width: 350px !important;
+        margin-bottom: 60PX !important;
+    }
+    .mobilecard-1-head 
+    {
+        font-size: 25px !important;
+    }
+    .chooseusmain
+    {
+        width: 350px !important;
+        margin-left: 4% !important;
+        margin-right: 15px !important;
+    }
+    .chooseusmain-lastdiv-div2{
+        width: 350px !important;
+        margin-top: 10px !important;
+    }
+    .chooseusmain-lastdiv-div2-img 
+    {
+        width: 300px !important;
+        height:400px !important
+    }
+    
+    .mobile-4th-div
+    {
+        width: 100% !important;
+    }
+    .chooseusmain-lastdiv-div1-card
+    {
+        height: auto !important;
+        padding-bottom: 20px !important;
+    }
+    .chooseusmain-lastdiv{
+        flex-direction: column !important;
+    }
+    .chooseusmain-lastdiv-div1
+    {
+        /* display: flex !important; */
+        width: 700px !important;
+    }
+    .mobdivcard
+    {
+        margin-left: 0px !important;
+    }
+}
 .mobileapp-main-redspan
 {
     color:rgb(250, 19, 96);
@@ -120,7 +288,7 @@
 }
 .chooseusmain-lastdiv-div1
 {
-    width:360px !important;
+    width:360px;
     /* text-align: center; */
     /* background-color: red; */
 }
@@ -169,7 +337,7 @@
 }
 .mobile-4th-div
 {
-    width: 100% !important;
+    width: 100% ;
     height:350px;
     background-color:rgb(254, 150, 167) ;
     position: relative;

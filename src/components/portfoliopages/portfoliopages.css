@@ -7,6 +7,11 @@
     margin-bottom: 100px;
     text-align: left;
 }
+/* @media screen and (min-width:1000px) and (max-width:1200px){
+    .index-main-bar{
+        width: 100% !important;
+    }
+} */
 .portfolio-main-left
 {
     flex: 1;

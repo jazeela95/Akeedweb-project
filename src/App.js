@@ -46,7 +46,7 @@ function App() {
         <Route path="/blog" element={<Blog/>} />
         <Route path="/clientlogo" element={<Clientlogo/>} />
         <Route path="/newsletter" element={<Newletter/>} />
-        {/* <Route path="/index1" element={<Index1/>}/> */}
+        <Route path="/index1" element={<Index1/>}/>
          <Route path="/aboutpages" element={<Aboutpage/>}/> 
         <Route path="/aboutpagehead" element={<Abouthead/>}/>
         <Route path="/digitalmarketing" element={<Digitalmarketing/>}/>
@@ -56,7 +56,7 @@ function App() {
         <Route path="/video-product" element={<Videoproduction/>}/>
         <Route path="/brandDesign" element={<BrandDesign/>}/>
         <Route path="/contactus" element={<Contactus/>}/>
-        {/* <Route path="/portfoliopages1" element={<Portfoliopages/>}/> */} */}
+        {/* <Route path="/portfoliopages1" element={<Portfoliopages/>}/> */} 
          
         </Routes>
         <Footer/>

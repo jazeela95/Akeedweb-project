@@ -13,7 +13,7 @@ import AddIcon from '@mui/icons-material/Add';
 import CameraIcon from '@mui/icons-material/Camera';
 // import Diversity2Icon from '@mui/icons-material/Diversity2';
 // import ExtensionIcon from '@mui/icons-material/Extension';
-import DoneIcon from '@mui/icons-material/Done';
+// import DoneIcon from '@mui/icons-material/Done';
 import port from "../../../assets/images/port-img1-4.jpg"
 import des from "../../../assets/images/post-img1-1.png"
 import "./videoproduction.css"
@@ -362,7 +362,7 @@ const handleDropdownLeave = () => {
         </div>
         <div className='aboutheadtop-imagediv-bottom'>
             <CottageIcon className='aboutheadtop-imagediv-bottom-logo'/>
-            <div className='aboutheadtop-imagediv-bottom-span'>Video Production & Social Media</div>
+            <div className='aboutheadtop-imagediv-bottom-span videopro-bottom-span'>Video Production & Social Media</div>
         </div>
        
       
@@ -415,13 +415,13 @@ const handleDropdownLeave = () => {
             </div>
             <div className='diglast-div' style={{marginBottom:"200px"}}>
               <div className='diglast-div-left'>
-              <img src={port} alt="" className='curser5-img web-img' />
+              <img src={port} alt="" className='curser5-img web-img vid-img' />
               </div>
               <div className='diglast-div-right'>
                 <div className='diglast-div-right-one'>
                 We have solution for <span style={{color:'rgb(250, 19, 96)'}}>Social Medai & <br></br>Video Production</span>
                 </div>
-                <div className='diglast-div-right-2'>
+                <div className='diglast-div-right-2 video-right-2'>
                 We specialize in creating valuable content for brands 
 and businesses. We will make sure your message is delivered through our wealth of expertise. We use cutting 
 edge technology which provides us with flexibility and 
@@ -435,9 +435,9 @@ always count on.
             <div className='video-4th-div'>
                 <div className='web-4th-div-div'>
                     <div className='web-4th-div-div-left' style={{marginTop:"-20px"}}>
-                        <img src={des} alt="" className='web-4th-div-div-left-img'/>
+                        <img src={des} alt="" className='web-4th-div-div-left-img vid-img-lastdiv'/>
                     </div>
-                    <div className='web-4th-div-div-right' style={{color:"black",fontSize:"30px",marginBottom:"20px"}}>
+                    <div className='web-4th-div-div-right video-4th-div-div' style={{color:"black",fontSize:"30px",marginBottom:"20px"}}>
                     to the means of interactions among people in which they create, 
                     share, and/or exchange information and ideas in virtual communities and networks. 
                     </div>

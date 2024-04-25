@@ -12,8 +12,8 @@ import { Navbar as BootstrapNavbar, Nav, NavDropdown } from 'react-bootstrap';
 import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
 import CameraIcon from '@mui/icons-material/Camera';
-import Diversity2Icon from '@mui/icons-material/Diversity2';
-import ExtensionIcon from '@mui/icons-material/Extension';
+// import Diversity2Ic/on from '@mui/icons-material/Diversity2';
+// import ExtensionIcon from '@mui/icons-material/Extension';
 import DoneIcon from '@mui/icons-material/Done';
 import port from "../../../assets/images/port-img1-4.jpg"
 import des from "../../../assets/images/post-img1-1.png"
@@ -94,7 +94,7 @@ const handleDropdownLeave = () => {
 };
 
   return (
-    <div>
+    <div className='webdesign-mainhead'>
          <div style={{ position: "relative",overflow:"hidden" }} className='index-main-bar'>
       <div style={{ display: "flex" }} className='aboutheadtop'>
             <div className='homemain-topbar-left'>
@@ -362,7 +362,7 @@ const handleDropdownLeave = () => {
         </div>
         <div className='aboutheadtop-imagediv-bottom'>
             <CottageIcon className='aboutheadtop-imagediv-bottom-logo'/>
-            <div className='aboutheadtop-imagediv-bottom-span'>Website, Applications Solutions</div>
+            <div className='aboutheadtop-imagediv-bottom-span web-headbottom'>Website, Applications Solutions</div>
         </div>
        
       
@@ -390,7 +390,7 @@ const handleDropdownLeave = () => {
         <div className='web-div2-logodiv1-span3'>RESPONSIVE</div>
             </div>
             </div>
-            <div className='diglast-div' style={{marginBottom:"200px"}}>
+            <div className='diglast-div weblastdiv' style={{marginBottom:"200px"}}>
               <div className='diglast-div-left'>
               <img src={port} alt="" className='curser5-img web-img' />
               </div>

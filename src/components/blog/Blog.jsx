@@ -21,7 +21,7 @@ export const Blog = () => {
                 <div className='carousel-item1-left'>
                     <div className='carousel-item1-frst-left-frst'>BRANDING</div>
                     <div className='carousel-item1-frst-left-second'>Make your own brand design</div>
-                    <div className='carousel-item1-frst-left-third'>
+                    <div className='carousel-item1-frst-left-third' style={{fontFamily:"Muli"}}>
                     You can get designs that are responsive to all screens and electronic devices, even smart phones and ill get your designs unique and suitable for everything new
                     </div>
                     <button className='about-right-main-button blog-botton'>

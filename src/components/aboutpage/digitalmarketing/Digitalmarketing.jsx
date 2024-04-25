@@ -100,7 +100,7 @@ const handleDropdownLeave = () => {
 
 
   return (
-    <div>
+    <div className='digitalmarketingpage'>
         <div style={{ position: "relative",overflow:"hidden" }} className='index-main-bar'>
       <div style={{ display: "flex" }} className='aboutheadtop'>
             <div className='homemain-topbar-left'>
@@ -108,8 +108,8 @@ const handleDropdownLeave = () => {
               <Link to="/"> <img className='homemain-topbar-left-img' src={logo} alt="" style={{cursor:"pointer"}}/></Link>
               </div>
             </div>
-            <div className='website-middle'>
-            <div className='navbar-right' style={{marginLeft:"-160px",color:"white"}}>
+            <div className='website-middle '>
+            <div className='navbar-right digmarketmiddleone-nav ' style={{marginLeft:"-160px",color:"white"}}>
         <BootstrapNavbar expand="lg" className="navbar-body-tertiary">
           <BootstrapNavbar.Toggle aria-controls="navbarSupportedContent" />
           <BootstrapNavbar.Collapse id="navbarSupportedContent">
@@ -360,13 +360,13 @@ const handleDropdownLeave = () => {
           </div>
         <div className='aboutheadtop-imagediv'>
         <img src={abouthead} alt="" className='aboutheadtop-img'/>
-        <div className='aboutheadtop-imagediv-span diital-top-span' >
+        <div className='aboutheadtop-imagediv-span diital-top-span digmarket-topspan' >
             Digital Marketing
             <span>.</span>
         </div>
         <div className='aboutheadtop-imagediv-bottom'>
             <CottageIcon className='aboutheadtop-imagediv-bottom-logo'/>
-            <div className='aboutheadtop-imagediv-bottom-span'>Digital Marketing</div>
+            <div className='aboutheadtop-imagediv-bottom-span '>Digital Marketing</div>
         </div>
         <div className='marketing-caption-div'>
             <div className='marketing-caption-left'>Best solution of your Marketing</div>
